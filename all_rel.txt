@@ -1785,7 +1785,7 @@ Secretaria = {
 Dentista = {
 	CPF_Dentista:string, nome:string, CRO:string, croUF:string, especialidade:string
 "10101010101", "Dr. Juvenildo Silva Ferreira", "NULL", "NULL", "Clínico Geral"
-"20202020202", "Isis Carolina", "NULL", "NULL", "Ortodôntico / Estética"
+"20202020202", "Dra Isis Carolina", "NULL", "NULL", "Ortodôntico / Estética"
 }
 
 Procedimento = {
