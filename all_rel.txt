@@ -1781,7 +1781,6 @@ Secretaria = {
 	CPF_Secretaria:string, nome:string
 "90011122233", "Jaqueline Rocha"
 	}
-}
 
 Dentista = {
 	CPF_Dentista:string, nome:string, CRO:string, croUF:string, especialidade:string
@@ -1804,7 +1803,7 @@ Procedimento = {
 }
 
 Atendimento = {
-	idAtendimento:int, data:string, observacao:string, valorTotal:decimal, CPF_Paciente:string, CPF_Secretaria:string
+	idAtendimento:number, data:string, observacao:string, valorTotal:number, CPF_Paciente:string, CPF_Secretaria:string
 1, "2025-07-11", "Procedimento programado", 406.74, "10000001523", "90011122233"
 2, "2024-06-04", "Atendimento agendado", 396.20, "10000000051", "90011122233"
 3, "2025-09-06", "Procedimento programado", 455.63, "10000002906", "90011122233"
@@ -2808,7 +2807,7 @@ Atendimento = {
 }
 
 ItemAtendimento = {
-	CPF_Dentista:string, idAtendimento:int, idProcedimento:int, comissaoDentista:decimal, qtd:int, valorUnit:decimal, descontoItem:decimal
+	CPF_Dentista:string, idAtendimento:number, idProcedimento:number, comissaoDentista:number, qtd:number, valorUnit:number, descontoItem:number
 "10101010101", 1, 5, 203.37, 1, 406.74, 0.00
 "20202020202", 2, 3, 198.10, 1, 396.20, 0.00
 "20202020202", 3, 4, 227.81, 1, 455.63, 0.00
@@ -4082,7 +4081,7 @@ ItemAtendimento = {
 }
 
 Pagamento = {
-	idPagamento:int, dataRecebimento:string, valorBruto:decimal, taxaCartao:decimal, parcelas:int, valorLiquido:decimal, tipoAtendimento:string, idAtendimento:int
+	idPagamento:number, dataRecebimento:string, valorBruto:number, taxaCartao:number, parcelas:number, valorLiquido:number, tipoAtendimento:string, idAtendimento:number
 1, "2025-07-11", 406.74, 8.13, 1, 398.61, "Presencial", 1
 2, "2024-06-04", 396.20, 0.00, 3, 396.20, "Presencial", 2
 3, "2025-09-06", 455.63, 0.00, 1, 455.63, "Presencial", 3
@@ -5086,7 +5085,7 @@ Pagamento = {
 }
 
 Forma_Pagamento = {
-	idPagamento:int, formaPagamento:string
+	idPagamento:number, formaPagamento:string
 1, "Cartão Débito"
 2, "Cartão Crédito"
 3, "PIX"
