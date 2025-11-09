@@ -1,5 +1,5 @@
 
-group: algebra
+group: EspacoSorriso
 
 Paciente = {
 	CPF_Paciente:string, email:string, nome:string, endereco_UF:string, endereco_rua:string, endereco_bairro:string, endereco_CEP:string, endereco_numero:string, endereco_cidade:string
