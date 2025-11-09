@@ -884,6 +884,7 @@ Paciente = {
 	10000003992, beatriz.araújo3992@example.com, Beatriz Araújo, BA, Rua Principal, Bela Vista, 45884826, 570, Anagé
 	10000003995, antonio.ferreira3995@example.com, Antonio Ferreira, BA, Rua das Flores, Boa Vista, 45957403, 831, Itapetinga
 	10000003999, priscila.oliveira3999@example.com, Priscila Oliveira, BA, Rua da Paz, Boa Vista, 45766603, 230, Vitória da Conquista
+}
 
 Telefone_Paciente = {
 	CPF_Paciente:string, telefone:string
@@ -1771,16 +1772,19 @@ Telefone_Paciente = {
 	10000003992, (77)97899-6038
 	10000003995, (77)92151-7603
 	10000003999, (77)93201-7290
+}
 
 Secretaria = {
 	CPF_Secretaria:string, nome:string
 	90011122233, Jaqueline Rocha
 	}
+}
 
 Dentista = {
 	CPF_Dentista:string, nome:string, CRO:string, croUF:string, especialidade:string
 	10101010101, Dr. Juvenildo Silva Ferreira, NULL, NULL, Clínico Geral
 	20202020202, Isis Carolina, NULL, NULL, Ortodôntico / Estética
+}
 
 Procedimento = {
 	idProcedimento:number, nome:string, descricao:string, tipoProcedimento:string
@@ -1794,6 +1798,7 @@ Procedimento = {
 	8, Radiografia Periapical, Exame radiográfico periapical, Clínico
 	9, Instalação de Aparelho Ortodôntico, Colocação do aparelho fixo, Ortodôntico
 	10, Ajuste de Aparelho Ortodôntico, Ajustes periódicos do aparelho, Ortodôntico
+}
 
 Atendimento = {
 	idAtendimento:int, data:string, observacao:string, valorTotal:decimal, CPF_Paciente:string, CPF_Secretaria:string
@@ -2797,6 +2802,7 @@ Atendimento = {
 	998, 2024-03-31, Avaliação e plano, 596.74, 10000000722, 90011122233
 	999, 2024-01-28, Atendimento agendado, 396.05, 10000002898, 90011122233
 	1000, 2025-11-02, Atendimento agendado, 248.96, 10000003732, 90011122233
+}
 
 ItemAtendimento = {
 	CPF_Dentista:string, idAtendimento:int, idProcedimento:int, comissaoDentista:decimal, qtd:int, valorUnit:decimal, descontoItem:decimal
@@ -4070,6 +4076,7 @@ ItemAtendimento = {
 	20202020202, 998, 6, 164.33, 1, 328.66, 0.00
 	20202020202, 999, 8, 198.03, 1, 396.05, 0.00
 	20202020202, 1000, 3, 124.48, 1, 248.96, 0.00
+}
 
 Pagamento = {
 	idPagamento:int, dataRecebimento:string, valorBruto:decimal, taxaCartao:decimal, parcelas:int, valorLiquido:decimal, tipoAtendimento:string, idAtendimento:int
@@ -5073,6 +5080,7 @@ Pagamento = {
 	998, 2024-03-31, 596.74, 11.93, 1, 584.81, Presencial, 998
 	999, 2024-01-28, 396.05, 0.00, 1, 396.05, Presencial, 999
 	1000, 2025-11-02, 248.96, 0.00, 1, 248.96, Presencial, 1000
+}
 
 Forma_Pagamento = {
 	idPagamento:int, formaPagamento:string
@@ -6076,3 +6084,4 @@ Forma_Pagamento = {
 	998, Cartão Débito
 	999, PIX
 	1000, PIX
+}
