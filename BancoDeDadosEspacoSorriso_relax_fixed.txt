@@ -1,0 +1,308 @@
+group: algebra
+
+Paciente = {
+	CPF_Paciente:string, email:string, nome:string, endereco_UF:string, endereco_lagradouro:string, endereco_bairro:string, endereco_CEP:string, endereco_numero:string, endereco_cidade:string
+	10000020083, "ana.rocha@example.com", "Ana Rocha", "BA", "Rua Aleatoria", "Bairro", 45000083, 82, "Vitoria da Conquista"
+	10000020084, "joao.costa@example.com", "Joao Costa", "BA", "Rua Aleatoria", "Bairro", 45000084, 876, "Vitoria da Conquista"
+	10000020085, "paula.gomes@example.com", "Paula Gomes", "BA", "Rua Aleatoria", "Bairro", 45000085, 239, "Vitoria da Conquista"
+	10000020086, "patricia.gomes@example.com", "Patricia Gomes", "BA", "Rua Aleatoria", "Bairro", 45000086, 888, "Vitoria da Conquista"
+	10000020087, "beatriz.gomes@example.com", "Beatriz Gomes", "BA", "Rua Aleatoria", "Bairro", 45000087, 104, "Vitoria da Conquista"
+	10000020088, "renata.araujo@example.com", "Renata Araujo", "BA", "Rua Aleatoria", "Bairro", 45000088, 390, "Vitoria da Conquista"
+	10000020089, "gabriel.lima3@example.com", "Gabriel Lima Duarte", "BA", "Rua Aleatoria", "Bairro", 45000089, 285, "Vitoria da Conquista"
+	10000020090, "patricia.souza@example.com", "Patricia Souza", "BA", "Rua Aleatoria", "Bairro", 45000090, 465, "Vitoria da Conquista"
+	10000020091, "mateus.araujo@example.com", "Mateus Araujo", "BA", "Rua Aleatoria", "Bairro", 45000091, 651, "Vitoria da Conquista"
+	10000020092, "mateus.pinto@example.com", "Mateus Pinto", "BA", "Rua Aleatoria", "Bairro", 45000092, 855, "Vitoria da Conquista"
+	10000020093, "joao.nunes@example.com", "Joao Nunes", "BA", "Rua Aleatoria", "Bairro", 45000093, 374, "Vitoria da Conquista"
+	10000020094, "larissa.silva@example.com", "Larissa Silva", "BA", "Rua Aleatoria", "Bairro", 45000094, 167, "Vitoria da Conquista"
+	10000020095, "beatriz.nunes@example.com", "Beatriz Nunes", "BA", "Rua Aleatoria", "Bairro", 45000095, 380, "Vitoria da Conquista"
+	10000020096, "jose.costa2@example.com", "Jose Costa Almeida", "BA", "Rua Aleatoria", "Bairro", 45000096, 364, "Vitoria da Conquista"
+	10000020097, "mateus.carvalho@example.com", "Mateus Carvalho", "BA", "Rua Aleatoria", "Bairro", 45000097, 215, "Vitoria da Conquista"
+	10000020098, "marcos.almeida1@example.com", "Marcos Almeida", "BA", "Rua Aleatoria", "Bairro", 45000098, 687, "Vitoria da Conquista"
+	10000020099, "rafael.lima@example.com", "Rafael Lima", "BA", "Rua Aleatoria", "Bairro", 45000099, 274, "Vitoria da Conquista"
+	10000020100, "rafael.almeida@example.com", "Rafael Almeida", "BA", "Rua Aleatoria", "Bairro", 45000100, 719, "Vitoria da Conquista"
+	10000020101, "andre.lima@example.com", "Andre Lima", "BA", "Rua Aleatoria", "Bairro", 45000101, 960, "Vitoria da Conquista"
+	10000020102, "jose.pereira@example.com", "Jose Pereira", "BA", "Rua Aleatoria", "Bairro", 45000102, 700, "Vitoria da Conquista"
+	10000020103, "marcio.pereira1@example.com", "Marcio Pereira", "BA", "Rua Aleatoria", "Bairro", 45000103, 664, "Vitoria da Conquista"
+	10000020104, "jose.souza@example.com", "Jose Souza", "BA", "Rua Aleatoria", "Bairro", 45000104, 74, "Vitoria da Conquista"
+	10000020105, "gustavo.gomes@example.com", "Gustavo Gomes", "BA", "Rua Aleatoria", "Bairro", 45000105, 624, "Vitoria da Conquista"
+	10000020106, "marina.santos@example.com", "Marina Santos", "BA", "Rua Aleatoria", "Bairro", 45000106, 651, "Vitoria da Conquista"
+	10000020107, "bruno.lopes2@example.com", "Bruno Lopes", "BA", "Rua Aleatoria", "Bairro", 45000107, 176, "Vitoria da Conquista"
+	10000020108, "felipe.pinto@example.com", "Felipe Pinto", "BA", "Rua Aleatoria", "Bairro", 45000108, 547, "Vitoria da Conquista"
+	10000020109, "rafael.oliveira@example.com", "Rafael Oliveira", "BA", "Rua Aleatoria", "Bairro", 45000109, 747, "Vitoria da Conquista"
+	10000020110, "rafael.carvalho@example.com", "Rafael Carvalho", "BA", "Rua Aleatoria", "Bairro", 45000110, 251, "Vitoria da Conquista"
+	10000020111, "paula.gomes2@example.com", "Paula Gomes Ribeiro", "BA", "Rua Aleatoria", "Bairro", 45000111, 168, "Vitoria da Conquista"
+	10000020112, "marcelo.moura@example.com", "Marcelo Moura", "BA", "Rua Aleatoria", "Bairro", 45000112, 474, "Vitoria da Conquista"
+	10000020113, "patricia.costa@example.com", "Patricia Costa", "BA", "Rua Aleatoria", "Bairro", 45000113, 389, "Vitoria da Conquista"
+	10000020114, "bruna.oliveira@example.com", "Bruna Oliveira", "BA", "Rua Aleatoria", "Bairro", 45000114, 277, "Vitoria da Conquista"
+	10000020115, "rafael.lopes@example.com", "Rafael Lopes", "BA", "Rua Aleatoria", "Bairro", 45000115, 948, "Vitoria da Conquista"
+	10000020116, "gustavo.oliveira@example.com", "Gustavo Oliveira", "BA", "Rua Aleatoria", "Bairro", 45000116, 656, "Vitoria da Conquista"
+	10000020117, "rafael.ribeiro@example.com", "Rafael Ribeiro", "BA", "Rua Aleatoria", "Bairro", 45000117, 705, "Vitoria da Conquista"
+	10000020118, "thiago.ferreira2@example.com", "Thiago Ferreira Pinto", "BA", "Rua Aleatoria", "Bairro", 45000118, 571, "Vitoria da Conquista"
+	10000020119, "thiago.carvalho@example.com", "Thiago Carvalho", "BA", "Rua Aleatoria", "Bairro", 45000119, 225, "Vitoria da Conquista"
+	10000020120, "isabela.pinto2@example.com", "Isabela Pinto", "BA", "Rua Aleatoria", "Bairro", 45000120, 702, "Vitoria da Conquista"
+	10000020121, "camila.pinto@example.com", "Camila Pinto", "BA", "Rua Aleatoria", "Bairro", 45000121, 333, "Vitoria da Conquista"
+	10000020122, "lucas.araujo@example.com", "Lucas Araujo", "BA", "Rua Aleatoria", "Bairro", 45000122, 864, "Vitoria da Conquista"
+	10000020123, "sofia.moura2@example.com", "Sofia Moura Andrade", "BA", "Rua Aleatoria", "Bairro", 45000123, 787, "Vitoria da Conquista"
+	10000020124, "mariana.araujo2@example.com", "Mariana Araujo Costa", "BA", "Rua Aleatoria", "Bairro", 45000124, 795, "Vitoria da Conquista"
+	10000020125, "sofia.souza@example.com", "Sofia Souza", "BA", "Rua Aleatoria", "Bairro", 45000125, 58, "Vitoria da Conquista"
+	10000020126, "marcio.pereira2@example.com", "Marcio Pereira", "BA", "Rua Aleatoria", "Bairro", 45000126, 235, "Vitoria da Conquista"
+	10000020127, "renata.araujo2@example.com", "Renata Araujo Martins", "BA", "Rua Aleatoria", "Bairro", 45000127, 842, "Vitoria da Conquista"
+	10000020128, "jose.souza2@example.com", "Jose Souza Filho", "BA", "Rua Aleatoria", "Bairro", 45000128, 33, "Vitoria da Conquista"
+	10000020129, "ana.araujo2@example.com", "Ana Araujo Ribeiro", "BA", "Rua Aleatoria", "Bairro", 45000129, 825, "Vitoria da Conquista"
+	10000020130, "renata.moura@example.com", "Renata Moura", "BA", "Rua Aleatoria", "Bairro", 45000130, 324, "Vitoria da Conquista"
+	10000020131, "larissa.araujo@example.com", "Larissa Araujo", "BA", "Rua Aleatoria", "Bairro", 45000131, 411, "Vitoria da Conquista"
+}
+
+Telefone_paciente = {
+	CPF_Paciente:string, telefone:string
+	10000020083, "7796484-3144"
+	10000020084, "7794915-8491"
+	10000020085, "7795180-2188"
+	10000020086, "7790152-8508"
+	10000020087, "7799224-2638"
+	10000020088, "7791200-9808"
+	10000020089, "7793492-9288"
+	10000020090, "7794345-3170"
+	10000020091, "7795718-2127"
+	10000020092, "7794002-7054"
+	10000020093, "7794669-3584"
+	10000020094, "7797179-9900"
+	10000020095, "7794956-9666"
+	10000020096, "7790128-5905"
+	10000020097, "7791697-3200"
+	10000020098, "7794333-2891"
+	10000020099, "7791753-3546"
+	10000020100, "7794462-5616"
+	10000020101, "7799909-4450"
+	10000020102, "7795617-4335"
+	10000020103, "7794325-9280"
+	10000020104, "7798004-5114"
+	10000020105, "7790832-2512"
+	10000020106, "7796939-5533"
+	10000020107, "7790722-1058"
+	10000020108, "7795464-3143"
+	10000020109, "7794291-3647"
+	10000020110, "7797239-8007"
+	10000020111, "7799189-1158"
+	10000020112, "7791832-2232"
+	10000020113, "7792442-9938"
+	10000020114, "7790590-7049"
+	10000020115, "7799543-3426"
+	10000020116, "7797041-3088"
+	10000020117, "7790685-6050"
+	10000020118, "7795974-1653"
+	10000020119, "7795862-4441"
+	10000020120, "7794088-2684"
+	10000020121, "7795794-7658"
+	10000020122, "7792532-4878"
+	10000020123, "7792662-3900"
+	10000020124, "7796755-1406"
+	10000020125, "7792938-6442"
+	10000020126, "7796745-5065"
+	10000020127, "7794371-3608"
+	10000020128, "7791771-7267"
+	10000020129, "7790634-8711"
+	10000020130, "7793644-4269"
+	10000020131, "7797541-6728"
+}
+
+Secretaria = {
+	CPF_Secretaria:string, nome:string
+	90011122233, "Jaqueline Rocha"
+}
+
+Dentista = {
+	CPF_Dentista:string, nome:string, CRO:string, croUF:string, especialidade:string
+	10101010101, "Dr. Juvenildo Silva Ferreira", "CRO1234", "BA", "Clinico Geral"
+	20202020202, "Dra. Isis Carolina", "CRO5678", "BA", "Ortodontico"
+}
+
+Procedimento = {
+	idProcedimento:number, nome:string, descricao:string, tipoProcedimento:string
+	1, "Limpeza Profilaxia", "Remocao de placa, tartaro e polimento", "Clinico"
+	2, "Restauracao 1 face", "Restauracao de carie em 1 face", "Clinico"
+	3, "Restauracao multifacial", "Restauracao de carie em multiplas faces", "Clinico"
+	4, "Tratamento Endodontico 1 canal", "Tratamento de canal de 1 canal", "Clinico"
+	5, "Extracao Simples", "Remocao de dente permanente", "Clinico"
+	6, "Clareamento Dental", "Clareamento em consultorio sessao", "Clinico"
+	7, "Aplicacao de Fluor", "Aplicacao topica de fluor", "Clinico"
+	8, "Radiografia Periapical", "Exame radiografico periapical", "Diagnostico"
+	9, "Raspagem e Alisamento Radicular", "Tratamento periodontal raspagem", "Periodontia"
+	10, "Protese Parcial Removivel", "Confecao e prova de protese parcial removivel", "Protese"
+	11, "Implante simulado", "Procedimento de implante dentario simulacao e planejamento", "Cirurgia"
+	12, "Instalacao de Aparelho Ortodontico", "Colocacao do aparelho fixo", "Ortodontico"
+	13, "Ajuste de Aparelho Ortodontico", "Ajustes periodicos do aparelho", "Ortodontico"
+	14, "Retirada de Aparelho Ortodontico", "Remocao do aparelho ortodontico", "Ortodontico"
+}
+
+Atendimento = {
+	idAtendimento:number, data:string, observacao:string, valorTotal:number, parcelas:number, tipoAtendimento:string, CPF_Paciente:string, CPF_Secretaria:string
+	12, "2025-01-14", "Consulta", 375.14, 1, "Clinico", 10000020125, 90011122233
+	17, "2025-05-02", "Procedimento programado", 568.84, 1, "Clinico", 10000020110, 90011122233
+	18, "2025-08-18", "Urgencia", 577.14, 3, "Clinico", 10000020117, 90011122233
+	40, "2025-07-10", "Procedimento programado", 513.8, 1, "Clinico", 10000020112, 90011122233
+	42, "2024-04-12", "Atendimento agendado", 402.12, 1, "Clinico", 10000020112, 90011122233
+	47, "2024-05-26", "Retorno", 725.91, 1, "Clinico", 10000020114, 90011122233
+	65, "2025-03-12", "Consulta", 99.26, 2, "Clinico", 10000020121, 90011122233
+	73, "2024-11-12", "Urgencia", 156.41, 1, "Clinico", 10000020085, 90011122233
+	76, "2024-03-24", "Urgencia", 627.32, 2, "Clinico", 10000020109, 90011122233
+	77, "2025-08-30", "Procedimento programado", 55.77, 1, "Clinico", 10000020130, 90011122233
+	79, "2024-06-28", "Retorno", 411.86, 3, "Clinico", 10000020093, 90011122233
+	80, "2024-11-16", "Atendimento agendado", 315.28, 3, "Clinico", 10000020105, 90011122233
+	99, "2025-01-17", "Retorno", 748.12, 1, "Clinico", 10000020094, 90011122233
+	102, "2025-09-15", "Atendimento agendado", 85.81, 1, "Clinico", 10000020104, 90011122233
+	103, "2025-10-16", "Atendimento agendado", 588.91, 1, "Clinico", 10000020113, 90011122233
+	105, "2025-07-11", "Atendimento agendado", 526.75, 3, "Clinico", 10000020125, 90011122233
+	106, "2024-09-16", "Consulta", 150.06, 1, "Clinico", 10000020087, 90011122233
+	110, "2025-05-23", "Procedimento programado", 372.96, 3, "Clinico", 10000020090, 90011122233
+	114, "2025-10-22", "Urgencia", 1383.93, 2, "Clinico", 10000020088, 90011122233
+	115, "2024-05-20", "Atendimento agendado", 1194.67, 2, "Clinico", 10000020089, 90011122233
+	118, "2025-10-15", "Retorno", 227.55, 3, "Clinico", 10000020088, 90011122233
+	120, "2025-05-05", "Atendimento agendado", 387.48, 2, "Clinico", 10000020101, 90011122233
+	125, "2024-10-23", "Urgencia", 566.46, 1, "Clinico", 10000020119, 90011122233
+	126, "2025-03-26", "Procedimento programado", 696.11, 2, "Clinico", 10000020119, 90011122233
+	139, "2025-03-04", "Retorno", 1377.92, 1, "Clinico", 10000020101, 90011122233
+	143, "2024-03-21", "Urgencia", 749.77, 1, "Clinico", 10000020109, 90011122233
+	151, "2025-02-19", "Procedimento programado", 786.26, 1, "Clinico", 10000020127, 90011122233
+	156, "2025-09-02", "Consulta", 671.58, 2, "Clinico", 10000020130, 90011122233
+	161, "2024-05-18", "Procedimento programado", 562.05, 2, "Clinico", 10000020091, 90011122233
+	170, "2025-06-26", "Retorno", 741.67, 1, "Clinico", 10000020095, 90011122233
+	177, "2025-08-06", "Retorno", 395.62, 3, "Clinico", 10000020123, 90011122233
+	179, "2024-02-19", "Consulta", 214.04, 1, "Clinico", 10000020101, 90011122233
+	182, "2024-07-15", "Atendimento agendado", 329.79, 1, "Clinico", 10000020130, 90011122233
+	188, "2024-02-24", "Consulta", 72.22, 1, "Clinico", 10000020107, 90011122233
+	197, "2024-12-06", "Atendimento agendado", 275.33, 1, "Clinico", 10000020093, 90011122233
+	206, "2024-04-28", "Retorno", 311.23, 1, "Clinico", 10000020085, 90011122233
+	213, "2025-01-17", "Retorno", 833.46, 2, "Clinico", 10000020126, 90011122233
+	217, "2025-05-22", "Atendimento agendado", 620.0, 1, "Clinico", 10000020126, 90011122233
+	218, "2025-07-13", "Retorno", 247.11, 1, "Clinico", 10000020104, 90011122233
+	223, "2025-10-10", "Consulta", 1464.37, 3, "Clinico", 10000020099, 90011122233
+	232, "2024-08-06", "Retorno", 155.01, 3, "Clinico", 10000020101, 90011122233
+	233, "2025-08-26", "Procedimento programado", 533.47, 2, "Clinico", 10000020085, 90011122233
+	235, "2024-09-02", "Procedimento programado", 790.16, 1, "Clinico", 10000020094, 90011122233
+	242, "2024-01-31", "Urgencia", 391.4, 1, "Clinico", 10000020105, 90011122233
+	264, "2024-12-18", "Atendimento agendado", 289.16, 1, "Clinico", 10000020124, 90011122233
+	275, "2025-03-05", "Retorno", 671.61, 2, "Clinico", 10000020101, 90011122233
+	278, "2024-06-17", "Atendimento agendado", 780.8, 1, "Clinico", 10000020107, 90011122233
+	282, "2024-04-28", "Urgencia", 859.67, 2, "Clinico", 10000020097, 90011122233
+	283, "2025-01-13", "Retorno", 219.68, 1, "Clinico", 10000020110, 90011122233
+	292, "2025-02-15", "Consulta", 722.77, 1, "Clinico", 10000020097, 90011122233
+}
+
+ItemAtendimento = {
+	idAtendimento:number, idProcedimento:number, CPF_Dentista:string, comissaoDentista:number, qtd:number, valorUnit:number, descontoItem:number
+	12, 8, 10101010101, 187.57, 1, 375.14, 0.0
+	17, 4, 20202020202, 284.42, 1, 568.84, 0.0
+	18, 6, 20202020202, 288.57, 1, 577.14, 0.0
+	40, 4, 20202020202, 112.59, 1, 225.17, 0.0
+	40, 7, 10101010101, 144.32, 1, 288.63, 0.0
+	42, 3, 10101010101, 201.06, 1, 402.12, 0.0
+	47, 1, 20202020202, 362.96, 1, 725.91, 0.0
+	65, 6, 10101010101, 49.63, 1, 99.26, 0.0
+	73, 7, 10101010101, 78.21, 1, 156.41, 0.0
+	76, 8, 20202020202, 127.44, 1, 254.88, 0.0
+	76, 2, 20202020202, 186.22, 1, 372.44, 0.0
+	77, 7, 10101010101, 27.89, 1, 55.77, 0.0
+	79, 6, 10101010101, 173.90, 1, 347.8, 0.0
+	79, 1, 20202020202, 32.03, 1, 64.06, 0.0
+	80, 7, 20202020202, 68.19, 1, 136.38, 0.0
+	80, 1, 20202020202, 89.45, 1, 178.9, 0.0
+	99, 1, 20202020202, 374.06, 1, 748.12, 0.0
+	102, 5, 10101010101, 42.91, 1, 85.81, 0.0
+	103, 1, 10101010101, 294.46, 1, 588.91, 0.0
+	105, 8, 10101010101, 263.38, 1, 526.75, 0.0
+	106, 2, 20202020202, 75.03, 1, 150.06, 0.0
+	110, 7, 10101010101, 186.48, 1, 372.96, 0.0
+	114, 3, 20202020202, 380.81, 1, 761.62, 0.0
+	114, 6, 20202020202, 311.16, 1, 622.31, 0.0
+	115, 5, 10101010101, 385.20, 1, 770.39, 0.0
+	115, 1, 10101010101, 212.14, 1, 424.28, 0.0
+	118, 4, 10101010101, 113.78, 1, 227.55, 0.0
+	120, 6, 10101010101, 193.74, 1, 387.48, 0.0
+	125, 8, 10101010101, 283.23, 1, 566.46, 0.0
+	126, 3, 20202020202, 348.06, 1, 696.11, 0.0
+	139, 8, 10101010101, 289.67, 1, 579.33, 0.0
+	139, 4, 20202020202, 399.30, 1, 798.59, 0.0
+	143, 4, 20202020202, 374.89, 1, 749.77, 0.0
+	151, 2, 10101010101, 393.13, 1, 786.26, 0.0
+	156, 2, 10101010101, 335.79, 1, 671.58, 0.0
+	161, 7, 10101010101, 281.03, 1, 562.05, 0.0
+	170, 6, 10101010101, 370.84, 1, 741.67, 0.0
+	177, 8, 20202020202, 197.81, 1, 395.62, 0.0
+	179, 3, 10101010101, 107.02, 1, 214.04, 0.0
+	182, 7, 10101010101, 164.90, 1, 329.79, 0.0
+	188, 7, 20202020202, 36.11, 1, 72.22, 0.0
+	197, 7, 10101010101, 137.67, 1, 275.33, 0.0
+	206, 4, 20202020202, 155.62, 1, 311.23, 0.0
+	213, 3, 20202020202, 183.64, 1, 367.28, 0.0
+	213, 8, 10101010101, 233.09, 1, 466.18, 0.0
+	217, 6, 10101010101, 310.00, 1, 620.0, 0.0
+	218, 1, 20202020202, 123.56, 1, 247.11, 0.0
+	223, 6, 20202020202, 381.35, 1, 762.69, 0.0
+	223, 6, 10101010101, 350.84, 1, 701.68, 0.0
+	232, 2, 10101010101, 77.51, 1, 155.01, 0.0
+	233, 4, 20202020202, 266.74, 1, 533.47, 0.0
+	235, 2, 10101010101, 395.08, 1, 790.16, 0.0
+	242, 2, 20202020202, 195.70, 1, 391.4, 0.0
+	264, 3, 10101010101, 144.58, 1, 289.16, 0.0
+	275, 7, 10101010101, 335.81, 1, 671.61, 0.0
+	278, 6, 10101010101, 390.40, 1, 780.8, 0.0
+	282, 5, 10101010101, 265.70, 1, 531.4, 0.0
+	282, 7, 10101010101, 164.14, 1, 328.27, 0.0
+	283, 8, 20202020202, 109.84, 1, 219.68, 0.0
+	292, 8, 20202020202, 361.39, 1, 722.77, 0.0
+}
+
+Pagamento = {
+	idAtendimento:number, idPagamento:number, dataRecebimento:string, valorBruto:number, taxaCartao:number, valorLiquido:number, formaPagamento:string
+	12, 12, "2025-01-14", 375.14, 7.5, 367.64, "Cartao de Debito"
+	17, 17, "2025-05-02", 568.84, 11.38, 557.46, "Cartao de Debito"
+	18, 18, "2025-08-18", 577.14, 11.54, 565.6, "Cartao de Debito"
+	40, 40, "2025-07-10", 513.8, 10.28, 503.52, "Cartao de Debito"
+	42, 42, "2024-04-12", 402.12, 8.04, 394.08, "Cartao de Debito"
+	47, 47, "2024-05-26", 725.91, 21.78, 704.13, "Cartao de Credito"
+	65, 65, "2025-03-12", 99.26, 1.99, 97.27, "Cartao de Debito"
+	73, 73, "2024-11-12", 156.41, 4.69, 151.72, "Cartao de Credito"
+	76, 76, "2024-03-24", 627.32, 12.55, 614.77, "Cartao de Debito"
+	77, 77, "2025-08-30", 55.77, 1.12, 54.65, "Cartao de Debito"
+	79, 79, "2024-06-28", 411.86, 0.0, 411.86, "Dinheiro"
+	80, 80, "2024-11-16", 315.28, 9.46, 305.82, "Cartao de Credito"
+	99, 99, "2025-01-17", 748.12, 22.44, 725.68, "Cartao de Credito"
+	102, 102, "2025-09-15", 85.81, 1.72, 84.09, "Cartao de Debito"
+	103, 103, "2025-10-16", 588.91, 11.78, 577.13, "Cartao de Debito"
+	105, 105, "2025-07-11", 526.75, 10.54, 516.21, "Cartao de Debito"
+	106, 106, "2024-09-16", 150.06, 3.0, 147.06, "Cartao de Debito"
+	110, 110, "2025-05-23", 372.96, 0.0, 372.96, "Dinheiro"
+	114, 114, "2025-10-22", 1383.93, 41.52, 1342.41, "Cartao de Credito"
+	115, 115, "2024-05-20", 1194.67, 23.89, 1170.78, "Cartao de Debito"
+	118, 118, "2025-10-15", 227.55, 4.55, 223.0, "Cartao de Debito"
+	120, 120, "2025-05-05", 387.48, 11.62, 375.86, "Cartao de Credito"
+	125, 125, "2024-10-23", 566.46, 0.0, 566.46, "Dinheiro"
+	126, 126, "2025-03-26", 696.11, 13.92, 682.19, "Cartao de Debito"
+	139, 139, "2025-03-04", 1377.92, 27.56, 1350.36, "Cartao de Debito"
+	143, 143, "2024-03-21", 749.77, 22.49, 727.28, "Cartao de Credito"
+	151, 151, "2025-02-19", 786.26, 15.73, 770.53, "Cartao de Debito"
+	156, 156, "2025-09-02", 671.58, 20.15, 651.43, "Cartao de Credito"
+	161, 161, "2024-05-18", 562.05, 16.86, 545.19, "Cartao de Credito"
+	170, 170, "2025-06-26", 741.67, 14.83, 726.84, "Cartao de Debito"
+	177, 177, "2025-08-06", 395.62, 11.87, 383.75, "Cartao de Credito"
+	179, 179, "2024-02-19", 214.04, 4.28, 209.76, "Cartao de Debito"
+	182, 182, "2024-07-15", 329.79, 6.6, 323.19, "Cartao de Debito"
+	188, 188, "2024-02-24", 72.22, 1.44, 70.78, "Cartao de Debito"
+	197, 197, "2024-12-06", 275.33, 8.26, 267.07, "Cartao de Credito"
+	206, 206, "2024-04-28", 311.23, 0.0, 311.23, "Dinheiro"
+	213, 213, "2025-01-17", 833.46, 16.67, 816.79, "Cartao de Debito"
+	217, 217, "2025-05-22", 620.0, 12.4, 607.6, "Cartao de Debito"
+	218, 218, "2025-07-13", 247.11, 0.0, 247.11, "Dinheiro"
+	223, 223, "2025-10-10", 1464.37, 43.93, 1420.44, "Cartao de Credito"
+	232, 232, "2024-08-06", 155.01, 0.0, 155.01, "Dinheiro"
+	233, 233, "2025-08-26", 533.47, 0.0, 533.47, "Dinheiro"
+	235, 235, "2024-09-02", 790.16, 15.8, 774.36, "Cartao de Debito"
+	242, 242, "2024-01-31", 391.4, 7.83, 383.57, "Cartao de Debito"
+	264, 264, "2024-12-18", 289.16, 0.0, 289.16, "Dinheiro"
+	275, 275, "2025-03-05", 671.61, 20.15, 651.46, "Cartao de Credito"
+	278, 278, "2024-06-17", 780.8, 15.62, 765.18, "Cartao de Debito"
+	282, 282, "2024-04-28", 859.67, 17.19, 842.48, "Cartao de Debito"
+	283, 283, "2025-01-13", 219.68, 4.39, 215.29, "Cartao de Debito"
+	292, 292, "2025-02-15", 722.77, 0.0, 722.77, "Dinheiro"
+}
