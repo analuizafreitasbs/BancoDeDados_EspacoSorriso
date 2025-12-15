@@ -2,2027 +2,303 @@ group: algebra
 
 Paciente = {
 	CPF_Paciente:string, email:string, nome:string, endereco_UF:string, endereco_lagradouro:string, endereco_bairro:string, endereco_CEP:string, endereco_numero:string, endereco_cidade:string
-"10000020083","ana.rocha@example.com","Ana Rocha","BA","Rua Aleatoria","Bairro","45000083","82","Vitoria da Conquista"
-"10000020084","joao.costa@example.com","Joao Costa","BA","Rua Aleatoria","Bairro","45000084","876","Vitoria da Conquista"
-"10000020085","paula.gomes@example.com","Paula Gomes","BA","Rua Aleatoria","Bairro","45000085","239","Vitoria da Conquista"
-"10000020086","patricia.gomes@example.com","Patricia Gomes","BA","Rua Aleatoria","Bairro","45000086","888","Vitoria da Conquista"
-"10000020087","beatriz.gomes@example.com","Beatriz Gomes","BA","Rua Aleatoria","Bairro","45000087","104","Vitoria da Conquista"
-"10000020088","renata.araujo@example.com","Renata Araujo","BA","Rua Aleatoria","Bairro","45000088","390","Vitoria da Conquista"
-"10000020089","gabriel.lima3@example.com","Gabriel Lima Duarte","BA","Rua Aleatoria","Bairro","45000089","285","Vitoria da Conquista"
-"10000020090","patricia.souza@example.com","Patricia Souza","BA","Rua Aleatoria","Bairro","45000090","465","Vitoria da Conquista"
-"10000020091","mateus.araujo@example.com","Mateus Araujo","BA","Rua Aleatoria","Bairro","45000091","651","Vitoria da Conquista"
-"10000020092","mateus.pinto@example.com","Mateus Pinto","BA","Rua Aleatoria","Bairro","45000092","855","Vitoria da Conquista"
-"10000020093","joao.nunes@example.com","Joao Nunes","BA","Rua Aleatoria","Bairro","45000093","374","Vitoria da Conquista"
-"10000020094","larissa.silva@example.com","Larissa Silva","BA","Rua Aleatoria","Bairro","45000094","167","Vitoria da Conquista"
-"10000020095","beatriz.nunes@example.com","Beatriz Nunes","BA","Rua Aleatoria","Bairro","45000095","380","Vitoria da Conquista"
-"10000020096","jose.costa2@example.com","Jose Costa Almeida","BA","Rua Aleatoria","Bairro","45000096","364","Vitoria da Conquista"
-"10000020097","mateus.carvalho@example.com","Mateus Carvalho","BA","Rua Aleatoria","Bairro","45000097","215","Vitoria da Conquista"
-"10000020098","marcos.almeida1@example.com","Marcos Almeida","BA","Rua Aleatoria","Bairro","45000098","687","Vitoria da Conquista"
-"10000020099","rafael.lima@example.com","Rafael Lima","BA","Rua Aleatoria","Bairro","45000099","274","Vitoria da Conquista"
-"10000020100","rafael.almeida@example.com","Rafael Almeida","BA","Rua Aleatoria","Bairro","45000100","719","Vitoria da Conquista"
-"10000020101","andre.lima@example.com","Andre Lima","BA","Rua Aleatoria","Bairro","45000101","960","Vitoria da Conquista"
-"10000020102","jose.pereira@example.com","Jose Pereira","BA","Rua Aleatoria","Bairro","45000102","700","Vitoria da Conquista"
-"10000020103","marcio.pereira1@example.com","Marcio Pereira","BA","Rua Aleatoria","Bairro","45000103","664","Vitoria da Conquista"
-"10000020104","jose.souza@example.com","Jose Souza","BA","Rua Aleatoria","Bairro","45000104","74","Vitoria da Conquista"
-"10000020105","gustavo.gomes@example.com","Gustavo Gomes","BA","Rua Aleatoria","Bairro","45000105","624","Vitoria da Conquista"
-"10000020106","marina.santos@example.com","Marina Santos","BA","Rua Aleatoria","Bairro","45000106","651","Vitoria da Conquista"
-"10000020107","bruno.lopes2@example.com","Bruno Lopes","BA","Rua Aleatoria","Bairro","45000107","176","Vitoria da Conquista"
-"10000020108","felipe.pinto@example.com","Felipe Pinto","BA","Rua Aleatoria","Bairro","45000108","547","Vitoria da Conquista"
-"10000020109","rafael.oliveira@example.com","Rafael Oliveira","BA","Rua Aleatoria","Bairro","45000109","747","Vitoria da Conquista"
-"10000020110","rafael.carvalho@example.com","Rafael Carvalho","BA","Rua Aleatoria","Bairro","45000110","251","Vitoria da Conquista"
-"10000020111","paula.gomes2@example.com","Paula Gomes Ribeiro","BA","Rua Aleatoria","Bairro","45000111","168","Vitoria da Conquista"
-"10000020112","marcelo.moura@example.com","Marcelo Moura","BA","Rua Aleatoria","Bairro","45000112","474","Vitoria da Conquista"
-"10000020113","patricia.costa@example.com","Patricia Costa","BA","Rua Aleatoria","Bairro","45000113","389","Vitoria da Conquista"
-"10000020114","bruna.oliveira@example.com","Bruna Oliveira","BA","Rua Aleatoria","Bairro","45000114","277","Vitoria da Conquista"
-"10000020115","rafael.lopes@example.com","Rafael Lopes","BA","Rua Aleatoria","Bairro","45000115","948","Vitoria da Conquista"
-"10000020116","gustavo.oliveira@example.com","Gustavo Oliveira","BA","Rua Aleatoria","Bairro","45000116","656","Vitoria da Conquista"
-"10000020117","rafael.ribeiro@example.com","Rafael Ribeiro","BA","Rua Aleatoria","Bairro","45000117","705","Vitoria da Conquista"
-"10000020118","thiago.ferreira2@example.com","Thiago Ferreira Pinto","BA","Rua Aleatoria","Bairro","45000118","571","Vitoria da Conquista"
-"10000020119","thiago.carvalho@example.com","Thiago Carvalho","BA","Rua Aleatoria","Bairro","45000119","225","Vitoria da Conquista"
-"10000020120","isabela.pinto2@example.com","Isabela Pinto","BA","Rua Aleatoria","Bairro","45000120","702","Vitoria da Conquista"
-"10000020121","camila.pinto@example.com","Camila Pinto","BA","Rua Aleatoria","Bairro","45000121","333","Vitoria da Conquista"
-"10000020122","lucas.araujo@example.com","Lucas Araujo","BA","Rua Aleatoria","Bairro","45000122","864","Vitoria da Conquista"
-"10000020123","sofia.moura2@example.com","Sofia Moura Andrade","BA","Rua Aleatoria","Bairro","45000123","787","Vitoria da Conquista"
-"10000020124","mariana.araujo2@example.com","Mariana Araujo Costa","BA","Rua Aleatoria","Bairro","45000124","795","Vitoria da Conquista"
-"10000020125","sofia.souza@example.com","Sofia Souza","BA","Rua Aleatoria","Bairro","45000125","58","Vitoria da Conquista"
-"10000020126","marcio.pereira2@example.com","Marcio Pereira","BA","Rua Aleatoria","Bairro","45000126","235","Vitoria da Conquista"
-"10000020127","renata.araujo2@example.com","Renata Araujo Martins","BA","Rua Aleatoria","Bairro","45000127","842","Vitoria da Conquista"
-"10000020128","jose.souza2@example.com","Jose Souza Filho","BA","Rua Aleatoria","Bairro","45000128","33","Vitoria da Conquista"
-"10000020129","ana.araujo2@example.com","Ana Araujo Ribeiro","BA","Rua Aleatoria","Bairro","45000129","825","Vitoria da Conquista"
-"10000020130","renata.moura@example.com","Renata Moura","BA","Rua Aleatoria","Bairro","45000130","324","Vitoria da Conquista"
-"10000020131","larissa.araujo@example.com","Larissa Araujo","BA","Rua Aleatoria","Bairro","45000131","411","Vitoria da Conquista"
-"10000020132","gabriel.nunes@example.com","Gabriel Nunes","BA","Rua Aleatoria","Bairro","45000132","275","Vitoria da Conquista"
-"10000020133","camila.rocha@example.com","Camila Rocha","BA","Rua Aleatoria","Bairro","45000133","68","Vitoria da Conquista"
-"10000020134","felipe.souza2@example.com","Felipe Souza","BA","Rua Aleatoria","Bairro","45000134","217","Vitoria da Conquista"
-"10000020135","marcio.ribeiro@example.com","Marcio Ribeiro","BA","Rua Aleatoria","Bairro","45000135","936","Vitoria da Conquista"
-"10000020136","thiago.lopes@example.com","Thiago Lopes","BA","Rua Aleatoria","Bairro","45000136","966","Vitoria da Conquista"
-"10000020137","ana.costa@example.com","Ana Costa","BA","Rua Aleatoria","Bairro","45000137","581","Vitoria da Conquista"
-"10000020138","gustavo.mendes@example.com","Gustavo Mendes","BA","Rua Aleatoria","Bairro","45000138","898","Vitoria da Conquista"
-"10000020139","gustavo.nunes@example.com","Gustavo Nunes","BA","Rua Aleatoria","Bairro","45000139","736","Vitoria da Conquista"
-"10000020140","marcelo.silva@example.com","Marcelo Silva","BA","Rua Aleatoria","Bairro","45000140","323","Vitoria da Conquista"
-"10000020141","felipe.santos@example.com","Felipe Santos","BA","Rua Aleatoria","Bairro","45000141","218","Vitoria da Conquista"
-"10000020142","carlos.santos@example.com","Carlos Santos","BA","Rua Aleatoria","Bairro","45000142","672","Vitoria da Conquista"
-"10000020143","patricia.lopes@example.com","Patricia Lopes","BA","Rua Aleatoria","Bairro","45000143","512","Vitoria da Conquista"
-"10000020144","thiago.pinto@example.com","Thiago Pinto","BA","Rua Aleatoria","Bairro","45000144","406","Vitoria da Conquista"
-"10000020145","marcio.silva2@example.com","Marcio Silva Costa","BA","Rua Aleatoria","Bairro","45000145","906","Vitoria da Conquista"
-"10000020146","marcos.lima@example.com","Marcos Lima","BA","Rua Aleatoria","Bairro","45000146","937","Vitoria da Conquista"
-"10000020147","mariana.barros@example.com","Mariana Barros","BA","Rua Aleatoria","Bairro","45000147","659","Vitoria da Conquista"
-"10000020148","rafael.barros@example.com","Rafael Barros","BA","Rua Aleatoria","Bairro","45000148","470","Vitoria da Conquista"
-"10000020149","rafael.moura@example.com","Rafael Moura","BA","Rua Aleatoria","Bairro","45000149","147","Vitoria da Conquista"
-"10000020150","marina.silva@example.com","Marina Silva","BA","Rua Aleatoria","Bairro","45000150","272","Vitoria da Conquista"
-"10000020151","eduardo.oliveira@example.com","Eduardo Oliveira","BA","Rua Aleatoria","Bairro","45000151","143","Vitoria da Conquista"
-"10000020152","paula.santos2@example.com","Paula Santos Ribeiro","BA","Rua Aleatoria","Bairro","45000152","253","Vitoria da Conquista"
-"10000020153","eduardo.barros@example.com","Eduardo Barros","BA","Rua Aleatoria","Bairro","45000153","763","Vitoria da Conquista"
-"10000020154","jose.silva@example.com","Jose Silva","BA","Rua Aleatoria","Bairro","45000154","575","Vitoria da Conquista"
-"10000020155","marcos.gomes2@example.com","Marcos Gomes","BA","Rua Aleatoria","Bairro","45000155","552","Vitoria da Conquista"
-"10000020156","felipe.carvalho@example.com","Felipe Carvalho","BA","Rua Aleatoria","Bairro","45000156","270","Vitoria da Conquista"
-"10000020157","felipe.mendes@example.com","Felipe Mendes","BA","Rua Aleatoria","Bairro","45000157","765","Vitoria da Conquista"
-"10000020158","patricia.souza2@example.com","Patricia Souza Lima","BA","Rua Aleatoria","Bairro","45000158","599","Vitoria da Conquista"
-"10000020159","jose.lima@example.com","Jose Lima","BA","Rua Aleatoria","Bairro","45000159","439","Vitoria da Conquista"
-"10000020160","mateus.souza@example.com","Mateus Souza","BA","Rua Aleatoria","Bairro","45000160","920","Vitoria da Conquista"
-"10000020161","daniela.barros3@example.com","Daniela Barros Cruz","BA","Rua Aleatoria","Bairro","45000161","598","Vitoria da Conquista"
-"10000020162","isabela.oliveira@example.com","Isabela Oliveira","BA","Rua Aleatoria","Bairro","45000162","409","Vitoria da Conquista"
-"10000020163","marcos.almeida2@example.com","Marcos Almeida","BA","Rua Aleatoria","Bairro","45000163","371","Vitoria da Conquista"
-"10000020164","patricia.lima@example.com","Patricia Lima","BA","Rua Aleatoria","Bairro","45000164","225","Vitoria da Conquista"
-"10000020165","daniela.oliveira@example.com","Daniela Oliveira","BA","Rua Aleatoria","Bairro","45000165","142","Vitoria da Conquista"
-"10000020166","marcos.moura@example.com","Marcos Moura","BA","Rua Aleatoria","Bairro","45000166","522","Vitoria da Conquista"
-"10000020167","renata.ribeiro@example.com","Renata Ribeiro","BA","Rua Aleatoria","Bairro","45000167","506","Vitoria da Conquista"
-"10000020168","isabela.nunes@example.com","Isabela Nunes","BA","Rua Aleatoria","Bairro","45000168","94","Vitoria da Conquista"
-"10000020169","marina.lima@example.com","Marina Lima","BA","Rua Aleatoria","Bairro","45000169","774","Vitoria da Conquista"
-"10000020170","ana.araujo3@example.com","Ana Araujo Ferreira","BA","Rua Aleatoria","Bairro","45000170","49","Vitoria da Conquista"
-"10000020171","ana.lima@example.com","Ana Lima","BA","Rua Aleatoria","Bairro","45000171","882","Vitoria da Conquista"
-"10000020172","lucas.carvalho@example.com","Lucas Carvalho","BA","Rua Aleatoria","Bairro","45000172","113","Vitoria da Conquista"
-"10000020173","bruna.moura3@example.com","Bruna Moura Xavier","BA","Rua Aleatoria","Bairro","45000173","157","Vitoria da Conquista"
-"10000020174","patricia.mendes@example.com","Patricia Mendes","BA","Rua Aleatoria","Bairro","45000174","643","Vitoria da Conquista"
-"10000020175","carlos.pereira2@example.com","Carlos Pereira","BA","Rua Aleatoria","Bairro","45000175","164","Vitoria da Conquista"
-"10000020176","marcos.rocha@example.com","Marcos Rocha","BA","Rua Aleatoria","Bairro","45000176","812","Vitoria da Conquista"
-"10000020177","sofia.ribeiro@example.com","Sofia Ribeiro","BA","Rua Aleatoria","Bairro","45000177","697","Vitoria da Conquista"
-"10000020178","sofia.barros@example.com","Sofia Barros","BA","Rua Aleatoria","Bairro","45000178","433","Vitoria da Conquista"
-"10000020179","marcos.ribeiro2@example.com","Marcos Ribeiro Almeida","BA","Rua Aleatoria","Bairro","45000179","611","Vitoria da Conquista"
-"10000020180","bruno.mendes@example.com","Bruno Mendes","BA","Rua Aleatoria","Bairro","45000180","66","Vitoria da Conquista"
-"10000020181","mateus.barros@example.com","Mateus Barros","BA","Rua Aleatoria","Bairro","45000181","395","Vitoria da Conquista"
-"10000020182","daniela.moura4@example.com","Daniela Moura Santos","BA","Rua Aleatoria","Bairro","45000182","391","Vitoria da Conquista"
-"10000020183","ana.barros@example.com","Ana Barros","BA","Rua Aleatoria","Bairro","45000183","611","Vitoria da Conquista"
-"10000020184","beatriz.pereira@example.com","Beatriz Pereira","BA","Rua Aleatoria","Bairro","45000184","480","Vitoria da Conquista"
-"10000020185","paula.moura@example.com","Paula Moura","BA","Rua Aleatoria","Bairro","45000185","542","Vitoria da Conquista"
-"10000020186","gabriel.lima4@example.com","Gabriel Lima Barreto","BA","Rua Aleatoria","Bairro","45000186","258","Vitoria da Conquista"
-"10000020187","mariana.lopes@example.com","Mariana Lopes","BA","Rua Aleatoria","Bairro","45000187","995","Vitoria da Conquista"
-"10000020188","daniela.barros5@example.com","Daniela Barros Sousa","BA","Rua Aleatoria","Bairro","45000188","567","Vitoria da Conquista"
-"10000020189","carlos.barros@example.com","Carlos Barros","BA","Rua Aleatoria","Bairro","45000189","882","Vitoria da Conquista"
-"10000020190","bruna.moura4@example.com","Bruna Moura Cardoso","BA","Rua Aleatoria","Bairro","45000190","966","Vitoria da Conquista"
-"10000020191","vitor.almeida@example.com","Vitor Almeida","BA","Rua Aleatoria","Bairro","45000191","12","Vitoria da Conquista"
-"10000020192","bruno.souza@example.com","Bruno Souza","BA","Rua Aleatoria","Bairro","45000192","697","Vitoria da Conquista"
-"10000020193","mateus.costa@example.com","Mateus Gomes Costa","BA","Rua Aleatoria","Bairro","45000193","739","Vitoria da Conquista"
-"10000020194","isabela.nunes2@example.com","Isabela Nunes Duarte","BA","Rua Aleatoria","Bairro","45000194","118","Vitoria da Conquista"
-"10000020195","andre.mendes2@example.com","Andre Mendes Reis","BA","Rua Aleatoria","Bairro","45000195","699","Vitoria da Conquista"
+	"10000020083","ana.rocha@example.com","Ana Rocha","BA","Rua Aleatoria","Bairro","45000083","82","Vitoria da Conquista"
+	"10000020084","joao.costa@example.com","Joao Costa","BA","Rua Aleatoria","Bairro","45000084","876","Vitoria da Conquista"
+	"10000020085","paula.gomes@example.com","Paula Gomes","BA","Rua Aleatoria","Bairro","45000085","239","Vitoria da Conquista"
+	"10000020086","patricia.gomes@example.com","Patricia Gomes","BA","Rua Aleatoria","Bairro","45000086","888","Vitoria da Conquista"
+	"10000020087","beatriz.gomes@example.com","Beatriz Gomes","BA","Rua Aleatoria","Bairro","45000087","104","Vitoria da Conquista"
+	"10000020088","renata.araujo@example.com","Renata Araujo","BA","Rua Aleatoria","Bairro","45000088","390","Vitoria da Conquista"
+	"10000020089","gabriel.lima3@example.com","Gabriel Lima Duarte","BA","Rua Aleatoria","Bairro","45000089","285","Vitoria da Conquista"
+	"10000020090","patricia.souza@example.com","Patricia Souza","BA","Rua Aleatoria","Bairro","45000090","465","Vitoria da Conquista"
+	"10000020091","mateus.araujo@example.com","Mateus Araujo","BA","Rua Aleatoria","Bairro","45000091","651","Vitoria da Conquista"
+	"10000020092","mateus.pinto@example.com","Mateus Pinto","BA","Rua Aleatoria","Bairro","45000092","855","Vitoria da Conquista"
+	"10000020093","joao.nunes@example.com","Joao Nunes","BA","Rua Aleatoria","Bairro","45000093","374","Vitoria da Conquista"
+	"10000020094","larissa.silva@example.com","Larissa Silva","BA","Rua Aleatoria","Bairro","45000094","167","Vitoria da Conquista"
+	"10000020095","beatriz.nunes@example.com","Beatriz Nunes","BA","Rua Aleatoria","Bairro","45000095","380","Vitoria da Conquista"
+	"10000020096","jose.costa2@example.com","Jose Costa Almeida","BA","Rua Aleatoria","Bairro","45000096","364","Vitoria da Conquista"
+	"10000020097","mateus.carvalho@example.com","Mateus Carvalho","BA","Rua Aleatoria","Bairro","45000097","215","Vitoria da Conquista"
+	"10000020098","marcos.almeida1@example.com","Marcos Almeida","BA","Rua Aleatoria","Bairro","45000098","687","Vitoria da Conquista"
+	"10000020099","rafael.lima@example.com","Rafael Lima","BA","Rua Aleatoria","Bairro","45000099","274","Vitoria da Conquista"
+	"10000020100","rafael.almeida@example.com","Rafael Almeida","BA","Rua Aleatoria","Bairro","45000100","719","Vitoria da Conquista"
+	"10000020101","andre.lima@example.com","Andre Lima","BA","Rua Aleatoria","Bairro","45000101","960","Vitoria da Conquista"
+	"10000020102","jose.pereira@example.com","Jose Pereira","BA","Rua Aleatoria","Bairro","45000102","700","Vitoria da Conquista"
+	"10000020103","marcio.pereira1@example.com","Marcio Pereira","BA","Rua Aleatoria","Bairro","45000103","664","Vitoria da Conquista"
+	"10000020104","jose.souza@example.com","Jose Souza","BA","Rua Aleatoria","Bairro","45000104","74","Vitoria da Conquista"
+	"10000020105","gustavo.gomes@example.com","Gustavo Gomes","BA","Rua Aleatoria","Bairro","45000105","624","Vitoria da Conquista"
+	"10000020106","marina.santos@example.com","Marina Santos","BA","Rua Aleatoria","Bairro","45000106","651","Vitoria da Conquista"
+	"10000020107","bruno.lopes2@example.com","Bruno Lopes","BA","Rua Aleatoria","Bairro","45000107","176","Vitoria da Conquista"
+	"10000020108","felipe.pinto@example.com","Felipe Pinto","BA","Rua Aleatoria","Bairro","45000108","547","Vitoria da Conquista"
+	"10000020109","rafael.oliveira@example.com","Rafael Oliveira","BA","Rua Aleatoria","Bairro","45000109","747","Vitoria da Conquista"
+	"10000020110","rafael.carvalho@example.com","Rafael Carvalho","BA","Rua Aleatoria","Bairro","45000110","251","Vitoria da Conquista"
+	"10000020111","paula.gomes2@example.com","Paula Gomes Ribeiro","BA","Rua Aleatoria","Bairro","45000111","168","Vitoria da Conquista"
+	"10000020112","marcelo.moura@example.com","Marcelo Moura","BA","Rua Aleatoria","Bairro","45000112","474","Vitoria da Conquista"
+	"10000020113","patricia.costa@example.com","Patricia Costa","BA","Rua Aleatoria","Bairro","45000113","389","Vitoria da Conquista"
+	"10000020114","bruna.oliveira@example.com","Bruna Oliveira","BA","Rua Aleatoria","Bairro","45000114","277","Vitoria da Conquista"
+	"10000020115","rafael.lopes@example.com","Rafael Lopes","BA","Rua Aleatoria","Bairro","45000115","948","Vitoria da Conquista"
+	"10000020116","gustavo.oliveira@example.com","Gustavo Oliveira","BA","Rua Aleatoria","Bairro","45000116","656","Vitoria da Conquista"
+	"10000020117","rafael.ribeiro@example.com","Rafael Ribeiro","BA","Rua Aleatoria","Bairro","45000117","705","Vitoria da Conquista"
+	"10000020118","thiago.ferreira2@example.com","Thiago Ferreira Pinto","BA","Rua Aleatoria","Bairro","45000118","571","Vitoria da Conquista"
+	"10000020119","thiago.carvalho@example.com","Thiago Carvalho","BA","Rua Aleatoria","Bairro","45000119","225","Vitoria da Conquista"
+	"10000020120","isabela.pinto2@example.com","Isabela Pinto","BA","Rua Aleatoria","Bairro","45000120","702","Vitoria da Conquista"
+	"10000020121","camila.pinto@example.com","Camila Pinto","BA","Rua Aleatoria","Bairro","45000121","333","Vitoria da Conquista"
+	"10000020122","lucas.araujo@example.com","Lucas Araujo","BA","Rua Aleatoria","Bairro","45000122","864","Vitoria da Conquista"
+	"10000020123","sofia.moura2@example.com","Sofia Moura Andrade","BA","Rua Aleatoria","Bairro","45000123","787","Vitoria da Conquista"
+	"10000020124","mariana.araujo2@example.com","Mariana Araujo Costa","BA","Rua Aleatoria","Bairro","45000124","795","Vitoria da Conquista"
+	"10000020125","sofia.souza@example.com","Sofia Souza","BA","Rua Aleatoria","Bairro","45000125","58","Vitoria da Conquista"
+	"10000020126","marcio.pereira2@example.com","Marcio Pereira","BA","Rua Aleatoria","Bairro","45000126","235","Vitoria da Conquista"
+	"10000020127","renata.araujo2@example.com","Renata Araujo Martins","BA","Rua Aleatoria","Bairro","45000127","842","Vitoria da Conquista"
+	"10000020128","jose.souza2@example.com","Jose Souza Filho","BA","Rua Aleatoria","Bairro","45000128","33","Vitoria da Conquista"
+	"10000020129","ana.araujo2@example.com","Ana Araujo Ribeiro","BA","Rua Aleatoria","Bairro","45000129","825","Vitoria da Conquista"
+	"10000020130","renata.moura@example.com","Renata Moura","BA","Rua Aleatoria","Bairro","45000130","324","Vitoria da Conquista"
+	"10000020131","larissa.araujo@example.com","Larissa Araujo","BA","Rua Aleatoria","Bairro","45000131","411","Vitoria da Conquista"
 }
 
 Telefone_paciente = {
-	CPF_Paciente:string, telefone:string
-"10000010001", "7798797-5371"
-"10000010002", "7795573-2827"
-"10000010003", "7794808-8123"
-"10000010004", "7792591-8433"
-"10000020000", "7790053-5315"
-"10000020001", "7798201-3927"
-"10000020002", "7798317-2743"
-"10000020003", "7794889-9317"
-"10000020004", "7799977-4258"
-"10000020005", "7792504-7126"
-"10000020006", "7792646-9837"
-"10000020007", "7798689-1009"
-"10000020008", "7799813-6310"
-"10000020009", "7798005-1319"
-"10000020010", "7791832-6947"
-"10000020011", "7795038-4923"
-"10000020012", "7790949-4946"
-"10000020013", "7799295-2290"
-"10000020014", "7791403-8962"
-"10000020015", "7791133-9727"
-"10000020016", "7792060-3103"
-"10000020017", "7797787-3705"
-"10000020018", "7794342-9645"
-"10000020019", "7799938-7932"
-"10000020020", "7793470-9835"
-"10000020021", "7793295-6107"
-"10000020022", "7796537-7118"
-"10000020023", "7797177-9479"
-"10000020024", "7797397-2982"
-"10000020025", "7794061-4681"
-"10000020026", "7791049-6539"
-"10000020027", "7790344-4770"
-"10000020028", "7799641-4608"
-"10000020029", "7790117-2163"
-"10000020030", "7790964-4750"
-"10000020031", "7791104-1514"
-"10000020032", "7795413-2160"
-"10000020033", "7798423-4899"
-"10000020034", "7794562-8953"
-"10000020035", "7793510-9834"
-"10000020036", "7792167-8744"
-"10000020037", "7793981-8749"
-"10000020038", "7796669-4119"
-"10000020039", "7791545-2588"
-"10000020040", "7797062-6804"
-"10000020041", "7796939-7735"
-"10000020042", "7797651-1887"
-"10000020043", "7791612-1993"
-"10000020044", "7796596-6559"
-"10000020045", "7791790-5073"
-"10000020046", "7793139-4116"
-"10000020047", "7798786-8350"
-"10000020048", "7792296-7912"
-"10000020049", "7793006-5563"
-"10000020050", "7797579-5092"
-"10000020051", "7791235-8260"
-"10000020052", "7799016-2604"
-"10000020053", "7790828-9856"
-"10000020054", "7790241-2528"
-"10000020055", "7793872-3724"
-"10000020056", "7796658-8956"
-"10000020057", "7797886-4502"
-"10000020058", "7796570-1960"
-"10000020059", "7792697-7209"
-"10000020060", "7790035-7396"
-"10000020061", "7794345-8454"
-"10000020062", "7794673-7930"
-"10000020063", "7799105-8973"
-"10000020064", "7792536-4111"
-"10000020065", "7794861-4566"
-"10000020066", "7790958-9883"
-"10000020067", "7790998-6138"
-"10000020068", "7790936-1821"
-"10000020069", "7799571-8811"
-"10000020070", "7798238-9701"
-"10000020071", "7792579-1931"
-"10000020072", "7798320-2312"
-"10000020073", "7793044-2122"
-"10000020074", "7799749-2113"
-"10000020075", "7793853-7615"
-"10000020076", "7791964-5033"
-"10000020077", "7799485-1651"
-"10000020078", "7791343-7868"
-"10000020079", "7799562-9565"
-"10000020080", "7795183-5272"
-"10000020081", "7793346-6147"
-"10000020082", "7793910-5351"
-"10000020083", "7796484-3144"
-"10000020084", "7794915-8491"
-"10000020085", "7795180-2188"
-"10000020086", "7790152-8508"
-"10000020087", "7799224-2638"
-"10000020088", "7791200-9808"
-"10000020089", "7793492-9288"
-"10000020090", "7794345-3170"
-"10000020091", "7795718-2127"
-"10000020092", "7794002-7054"
-"10000020093", "7794669-3584"
-"10000020094", "7797179-9900"
-"10000020095", "7794956-9666"
-"10000020096", "7790128-5905"
-"10000020097", "7791697-3200"
-"10000020098", "7794333-2891"
-"10000020099", "7791753-3546"
-"10000020100", "7794462-5616"
-"10000020101", "7799909-4450"
-"10000020102", "7795617-4335"
-"10000020103", "7794325-9280"
-"10000020104", "7798004-5114"
-"10000020105", "7790832-2512"
-"10000020106", "7796939-5533"
-"10000020107", "7790722-1058"
-"10000020108", "7795464-3143"
-"10000020109", "7794291-3647"
-"10000020110", "7797239-8007"
-"10000020111", "7799189-1158"
-"10000020112", "7791832-2232"
-"10000020113", "7792442-9938"
-"10000020114", "7790590-7049"
-"10000020115", "7799543-3426"
-"10000020116", "7797041-3088"
-"10000020117", "7790685-6050"
-"10000020118", "7795974-1653"
-"10000020119", "7795862-4441"
-"10000020120", "7794088-2684"
-"10000020121", "7795794-7658"
-"10000020122", "7792532-4878"
-"10000020123", "7792662-3900"
-"10000020124", "7796755-1406"
-"10000020125", "7792938-6442"
-"10000020126", "7796745-5065"
-"10000020127", "7794371-3608"
-"10000020128", "7791771-7267"
-"10000020129", "7790634-8711"
-"10000020130", "7793644-4269"
-"10000020131", "7797541-6728"
-"10000020132", "7795000-4728"
-"10000020133", "7793652-1387"
-"10000020134", "7793164-7528"
-"10000020135", "7795378-5564"
-"10000020136", "7791137-5573"
-"10000020137", "7795753-9346"
-"10000020138", "7796548-9785"
-"10000020139", "7795425-1452"
-"10000020140", "7791889-5279"
-"10000020141", "7792925-5349"
-"10000020142", "7790626-2776"
-"10000020143", "7799774-8119"
-"10000020144", "7795663-6139"
-"10000020145", "7797149-9379"
-"10000020146", "7791894-7311"
-"10000020147", "7799446-4114"
-"10000020148", "7794173-1727"
-"10000020149", "7797144-1027"
-"10000020150", "7798518-9821"
-"10000020151", "7793228-6967"
-"10000020152", "7797066-2146"
-"10000020153", "7795409-6143"
-"10000020154", "7792041-5920"
-"10000020155", "7798308-6067"
-"10000020156", "7796691-6344"
-"10000020157", "7796592-5844"
-"10000020158", "7799083-3085"
-"10000020159", "7793143-7888"
-"10000020160", "7796211-3851"
-"10000020161", "7799324-5930"
-"10000020162", "7796653-9977"
-"10000020163", "7790006-5978"
-"10000020164", "7794700-4443"
-"10000020165", "7797043-6279"
-"10000020166", "7797618-8238"
-"10000020167", "7797244-4501"
-"10000020168", "7798375-8752"
-"10000020169", "7792780-2389"
-"10000020170", "7794649-9445"
-"10000020171", "7795491-2530"
-"10000020172", "7793848-6085"
-"10000020173", "7793680-4262"
-"10000020174", "7792414-1400"
-"10000020175", "7790757-5011"
-"10000020176", "7797784-2193"
-"10000020177", "7797461-7790"
-"10000020178", "7799431-4185"
-"10000020179", "7796291-9099"
-"10000020180", "7796547-4997"
-"10000020181", "7792417-1090"
-"10000020182", "7791746-7965"
-"10000020183", "7793585-3881"
-"10000020184", "7798486-8611"
-"10000020185", "7790822-5082"
-"10000020186", "7791988-8478"
-"10000020187", "7792184-8612"
-"10000020188", "7798702-6198"
-"10000020189", "7797251-9270"
-"10000020190", "7796991-9976"
-"10000020191", "7797305-3607"
-"10000020192", "7797777-8373"
-"10000020193", "7794246-5050"
-"10000020194", "7794543-9540"
-"10000020195", "7797939-4919"
+	"10000020083", "7796484-3144"
+	"10000020084", "7794915-8491"
+	"10000020085", "7795180-2188"
+	"10000020086", "7790152-8508"
+	"10000020087", "7799224-2638"
+	"10000020088", "7791200-9808"
+	"10000020089", "7793492-9288"
+	"10000020090", "7794345-3170"
+	"10000020091", "7795718-2127"
+	"10000020092", "7794002-7054"
+	"10000020093", "7794669-3584"
+	"10000020094", "7797179-9900"
+	"10000020095", "7794956-9666"
+	"10000020096", "7790128-5905"
+	"10000020097", "7791697-3200"
+	"10000020098", "7794333-2891"
+	"10000020099", "7791753-3546"
+	"10000020100", "7794462-5616"
+	"10000020101", "7799909-4450"
+	"10000020102", "7795617-4335"
+	"10000020103", "7794325-9280"
+	"10000020104", "7798004-5114"
+	"10000020105", "7790832-2512"
+	"10000020106", "7796939-5533"
+	"10000020107", "7790722-1058"
+	"10000020108", "7795464-3143"
+	"10000020109", "7794291-3647"
+	"10000020110", "7797239-8007"
+	"10000020111", "7799189-1158"
+	"10000020112", "7791832-2232"
+	"10000020113", "7792442-9938"
+	"10000020114", "7790590-7049"
+	"10000020115", "7799543-3426"
+	"10000020116", "7797041-3088"
+	"10000020117", "7790685-6050"
+	"10000020118", "7795974-1653"
+	"10000020119", "7795862-4441"
+	"10000020120", "7794088-2684"
+	"10000020121", "7795794-7658"
+	"10000020122", "7792532-4878"
+	"10000020123", "7792662-3900"
+	"10000020124", "7796755-1406"
+	"10000020125", "7792938-6442"
+	"10000020126", "7796745-5065"
+	"10000020127", "7794371-3608"
+	"10000020128", "7791771-7267"
+	"10000020129", "7790634-8711"
+	"10000020130", "7793644-4269"
+	"10000020131", "7797541-6728"
 }
 
 Secretaria = {
 	CPF_Secretaria:string, nome:string
-"90011122233", "Jaqueline Rocha"
+	"90011122233", "Jaqueline Rocha"
 }
 
 Dentista = {
 	CPF_Dentista:string, nome:string, CRO:string, croUF:string, especialidade:string
-"10101010101", "Dr. Juvenildo Silva Ferreira", "CRO1234", "BA", "Clinico Geral"
-"20202020202", "Dra. Isis Carolina", "CRO5678", "BA", "Ortodontico"
+	"10101010101", "Dr. Juvenildo Silva Ferreira", "CRO1234", "BA", "Clinico Geral"
+	"20202020202", "Dra. Isis Carolina", "CRO5678", "BA", "Ortodontico"
 }
 
 Procedimento = {
 	idProcedimento:number, nome:string, descricao:string, tipoProcedimento:string
-1, "Limpeza Profilaxia", "Remocao de placa, tartaro e polimento", "Clinico"
-2, "Restauracao 1 face", "Restauracao de carie em 1 face", "Clinico"
-3, "Restauracao multifacial", "Restauracao de carie em multiplas faces", "Clinico"
-4, "Tratamento Endodontico 1 canal", "Tratamento de canal de 1 canal", "Clinico"
-5, "Extracao Simples", "Remocao de dente permanente", "Clinico"
-6, "Clareamento Dental", "Clareamento em consultorio sessao", "Clinico"
-7, "Aplicacao de Fluor", "Aplicacao topica de fluor", "Clinico"
-8, "Radiografia Periapical", "Exame radiografico periapical", "Diagnostico"
-9, "Raspagem e Alisamento Radicular", "Tratamento periodontal raspagem", "Periodontia"
-10, "Protese Parcial Removivel", "Confecao e prova de protese parcial removivel", "Protese"
-11, "Implante simulado", "Procedimento de implante dentario simulacao e planejamento", "Cirurgia"
-12, "Instalacao de Aparelho Ortodontico", "Colocacao do aparelho fixo", "Ortodontico"
-13, "Ajuste de Aparelho Ortodontico", "Ajustes periodicos do aparelho", "Ortodontico"
-14, "Retirada de Aparelho Ortodontico", "Remocao do aparelho ortodontico", "Ortodontico"
+	1, "Limpeza Profilaxia", "Remocao de placa, tartaro e polimento", "Clinico"
+	2, "Restauracao 1 face", "Restauracao de carie em 1 face", "Clinico"
+	3, "Restauracao multifacial", "Restauracao de carie em multiplas faces", "Clinico"
+	4, "Tratamento Endodontico 1 canal", "Tratamento de canal de 1 canal", "Clinico"
+	5, "Extracao Simples", "Remocao de dente permanente", "Clinico"
+	6, "Clareamento Dental", "Clareamento em consultorio sessao", "Clinico"
+	7, "Aplicacao de Fluor", "Aplicacao topica de fluor", "Clinico"
+	8, "Radiografia Periapical", "Exame radiografico periapical", "Diagnostico"
+	9, "Raspagem e Alisamento Radicular", "Tratamento periodontal raspagem", "Periodontia"
+	10, "Protese Parcial Removivel", "Confecao e prova de protese parcial removivel", "Protese"
+	11, "Implante simulado", "Procedimento de implante dentario simulacao e planejamento", "Cirurgia"
+	12, "Instalacao de Aparelho Ortodontico", "Colocacao do aparelho fixo", "Ortodontico"
+	13, "Ajuste de Aparelho Ortodontico", "Ajustes periodicos do aparelho", "Ortodontico"
+	14, "Retirada de Aparelho Ortodontico", "Remocao do aparelho ortodontico", "Ortodontico"
 }
 
 Atendimento = {
-	idAtendimento:number, data:date, observacao:string, valorTotal:number, parcelas:number, tipoAtendimento:string, CPF_Paciente:string, CPF_Secretaria:string
-	1, 2024-10-08, "Procedimento programado", 719.77, 1, "Clinico", "10000020015", "90011122233"
-	2, 2024-05-21, "Retorno", 722.98, 2, "Clinico", "10000020055", "90011122233"
-	3, 2025-03-06, "Procedimento programado", 669.53, 3, "Clinico", "10000020193", "90011122233"
-	4, 2025-07-05, "Atendimento agendado", 414.23, 1, "Clinico", "10000020150", "90011122233"
-	5, 2024-12-10, "Procedimento programado", 493.92, 1, "Clinico", "10000020181", "90011122233"
-	6, 2024-01-28, "Consulta", 245.12, 2, "Clinico", "10000020160", "90011122233"
-	7, 2024-08-04, "Procedimento programado", 676.18, 1, "Clinico", "10000020079", "90011122233"
-	8, 2024-01-20, "Atendimento agendado", 1295.09, 1, "Clinico", "10000020009", "90011122233"
-	9, 2024-06-05, "Retorno", 1079.02, 2, "Clinico", "10000020028", "90011122233"
-	10, 2024-04-27, "Retorno", 756.1, 1, "Clinico", "10000020075", "90011122233"
-	11, 2024-03-18, "Atendimento agendado", 1096.73, 1, "Clinico", "10000020172", "90011122233"
 	12, 2025-01-14, "Consulta", 375.14, 1, "Clinico", "10000020125", "90011122233"
-	13, 2025-10-12, "Procedimento programado", 398.66, 1, "Clinico", "10000020177", "90011122233"
-	14, 2025-08-29, "Urgencia", 612.86, 1, "Clinico", "10000020078", "90011122233"
-	15, 2025-09-16, "Procedimento programado", 209.09, 1, "Clinico", "10000020082", "90011122233"
-	16, 2024-12-14, "Urgencia", 697.4, 1, "Clinico", "10000020148", "90011122233"
 	17, 2025-05-02, "Procedimento programado", 568.84, 1, "Clinico", "10000020110", "90011122233"
 	18, 2025-08-18, "Urgencia", 577.14, 3, "Clinico", "10000020117", "90011122233"
-	19, 2024-11-09, "Urgencia", 193.66, 1, "Clinico", "10000020055", "90011122233"
-	20, 2025-05-10, "Urgencia", 220.61, 3, "Clinico", "10000020181", "90011122233"
-	21, 2024-11-05, "Consulta", 465.02, 3, "Clinico", "10000020177", "90011122233"
-	22, 2024-05-09, "Procedimento programado", 305.53, 1, "Clinico", "10000020022", "90011122233"
-	23, 2024-09-15, "Procedimento programado", 163.8, 1, "Clinico", "10000020025", "90011122233"
-	24, 2024-11-07, "Consulta", 1083.01, 1, "Clinico", "10000020059", "90011122233"
-	25, 2024-11-08, "Atendimento agendado", 545.32, 1, "Clinico", "10000020154", "90011122233"
-	26, 2024-09-02, "Retorno", 567.03, 1, "Clinico", "10000020137", "90011122233"
-	27, 2024-10-25, "Consulta", 934.39, 1, "Clinico", "10000020055", "90011122233"
-	28, 2024-08-18, "Retorno", 496.28, 1, "Clinico", "10000020064", "90011122233"
-	29, 2024-10-22, "Procedimento programado", 535.68, 2, "Clinico", "10000020027", "90011122233"
-	30, 2025-03-18, "Urgencia", 799.68, 1, "Clinico", "10000020150", "90011122233"
-	31, 2024-10-02, "Atendimento agendado", 962.91, 1, "Clinico", "10000020006", "90011122233"
-	32, 2024-12-22, "Procedimento programado", 570.26, 1, "Clinico", "10000020081", "90011122233"
-	33, 2025-02-14, "Atendimento agendado", 136.94, 2, "Clinico", "10000020005", "90011122233"
-	34, 2025-06-10, "Consulta", 438.83, 3, "Clinico", "10000020164", "90011122233"
-	35, 2025-05-25, "Procedimento programado", 378.59, 1, "Clinico", "10000020190", "90011122233"
-	36, 2025-05-11, "Consulta", 681.66, 3, "Clinico", "10000020003", "90011122233"
-	37, 2025-04-17, "Consulta", 594.42, 1, "Clinico", "10000020161", "90011122233"
-	38, 2024-05-28, "Procedimento programado", 304.91, 3, "Clinico", "10000020044", "90011122233"
-	39, 2024-09-30, "Consulta", 308.84, 1, "Clinico", "10000020068", "90011122233"
 	40, 2025-07-10, "Procedimento programado", 513.8, 1, "Clinico", "10000020112", "90011122233"
-	41, 2025-01-25, "Procedimento programado", 702.28, 1, "Clinico", "10000020165", "90011122233"
 	42, 2024-04-12, "Atendimento agendado", 402.12, 1, "Clinico", "10000020112", "90011122233"
-	43, 2024-12-12, "Atendimento agendado", 520.1, 2, "Clinico", "10000020173", "90011122233"
-	44, 2025-07-08, "Consulta", 1230.35, 1, "Clinico", "10000020154", "90011122233"
-	45, 2024-04-12, "Procedimento programado", 270.03, 1, "Clinico", "10000020038", "90011122233"
-	46, 2025-03-17, "Retorno", 604.55, 3, "Clinico", "10000020058", "90011122233"
 	47, 2024-05-26, "Retorno", 725.91, 1, "Clinico", "10000020114", "90011122233"
-	48, 2025-07-13, "Retorno", 767.15, 2, "Clinico", "10000020014", "90011122233"
-	49, 2025-05-09, "Consulta", 122.52, 2, "Clinico", "10000020056", "90011122233"
-	50, 2024-02-20, "Atendimento agendado", 527.46, 2, "Clinico", "10000020186", "90011122233"
-	51, 2024-09-13, "Retorno", 484.68, 1, "Clinico", "10000020156", "90011122233"
-	52, 2024-05-14, "Consulta", 639.88, 1, "Clinico", "10000020071", "90011122233"
-	53, 2025-06-27, "Atendimento agendado", 653.17, 1, "Clinico", "10000020065", "90011122233"
-	54, 2024-03-18, "Retorno", 1095.44, 1, "Clinico", "10000020189", "90011122233"
-	55, 2025-01-12, "Urgencia", 68.77, 2, "Clinico", "10000020145", "90011122233"
-	56, 2024-12-01, "Atendimento agendado", 415.78, 1, "Clinico", "10000020052", "90011122233"
-	57, 2024-04-28, "Consulta", 552.86, 3, "Clinico", "10000020056", "90011122233"
-	58, 2025-07-07, "Procedimento programado", 1079.45, 1, "Clinico", "10000020146", "90011122233"
-	59, 2025-03-30, "Procedimento programado", 871.57, 1, "Clinico", "10000020056", "90011122233"
-	60, 2024-04-03, "Retorno", 791.62, 3, "Clinico", "10000020160", "90011122233"
-	61, 2024-07-29, "Consulta", 554.38, 3, "Clinico", "10000020191", "90011122233"
-	62, 2024-05-13, "Atendimento agendado", 122.99, 1, "Clinico", "10000020060", "90011122233"
-	63, 2024-02-23, "Retorno", 775.21, 2, "Clinico", "10000020185", "90011122233"
-	64, 2025-09-21, "Consulta", 798.94, 3, "Clinico", "10000020182", "90011122233"
 	65, 2025-03-12, "Consulta", 99.26, 2, "Clinico", "10000020121", "90011122233"
-	66, 2025-10-01, "Atendimento agendado", 1073.98, 1, "Clinico", "10000020136", "90011122233"
-	67, 2025-11-01, "Atendimento agendado", 304.2, 1, "Clinico", "10000020180", "90011122233"
-	68, 2025-02-12, "Procedimento programado", 330.73, 1, "Clinico", "10000020182", "90011122233"
-	69, 2025-04-30, "Consulta", 658.83, 1, "Clinico", "10000020019", "90011122233"
-	70, 2024-03-02, "Atendimento agendado", 1091.5, 3, "Clinico", "10000020139", "90011122233"
-	71, 2024-11-15, "Urgencia", 685.46, 3, "Clinico", "10000020022", "90011122233"
-	72, 2025-07-23, "Urgencia", 71.71, 1, "Clinico", "10000020025", "90011122233"
 	73, 2024-11-12, "Urgencia", 156.41, 1, "Clinico", "10000020085", "90011122233"
-	74, 2024-02-01, "Consulta", 305.67, 3, "Clinico", "10000020187", "90011122233"
-	75, 2024-11-15, "Urgencia", 615.83, 3, "Clinico", "10000020194", "90011122233"
 	76, 2024-03-24, "Urgencia", 627.32, 2, "Clinico", "10000020109", "90011122233"
 	77, 2025-08-30, "Procedimento programado", 55.77, 1, "Clinico", "10000020130", "90011122233"
-	78, 2024-08-04, "Retorno", 423.04, 1, "Clinico", "10000020191", "90011122233"
 	79, 2024-06-28, "Retorno", 411.86, 3, "Clinico", "10000020093", "90011122233"
 	80, 2024-11-16, "Atendimento agendado", 315.28, 3, "Clinico", "10000020105", "90011122233"
-	81, 2025-04-16, "Urgencia", 442.97, 2, "Clinico", "10000020018", "90011122233"
-	82, 2024-11-13, "Urgencia", 729.44, 1, "Clinico", "10000020052", "90011122233"
-	83, 2024-12-25, "Retorno", 501.8, 1, "Clinico", "10000020056", "90011122233"
-	84, 2024-03-18, "Retorno", 1078.01, 2, "Clinico", "10000020193", "90011122233"
-	85, 2025-03-28, "Urgencia", 396.31, 3, "Clinico", "10000020066", "90011122233"
-	86, 2024-02-28, "Urgencia", 1217.04, 1, "Clinico", "10000020069", "90011122233"
-	87, 2025-10-29, "Retorno", 816.3, 3, "Clinico", "10000020078", "90011122233"
-	88, 2024-02-10, "Retorno", 686.22, 2, "Clinico", "10000020177", "90011122233"
-	89, 2025-09-04, "Consulta", 263.11, 1, "Clinico", "10000020157", "90011122233"
-	90, 2025-09-09, "Retorno", 146.71, 1, "Clinico", "10000020081", "90011122233"
-	91, 2024-03-27, "Urgencia", 431.37, 2, "Clinico", "10000020139", "90011122233"
-	92, 2025-01-06, "Urgencia", 799.98, 1, "Clinico", "10000020042", "90011122233"
-	93, 2024-03-20, "Urgencia", 683.56, 3, "Clinico", "10000020021", "90011122233"
-	94, 2025-10-01, "Retorno", 777.19, 2, "Clinico", "10000020180", "90011122233"
-	95, 2024-10-18, "Procedimento programado", 325.88, 3, "Clinico", "10000020055", "90011122233"
-	96, 2025-03-27, "Procedimento programado", 751.8, 1, "Clinico", "10000020192", "90011122233"
-	97, 2025-01-15, "Atendimento agendado", 254.59, 3, "Clinico", "10000020022", "90011122233"
-	98, 2024-05-30, "Procedimento programado", 89.94, 1, "Clinico", "10000020019", "90011122233"
 	99, 2025-01-17, "Retorno", 748.12, 1, "Clinico", "10000020094", "90011122233"
-	100, 2025-10-27, "Urgencia", 619.13, 1, "Clinico", "10000020033", "90011122233"
-	101, 2025-04-04, "Atendimento agendado", 461.6, 1, "Clinico", "10000010002", "90011122233"
 	102, 2025-09-15, "Atendimento agendado", 85.81, 1, "Clinico", "10000020104", "90011122233"
 	103, 2025-10-16, "Atendimento agendado", 588.91, 1, "Clinico", "10000020113", "90011122233"
-	104, 2025-03-15, "Consulta", 649.04, 1, "Clinico", "10000020153", "90011122233"
 	105, 2025-07-11, "Atendimento agendado", 526.75, 3, "Clinico", "10000020125", "90011122233"
 	106, 2024-09-16, "Consulta", 150.06, 1, "Clinico", "10000020087", "90011122233"
-	107, 2025-07-13, "Urgencia", 736.36, 1, "Clinico", "10000020160", "90011122233"
-	108, 2024-02-14, "Retorno", 557.72, 1, "Clinico", "10000020006", "90011122233"
-	109, 2024-12-05, "Urgencia", 304.28, 1, "Clinico", "10000020027", "90011122233"
 	110, 2025-05-23, "Procedimento programado", 372.96, 3, "Clinico", "10000020090", "90011122233"
-	111, 2025-07-12, "Urgencia", 384.44, 1, "Clinico", "10000020078", "90011122233"
-	112, 2025-03-12, "Retorno", 511.14, 2, "Clinico", "10000020172", "90011122233"
-	113, 2024-10-08, "Consulta", 301.75, 2, "Clinico", "10000020015", "90011122233"
 	114, 2025-10-22, "Urgencia", 1383.93, 2, "Clinico", "10000020088", "90011122233"
 	115, 2024-05-20, "Atendimento agendado", 1194.67, 2, "Clinico", "10000020089", "90011122233"
-	116, 2025-07-29, "Consulta", 200.13, 1, "Clinico", "10000020063", "90011122233"
-	117, 2024-03-16, "Procedimento programado", 1270.68, 2, "Clinico", "10000020040", "90011122233"
 	118, 2025-10-15, "Retorno", 227.55, 3, "Clinico", "10000020088", "90011122233"
-	119, 2024-01-27, "Urgencia", 99.31, 3, "Clinico", "10000020137", "90011122233"
 	120, 2025-05-05, "Atendimento agendado", 387.48, 2, "Clinico", "10000020101", "90011122233"
-	121, 2025-06-13, "Urgencia", 673.54, 3, "Clinico", "10000020028", "90011122233"
-	122, 2024-06-05, "Urgencia", 998.56, 1, "Clinico", "10000020038", "90011122233"
-	123, 2025-07-18, "Urgencia", 847.33, 1, "Clinico", "10000020028", "90011122233"
-	124, 2024-03-24, "Consulta", 1230.33, 3, "Clinico", "10000020160", "90011122233"
 	125, 2024-10-23, "Urgencia", 566.46, 1, "Clinico", "10000020119", "90011122233"
 	126, 2025-03-26, "Procedimento programado", 696.11, 2, "Clinico", "10000020119", "90011122233"
-	127, 2024-12-19, "Procedimento programado", 141.89, 1, "Clinico", "10000020029", "90011122233"
-	128, 2024-09-10, "Retorno", 772.01, 1, "Clinico", "10000020020", "90011122233"
-	129, 2024-12-01, "Atendimento agendado", 424.07, 1, "Clinico", "10000020180", "90011122233"
-	130, 2025-05-24, "Consulta", 86.49, 2, "Clinico", "10000020019", "90011122233"
-	131, 2025-05-21, "Atendimento agendado", 996.09, 2, "Clinico", "10000020163", "90011122233"
-	132, 2024-02-16, "Procedimento programado", 339.76, 3, "Clinico", "10000020009", "90011122233"
-	133, 2025-07-17, "Urgencia", 329.9, 3, "Clinico", "10000020155", "90011122233"
-	134, 2025-07-25, "Urgencia", 736.95, 1, "Clinico", "10000020189", "90011122233"
-	135, 2025-04-12, "Retorno", 344.72, 3, "Clinico", "10000020151", "90011122233"
-	136, 2024-11-02, "Atendimento agendado", 1217.16, 3, "Clinico", "10000020082", "90011122233"
-	137, 2025-08-20, "Urgencia", 487.64, 1, "Clinico", "10000020181", "90011122233"
-	138, 2025-06-20, "Atendimento agendado", 543.63, 2, "Clinico", "10000020194", "90011122233"
 	139, 2025-03-04, "Retorno", 1377.92, 1, "Clinico", "10000020101", "90011122233"
-	140, 2025-06-22, "Procedimento programado", 751.1, 1, "Clinico", "10000020076", "90011122233"
-	141, 2024-10-12, "Atendimento agendado", 287.78, 1, "Clinico", "10000020072", "90011122233"
-	142, 2025-07-27, "Urgencia", 267.84, 1, "Clinico", "10000020069", "90011122233"
 	143, 2024-03-21, "Urgencia", 749.77, 1, "Clinico", "10000020109", "90011122233"
-	144, 2024-10-05, "Retorno", 528.46, 3, "Clinico", "10000020023", "90011122233"
-	145, 2024-04-12, "Procedimento programado", 1313.06, 2, "Clinico", "10000020080", "90011122233"
-	146, 2025-05-03, "Retorno", 539.22, 1, "Clinico", "10000020189", "90011122233"
-	147, 2025-07-01, "Consulta", 189.73, 2, "Clinico", "10000020040", "90011122233"
-	148, 2024-10-23, "Consulta", 791.82, 1, "Clinico", "10000010003", "90011122233"
-	149, 2025-06-20, "Procedimento programado", 298.01, 3, "Clinico", "10000020030", "90011122233"
-	150, 2025-04-14, "Urgencia", 984.06, 1, "Clinico", "10000020179", "90011122233"
 	151, 2025-02-19, "Procedimento programado", 786.26, 1, "Clinico", "10000020127", "90011122233"
-	152, 2024-11-27, "Retorno", 765.53, 1, "Clinico", "10000010002", "90011122233"
-	153, 2025-08-19, "Atendimento agendado", 720.63, 1, "Clinico", "10000010003", "90011122233"
-	154, 2025-05-29, "Urgencia", 768.02, 1, "Clinico", "10000020172", "90011122233"
-	155, 2024-06-05, "Procedimento programado", 621.39, 3, "Clinico", "10000020187", "90011122233"
 	156, 2025-09-02, "Consulta", 671.58, 2, "Clinico", "10000020130", "90011122233"
-	157, 2024-07-26, "Atendimento agendado", 560.22, 1, "Clinico", "10000020133", "90011122233"
-	158, 2025-08-20, "Procedimento programado", 434.94, 3, "Clinico", "10000020019", "90011122233"
-	159, 2025-07-31, "Consulta", 724.57, 2, "Clinico", "10000020139", "90011122233"
-	160, 2025-03-09, "Urgencia", 265.32, 1, "Clinico", "10000020175", "90011122233"
 	161, 2024-05-18, "Procedimento programado", 562.05, 2, "Clinico", "10000020091", "90011122233"
-	162, 2025-07-06, "Retorno", 595.89, 1, "Clinico", "10000020163", "90011122233"
-	163, 2024-01-04, "Consulta", 492.37, 2, "Clinico", "10000020072", "90011122233"
-	164, 2024-04-25, "Consulta", 125.67, 2, "Clinico", "10000020165", "90011122233"
-	165, 2025-04-02, "Atendimento agendado", 534.32, 1, "Clinico", "10000020168", "90011122233"
-	166, 2024-08-27, "Atendimento agendado", 789.27, 3, "Clinico", "10000020077", "90011122233"
-	167, 2024-08-14, "Procedimento programado", 1223.08, 1, "Clinico", "10000020072", "90011122233"
-	168, 2025-01-25, "Atendimento agendado", 187.91, 2, "Clinico", "10000020077", "90011122233"
-	169, 2025-04-29, "Retorno", 775.84, 1, "Clinico", "10000020053", "90011122233"
 	170, 2025-06-26, "Retorno", 741.67, 1, "Clinico", "10000020095", "90011122233"
-	171, 2024-04-04, "Atendimento agendado", 705.22, 1, "Clinico", "10000020181", "90011122233"
-	172, 2025-08-24, "Atendimento agendado", 208.86, 2, "Clinico", "10000020051", "90011122233"
-	173, 2024-04-30, "Procedimento programado", 631.64, 3, "Clinico", "10000020058", "90011122233"
-	174, 2025-04-22, "Atendimento agendado", 399.5, 1, "Clinico", "10000020162", "90011122233"
-	175, 2025-04-25, "Urgencia", 605.94, 1, "Clinico", "10000020048", "90011122233"
-	176, 2024-09-24, "Atendimento agendado", 297.4, 3, "Clinico", "10000020145", "90011122233"
 	177, 2025-08-06, "Retorno", 395.62, 3, "Clinico", "10000020123", "90011122233"
-	178, 2024-12-26, "Retorno", 679.3, 3, "Clinico", "10000020031", "90011122233"
 	179, 2024-02-19, "Consulta", 214.04, 1, "Clinico", "10000020101", "90011122233"
-	180, 2025-01-17, "Consulta", 117.5, 3, "Clinico", "10000020154", "90011122233"
-	181, 2024-10-08, "Atendimento agendado", 443.29, 1, "Clinico", "10000020069", "90011122233"
 	182, 2024-07-15, "Atendimento agendado", 329.79, 1, "Clinico", "10000020130", "90011122233"
-	183, 2025-04-15, "Atendimento agendado", 584.66, 1, "Clinico", "10000020058", "90011122233"
-	184, 2025-10-14, "Consulta", 474.39, 1, "Clinico", "10000020175", "90011122233"
-	185, 2025-06-24, "Consulta", 563.32, 1, "Clinico", "10000020054", "90011122233"
-	186, 2025-07-10, "Atendimento agendado", 490.28, 1, "Clinico", "10000020164", "90011122233"
-	187, 2025-02-11, "Consulta", 763.47, 1, "Clinico", "10000020072", "90011122233"
 	188, 2024-02-24, "Consulta", 72.22, 1, "Clinico", "10000020107", "90011122233"
-	189, 2025-04-06, "Procedimento programado", 114.27, 1, "Clinico", "10000020054", "90011122233"
-	190, 2024-10-29, "Retorno", 583.76, 1, "Clinico", "10000020178", "90011122233"
-	191, 2024-06-06, "Procedimento programado", 383.55, 1, "Clinico", "10000020077", "90011122233"
-	192, 2024-04-14, "Retorno", 69.7, 1, "Clinico", "10000020018", "90011122233"
-	193, 2025-07-21, "Consulta", 360.36, 3, "Clinico", "10000020148", "90011122233"
-	194, 2025-07-26, "Retorno", 573.97, 3, "Clinico", "10000020142", "90011122233"
-	195, 2024-06-20, "Procedimento programado", 238.77, 2, "Clinico", "10000020066", "90011122233"
-	196, 2025-10-02, "Procedimento programado", 278.49, 3, "Clinico", "10000020148", "90011122233"
 	197, 2024-12-06, "Atendimento agendado", 275.33, 1, "Clinico", "10000020093", "90011122233"
-	198, 2024-07-24, "Procedimento programado", 775.82, 1, "Clinico", "10000020076", "90011122233"
-	199, 2024-11-29, "Procedimento programado", 561.28, 2, "Clinico", "10000020067", "90011122233"
-	200, 2024-01-28, "Procedimento programado", 554.73, 1, "Clinico", "10000020177", "90011122233"
-	201, 2025-10-10, "Urgencia", 556.25, 1, "Clinico", "10000020057", "90011122233"
-	202, 2025-03-04, "Atendimento agendado", 174.75, 1, "Clinico", "10000020005", "90011122233"
-	203, 2024-02-15, "Atendimento agendado", 123.95, 2, "Clinico", "10000020161", "90011122233"
-	204, 2025-06-06, "Atendimento agendado", 397.3, 3, "Clinico", "10000020138", "90011122233"
-	205, 2025-08-25, "Atendimento agendado", 361.98, 1, "Clinico", "10000020034", "90011122233"
 	206, 2024-04-28, "Retorno", 311.23, 1, "Clinico", "10000020085", "90011122233"
-	207, 2025-03-24, "Procedimento programado", 686.89, 1, "Clinico", "10000020077", "90011122233"
-	208, 2024-04-21, "Retorno", 1118.21, 1, "Clinico", "10000020185", "90011122233"
-	209, 2024-07-07, "Retorno", 494.15, 2, "Clinico", "10000020159", "90011122233"
-	210, 2024-01-05, "Retorno", 459.81, 1, "Clinico", "10000020048", "90011122233"
-	211, 2025-05-16, "Atendimento agendado", 971.24, 1, "Clinico", "10000020159", "90011122233"
-	212, 2024-10-31, "Atendimento agendado", 279.04, 1, "Clinico", "10000020147", "90011122233"
 	213, 2025-01-17, "Retorno", 833.46, 2, "Clinico", "10000020126", "90011122233"
-	214, 2024-10-22, "Retorno", 960.23, 1, "Clinico", "10000020043", "90011122233"
-	215, 2025-07-29, "Atendimento agendado", 758.05, 2, "Clinico", "10000020163", "90011122233"
-	216, 2024-02-01, "Retorno", 635.56, 1, "Clinico", "10000020070", "90011122233"
 	217, 2025-05-22, "Atendimento agendado", 620.0, 1, "Clinico", "10000020126", "90011122233"
 	218, 2025-07-13, "Retorno", 247.11, 1, "Clinico", "10000020104", "90011122233"
-	219, 2025-03-25, "Consulta", 834.64, 1, "Clinico", "10000020194", "90011122233"
-	220, 2025-08-06, "Urgencia", 479.55, 1, "Clinico", "10000020132", "90011122233"
-	221, 2024-04-07, "Retorno", 237.26, 2, "Clinico", "10000020188", "90011122233"
-	222, 2024-11-25, "Retorno", 331.38, 2, "Clinico", "10000020190", "90011122233"
 	223, 2025-10-10, "Consulta", 1464.37, 3, "Clinico", "10000020099", "90011122233"
-	224, 2024-04-05, "Procedimento programado", 1027.5, 1, "Clinico", "10000020158", "90011122233"
-	225, 2024-12-11, "Atendimento agendado", 124.68, 1, "Clinico", "10000020143", "90011122233"
-	226, 2024-01-17, "Consulta", 796.77, 2, "Clinico", "10000020036", "90011122233"
-	227, 2025-10-27, "Urgencia", 459.08, 1, "Clinico", "10000020036", "90011122233"
-	228, 2024-08-27, "Procedimento programado", 108.45, 1, "Clinico", "10000020163", "90011122233"
-	229, 2024-08-19, "Atendimento agendado", 791.12, 2, "Clinico", "10000020170", "90011122233"
-	230, 2024-05-15, "Procedimento programado", 285.01, 1, "Clinico", "10000020014", "90011122233"
-	231, 2024-05-20, "Procedimento programado", 380.07, 1, "Clinico", "10000020194", "90011122233"
 	232, 2024-08-06, "Retorno", 155.01, 3, "Clinico", "10000020101", "90011122233"
 	233, 2025-08-26, "Procedimento programado", 533.47, 2, "Clinico", "10000020085", "90011122233"
-	234, 2025-07-20, "Atendimento agendado", 475.74, 3, "Clinico", "10000020149", "90011122233"
 	235, 2024-09-02, "Procedimento programado", 790.16, 1, "Clinico", "10000020094", "90011122233"
-	236, 2024-05-15, "Procedimento programado", 1256.36, 2, "Clinico", "10000020141", "90011122233"
-	237, 2024-09-25, "Retorno", 898.08, 1, "Clinico", "10000020006", "90011122233"
-	238, 2025-09-22, "Retorno", 452.29, 1, "Clinico", "10000020067", "90011122233"
-	239, 2025-08-23, "Consulta", 743.47, 2, "Clinico", "10000020075", "90011122233"
-	240, 2025-04-09, "Atendimento agendado", 232.37, 1, "Clinico", "10000020151", "90011122233"
-	241, 2025-06-19, "Atendimento agendado", 599.7, 1, "Clinico", "10000020180", "90011122233"
 	242, 2024-01-31, "Urgencia", 391.4, 1, "Clinico", "10000020105", "90011122233"
-	243, 2024-02-26, "Procedimento programado", 720.7, 1, "Clinico", "10000020141", "90011122233"
-	244, 2024-04-28, "Retorno", 84.49, 3, "Clinico", "10000020185", "90011122233"
-	245, 2025-01-27, "Retorno", 362.19, 1, "Clinico", "10000020041", "90011122233"
-	246, 2024-11-23, "Urgencia", 217.39, 3, "Clinico", "10000020015", "90011122233"
-	247, 2024-02-17, "Procedimento programado", 464.82, 2, "Clinico", "10000020013", "90011122233"
-	248, 2025-01-12, "Retorno", 925.56, 3, "Clinico", "10000020070", "90011122233"
-	249, 2024-09-08, "Retorno", 763.24, 2, "Clinico", "10000010002", "90011122233"
-	250, 2025-01-20, "Urgencia", 779.42, 1, "Clinico", "10000020022", "90011122233"
-	251, 2024-10-13, "Consulta", 1209.99, 1, "Clinico", "10000020007", "90011122233"
-	252, 2025-02-07, "Consulta", 268.76, 3, "Clinico", "10000020147", "90011122233"
-	253, 2025-02-06, "Urgencia", 152.08, 2, "Clinico", "10000020077", "90011122233"
-	254, 2024-04-21, "Retorno", 140.55, 1, "Clinico", "10000020023", "90011122233"
-	255, 2024-07-31, "Procedimento programado", 655.7, 2, "Clinico", "10000020074", "90011122233"
-	256, 2025-09-09, "Consulta", 347.18, 1, "Clinico", "10000020051", "90011122233"
-	257, 2024-11-02, "Urgencia", 396.53, 1, "Clinico", "10000020040", "90011122233"
-	258, 2024-05-04, "Consulta", 564.71, 1, "Clinico", "10000020011", "90011122233"
-	259, 2024-03-27, "Atendimento agendado", 726.87, 1, "Clinico", "10000020146", "90011122233"
-	260, 2024-05-11, "Consulta", 743.1, 1, "Clinico", "10000020080", "90011122233"
-	261, 2025-02-08, "Procedimento programado", 731.23, 2, "Clinico", "10000020003", "90011122233"
-	262, 2024-10-13, "Procedimento programado", 474.78, 1, "Clinico", "10000020034", "90011122233"
-	263, 2024-05-20, "Procedimento programado", 1094.83, 3, "Clinico", "10000020047", "90011122233"
 	264, 2024-12-18, "Atendimento agendado", 289.16, 1, "Clinico", "10000020124", "90011122233"
-	265, 2024-01-31, "Urgencia", 575.37, 2, "Clinico", "10000020010", "90011122233"
-	266, 2024-02-27, "Retorno", 494.39, 2, "Clinico", "10000020143", "90011122233"
-	267, 2025-01-02, "Atendimento agendado", 535.06, 1, "Clinico", "10000020003", "90011122233"
-	268, 2024-08-26, "Atendimento agendado", 654.83, 1, "Clinico", "10000020052", "90011122233"
-	269, 2024-06-30, "Urgencia", 1015.05, 1, "Clinico", "10000020011", "90011122233"
-	270, 2025-02-09, "Atendimento agendado", 599.26, 1, "Clinico", "10000020021", "90011122233"
-	271, 2025-10-16, "Procedimento programado", 829.27, 1, "Clinico", "10000020162", "90011122233"
-	272, 2024-10-28, "Retorno", 1254.31, 1, "Clinico", "10000020041", "90011122233"
-	273, 2024-12-05, "Consulta", 384.97, 1, "Clinico", "10000020056", "90011122233"
-	274, 2024-08-02, "Retorno", 86.11, 1, "Clinico", "10000020173", "90011122233"
 	275, 2025-03-05, "Retorno", 671.61, 2, "Clinico", "10000020101", "90011122233"
-	276, 2025-10-28, "Retorno", 289.04, 2, "Clinico", "10000020037", "90011122233"
-	277, 2024-03-16, "Urgencia", 676.95, 2, "Clinico", "10000020039", "90011122233"
 	278, 2024-06-17, "Atendimento agendado", 780.8, 1, "Clinico", "10000020107", "90011122233"
-	279, 2025-07-21, "Atendimento agendado", 344.68, 1, "Clinico", "10000020063", "90011122233"
-	280, 2025-05-17, "Retorno", 667.92, 1, "Clinico", "10000020009", "90011122233"
-	281, 2025-09-06, "Procedimento programado", 782.79, 1, "Clinico", "10000020047", "90011122233"
 	282, 2024-04-28, "Urgencia", 859.67, 2, "Clinico", "10000020097", "90011122233"
 	283, 2025-01-13, "Retorno", 219.68, 1, "Clinico", "10000020110", "90011122233"
-	284, 2025-07-31, "Consulta", 1458.63, 1, "Clinico", "10000020034", "90011122233"
-	285, 2025-03-04, "Atendimento agendado", 346.1, 2, "Clinico", "10000020171", "90011122233"
-	286, 2024-02-05, "Atendimento agendado", 761.8, 3, "Clinico", "10000020142", "90011122233"
-	287, 2024-08-04, "Retorno", 797.95, 1, "Clinico", "10000020028", "90011122233"
-	288, 2024-05-31, "Atendimento agendado", 464.04, 1, "Clinico", "10000020062", "90011122233"
-	289, 2025-06-16, "Procedimento programado", 161.15, 3, "Clinico", "10000010004", "90011122233"
-	290, 2025-08-19, "Consulta", 248.1, 3, "Clinico", "10000020023", "90011122233"
-	291, 2025-05-12, "Atendimento agendado", 157.89, 2, "Clinico", "10000020151", "90011122233"
 	292, 2025-02-15, "Consulta", 722.77, 1, "Clinico", "10000020097", "90011122233"
-	293, 2024-12-11, "Urgencia", 402.85, 1, "Clinico", "10000020075", "90011122233"
-	294, 2025-09-11, "Consulta", 665.76, 2, "Clinico", "10000020044", "90011122233"
-	295, 2024-06-11, "Consulta", 194.57, 3, "Clinico", "10000020075", "90011122233"
-	296, 2024-02-29, "Retorno", 326.26, 2, "Clinico", "10000020004", "90011122233"
-	297, 2025-06-01, "Procedimento programado", 495.53, 1, "Clinico", "10000020158", "90011122233"
-	298, 2025-04-30, "Atendimento agendado", 263.8, 1, "Clinico", "10000020137", "90011122233"
-	299, 2024-02-20, "Retorno", 950.28, 1, "Clinico", "10000020142", "90011122233"
-	300, 2024-01-10, "Procedimento programado", 584.56, 1, "Clinico", "10000020029", "90011122233"
-	301, 2025-10-20, "Urgencia", 400.02, 2, "Clinico", "10000020104", "90011122233"
-	302, 2025-06-17, "Atendimento agendado", 273.86, 3, "Clinico", "10000020097", "90011122233"
-	303, 2025-05-08, "Consulta", 191.27, 1, "Clinico", "10000020082", "90011122233"
-	304, 2024-09-03, "Consulta", 1271.73, 2, "Clinico", "10000020149", "90011122233"
-	305, 2025-02-01, "Consulta", 729.89, 3, "Clinico", "10000020145", "90011122233"
-	306, 2025-01-02, "Atendimento agendado", 145.96, 1, "Clinico", "10000020072", "90011122233"
-	307, 2025-07-26, "Retorno", 608.16, 1, "Clinico", "10000020170", "90011122233"
-	308, 2025-03-06, "Urgencia", 90.26, 1, "Clinico", "10000020091", "90011122233"
-	309, 2025-08-20, "Atendimento agendado", 447.38, 1, "Clinico", "10000020154", "90011122233"
-	310, 2024-02-25, "Retorno", 287.29, 1, "Clinico", "10000020031", "90011122233"
-	311, 2024-07-03, "Consulta", 389.04, 1, "Clinico", "10000020120", "90011122233"
-	312, 2024-06-21, "Atendimento agendado", 525.12, 1, "Clinico", "10000020191", "90011122233"
-	313, 2025-03-15, "Procedimento programado", 825.99, 1, "Clinico", "10000020094", "90011122233"
-	314, 2025-10-03, "Retorno", 427.5, 1, "Clinico", "10000020053", "90011122233"
-	315, 2024-06-20, "Consulta", 715.98, 1, "Clinico", "10000020007", "90011122233"
-	316, 2024-12-16, "Procedimento programado", 218.24, 1, "Clinico", "10000020087", "90011122233"
-	317, 2024-08-04, "Consulta", 331.39, 3, "Clinico", "10000020146", "90011122233"
-	318, 2024-09-18, "Atendimento agendado", 469.42, 1, "Clinico", "10000020155", "90011122233"
-	319, 2025-07-14, "Urgencia", 882.75, 1, "Clinico", "10000020117", "90011122233"
-	320, 2024-05-20, "Procedimento programado", 423.3, 3, "Clinico", "10000020022", "90011122233"
-	321, 2024-07-23, "Urgencia", 736.43, 1, "Clinico", "10000020129", "90011122233"
-	322, 2024-12-04, "Retorno", 762.08, 1, "Clinico", "10000010001", "90011122233"
-	323, 2024-03-17, "Consulta", 87.56, 1, "Clinico", "10000020061", "90011122233"
-	324, 2024-02-10, "Urgencia", 1377.43, 1, "Clinico", "10000020088", "90011122233"
-	325, 2025-10-24, "Retorno", 464.84, 1, "Clinico", "10000020080", "90011122233"
-	326, 2025-04-12, "Urgencia", 277.16, 2, "Clinico", "10000020094", "90011122233"
-	327, 2025-05-09, "Atendimento agendado", 1248.82, 2, "Clinico", "10000020169", "90011122233"
-	328, 2025-02-25, "Procedimento programado", 1017.75, 1, "Clinico", "10000020007", "90011122233"
-	329, 2025-09-25, "Consulta", 679.27, 1, "Clinico", "10000020106", "90011122233"
-	330, 2025-09-19, "Consulta", 613.57, 1, "Clinico", "10000010003", "90011122233"
-	331, 2024-09-03, "Urgencia", 1045.97, 1, "Clinico", "10000020067", "90011122233"
-	332, 2025-04-03, "Consulta", 126.98, 2, "Clinico", "10000020123", "90011122233"
-	333, 2024-02-06, "Atendimento agendado", 863.46, 1, "Clinico", "10000020136", "90011122233"
-	334, 2024-08-16, "Procedimento programado", 441.54, 3, "Clinico", "10000020080", "90011122233"
-	335, 2024-10-25, "Atendimento agendado", 155.34, 1, "Clinico", "10000020129", "90011122233"
-	336, 2025-02-23, "Consulta", 211.69, 3, "Clinico", "10000020061", "90011122233"
-	337, 2024-12-12, "Consulta", 446.29, 2, "Clinico", "10000020189", "90011122233"
-	338, 2024-02-19, "Atendimento agendado", 938.42, 3, "Clinico", "10000020106", "90011122233"
-	339, 2025-09-12, "Urgencia", 738.03, 2, "Clinico", "10000020125", "90011122233"
-	340, 2024-05-21, "Procedimento programado", 941.56, 3, "Clinico", "10000020150", "90011122233"
-	341, 2025-10-27, "Retorno", 1179.82, 3, "Clinico", "10000020124", "90011122233"
-	342, 2024-01-14, "Atendimento agendado", 199.93, 1, "Clinico", "10000020023", "90011122233"
-	343, 2024-10-20, "Urgencia", 660.52, 1, "Clinico", "10000020033", "90011122233"
-	344, 2025-09-22, "Atendimento agendado", 744.86, 3, "Clinico", "10000020053", "90011122233"
-	345, 2025-03-02, "Urgencia", 1249.03, 1, "Clinico", "10000020137", "90011122233"
-	346, 2025-10-25, "Urgencia", 1158.47, 3, "Clinico", "10000020189", "90011122233"
-	347, 2025-06-10, "Consulta", 170.7, 1, "Clinico", "10000020092", "90011122233"
-	348, 2024-01-06, "Urgencia", 630.25, 1, "Clinico", "10000020115", "90011122233"
-	349, 2025-09-22, "Urgencia", 767.74, 3, "Clinico", "10000020121", "90011122233"
-	350, 2024-03-10, "Atendimento agendado", 712.55, 2, "Clinico", "10000020036", "90011122233"
-	351, 2024-12-05, "Urgencia", 366.3, 1, "Clinico", "10000020088", "90011122233"
-	352, 2025-09-20, "Atendimento agendado", 242.44, 1, "Clinico", "10000020058", "90011122233"
-	353, 2024-10-16, "Consulta", 723.71, 1, "Clinico", "10000020128", "90011122233"
-	354, 2024-11-24, "Atendimento agendado", 884.84, 1, "Clinico", "10000020017", "90011122233"
-	355, 2025-07-04, "Procedimento programado", 78.41, 1, "Clinico", "10000020161", "90011122233"
-	356, 2024-02-25, "Retorno", 730.49, 3, "Clinico", "10000020060", "90011122233"
-	357, 2025-02-02, "Consulta", 958.45, 1, "Clinico", "10000020132", "90011122233"
-	358, 2025-09-13, "Consulta", 167.24, 2, "Clinico", "10000020068", "90011122233"
-	359, 2024-05-19, "Procedimento programado", 465.14, 1, "Clinico", "10000020135", "90011122233"
-	360, 2024-05-24, "Consulta", 567.03, 1, "Clinico", "10000020006", "90011122233"
-	361, 2025-06-08, "Retorno", 669.48, 1, "Clinico", "10000020037", "90011122233"
-	362, 2024-10-24, "Consulta", 581.7, 1, "Clinico", "10000020060", "90011122233"
-	363, 2024-07-17, "Urgencia", 1243.15, 2, "Clinico", "10000020120", "90011122233"
-	364, 2024-01-05, "Urgencia", 559.69, 1, "Clinico", "10000020059", "90011122233"
-	365, 2025-05-06, "Procedimento programado", 534.16, 1, "Clinico", "10000020110", "90011122233"
-	366, 2024-10-14, "Retorno", 1345.98, 1, "Clinico", "10000020133", "90011122233"
-	367, 2024-02-07, "Atendimento agendado", 742.9, 3, "Clinico", "10000020062", "90011122233"
-	368, 2024-04-02, "Procedimento programado", 787.32, 3, "Clinico", "10000020089", "90011122233"
-	369, 2025-08-02, "Retorno", 223.81, 2, "Clinico", "10000020184", "90011122233"
-	370, 2025-01-13, "Retorno", 711.16, 1, "Clinico", "10000020006", "90011122233"
-	371, 2025-10-26, "Urgencia", 823.25, 3, "Clinico", "10000020022", "90011122233"
-	372, 2025-06-13, "Urgencia", 644.49, 1, "Clinico", "10000020092", "90011122233"
-	373, 2024-01-07, "Atendimento agendado", 208.64, 2, "Clinico", "10000020031", "90011122233"
-	374, 2024-06-10, "Urgencia", 411.14, 1, "Clinico", "10000020150", "90011122233"
-	375, 2025-05-05, "Retorno", 145.91, 1, "Clinico", "10000020147", "90011122233"
-	376, 2024-06-13, "Retorno", 674.28, 3, "Clinico", "10000020157", "90011122233"
-	377, 2025-10-14, "Consulta", 700.48, 1, "Clinico", "10000020180", "90011122233"
-	378, 2024-08-12, "Procedimento programado", 1090.54, 1, "Clinico", "10000020149", "90011122233"
-	379, 2024-08-23, "Procedimento programado", 669.89, 1, "Clinico", "10000020094", "90011122233"
-	380, 2024-04-08, "Retorno", 1134.41, 3, "Clinico", "10000020117", "90011122233"
-	381, 2025-10-26, "Procedimento programado", 753.82, 2, "Clinico", "10000020129", "90011122233"
-	382, 2025-01-25, "Urgencia", 407.86, 3, "Clinico", "10000020146", "90011122233"
-	383, 2024-03-26, "Urgencia", 581.86, 3, "Clinico", "10000020149", "90011122233"
-	384, 2025-08-14, "Atendimento agendado", 356.63, 3, "Clinico", "10000020026", "90011122233"
-	385, 2024-06-07, "Procedimento programado", 508.91, 3, "Clinico", "10000020162", "90011122233"
-	386, 2025-02-10, "Retorno", 240.33, 3, "Clinico", "10000020101", "90011122233"
-	387, 2025-08-14, "Urgencia", 595.79, 2, "Clinico", "10000020194", "90011122233"
-	388, 2024-12-12, "Atendimento agendado", 667.44, 1, "Clinico", "10000020153", "90011122233"
-	389, 2025-09-06, "Procedimento programado", 506.77, 1, "Clinico", "10000020018", "90011122233"
-	390, 2025-01-28, "Procedimento programado", 731.5, 3, "Clinico", "10000020153", "90011122233"
-	391, 2025-06-14, "Urgencia", 434.93, 1, "Clinico", "10000020045", "90011122233"
-	392, 2025-02-13, "Urgencia", 1064.88, 2, "Clinico", "10000020167", "90011122233"
-	393, 2025-07-26, "Atendimento agendado", 747.29, 1, "Clinico", "10000020085", "90011122233"
-	394, 2024-01-05, "Urgencia", 1012.05, 2, "Clinico", "10000020040", "90011122233"
-	395, 2024-09-13, "Procedimento programado", 561.2, 3, "Clinico", "10000020092", "90011122233"
-	396, 2024-01-29, "Procedimento programado", 650.12, 1, "Clinico", "10000020025", "90011122233"
-	397, 2024-12-27, "Atendimento agendado", 349.2, 1, "Clinico", "10000020133", "90011122233"
-	398, 2024-12-16, "Consulta", 720.74, 1, "Clinico", "10000020137", "90011122233"
-	399, 2024-07-06, "Retorno", 882.33, 1, "Clinico", "10000020123", "90011122233"
-	400, 2024-06-08, "Consulta", 1105.27, 1, "Clinico", "10000020026", "90011122233"
-	401, 2024-10-08, "Procedimento programado", 90.61, 3, "Clinico", "10000020042", "90011122233"
-	402, 2025-05-04, "Atendimento agendado", 782.38, 3, "Clinico", "10000020004", "90011122233"
-	403, 2025-06-14, "Procedimento programado", 995.34, 1, "Clinico", "10000020076", "90011122233"
-	404, 2024-07-10, "Atendimento agendado", 187.94, 1, "Clinico", "10000020063", "90011122233"
-	405, 2024-08-03, "Procedimento programado", 184.92, 1, "Clinico", "10000020175", "90011122233"
-	406, 2025-08-12, "Retorno", 851.3, 1, "Clinico", "10000020021", "90011122233"
-	407, 2025-03-07, "Procedimento programado", 471.6, 3, "Clinico", "10000020030", "90011122233"
-	408, 2024-02-18, "Procedimento programado", 679.23, 1, "Clinico", "10000020021", "90011122233"
-	409, 2025-04-05, "Urgencia", 765.41, 1, "Clinico", "10000020062", "90011122233"
-	410, 2024-07-22, "Atendimento agendado", 554.89, 3, "Clinico", "10000020143", "90011122233"
-	411, 2025-04-02, "Consulta", 530.44, 3, "Clinico", "10000020093", "90011122233"
-	412, 2025-03-07, "Atendimento agendado", 221.16, 2, "Clinico", "10000020142", "90011122233"
-	413, 2025-10-30, "Urgencia", 610.92, 1, "Clinico", "10000020177", "90011122233"
-	414, 2025-04-06, "Procedimento programado", 755.33, 1, "Clinico", "10000020038", "90011122233"
-	415, 2024-03-22, "Retorno", 461.33, 2, "Clinico", "10000020038", "90011122233"
-	416, 2025-02-10, "Atendimento agendado", 541.12, 1, "Clinico", "10000020191", "90011122233"
-	417, 2024-11-12, "Retorno", 521.43, 1, "Clinico", "10000020059", "90011122233"
-	418, 2024-11-29, "Procedimento programado", 1300.45, 3, "Clinico", "10000020115", "90011122233"
-	419, 2025-07-31, "Procedimento programado", 653.53, 3, "Clinico", "10000020130", "90011122233"
-	420, 2024-11-11, "Urgencia", 442.49, 1, "Clinico", "10000020101", "90011122233"
-	421, 2024-12-18, "Urgencia", 772.46, 3, "Clinico", "10000020116", "90011122233"
-	422, 2025-07-15, "Urgencia", 586.2, 2, "Clinico", "10000020044", "90011122233"
-	423, 2025-02-03, "Procedimento programado", 263.51, 1, "Clinico", "10000020052", "90011122233"
-	424, 2025-06-28, "Urgencia", 132.77, 1, "Clinico", "10000020101", "90011122233"
-	425, 2025-09-24, "Procedimento programado", 164.11, 3, "Clinico", "10000020065", "90011122233"
-	426, 2024-01-23, "Retorno", 224.61, 1, "Clinico", "10000020022", "90011122233"
-	427, 2024-01-16, "Procedimento programado", 397.76, 1, "Clinico", "10000020051", "90011122233"
-	428, 2024-12-04, "Consulta", 457.39, 1, "Clinico", "10000020188", "90011122233"
-	429, 2024-07-15, "Urgencia", 1231.63, 1, "Clinico", "10000020093", "90011122233"
-	430, 2024-07-22, "Procedimento programado", 752.16, 1, "Clinico", "10000020184", "90011122233"
-	431, 2025-10-06, "Consulta", 199.04, 3, "Clinico", "10000020186", "90011122233"
-	432, 2024-08-11, "Consulta", 488.52, 2, "Clinico", "10000020056", "90011122233"
-	433, 2024-09-05, "Consulta", 1053.04, 3, "Clinico", "10000020006", "90011122233"
-	434, 2025-09-25, "Urgencia", 144.37, 1, "Clinico", "10000020190", "90011122233"
-	435, 2024-11-20, "Atendimento agendado", 804.96, 1, "Clinico", "10000020161", "90011122233"
-	436, 2025-05-11, "Procedimento programado", 292.76, 1, "Clinico", "10000020139", "90011122233"
-	437, 2024-10-08, "Atendimento agendado", 662.31, 1, "Clinico", "10000020137", "90011122233"
-	438, 2025-06-02, "Procedimento programado", 482.92, 1, "Clinico", "10000020183", "90011122233"
-	439, 2025-05-24, "Atendimento agendado", 132.85, 3, "Clinico", "10000020035", "90011122233"
-	440, 2024-03-09, "Consulta", 193.71, 1, "Clinico", "10000020029", "90011122233"
-	441, 2025-08-07, "Procedimento programado", 504.47, 2, "Clinico", "10000020164", "90011122233"
-	442, 2024-01-14, "Retorno", 468.51, 2, "Clinico", "10000020163", "90011122233"
-	443, 2025-01-12, "Consulta", 234.37, 1, "Clinico", "10000020153", "90011122233"
-	444, 2025-06-28, "Procedimento programado", 1186.49, 1, "Clinico", "10000020044", "90011122233"
-	445, 2024-04-16, "Retorno", 1177.29, 3, "Clinico", "10000020042", "90011122233"
-	446, 2024-11-28, "Urgencia", 1102.54, 2, "Clinico", "10000020101", "90011122233"
-	447, 2025-02-10, "Consulta", 1070.31, 1, "Clinico", "10000020181", "90011122233"
-	448, 2024-08-07, "Urgencia", 316.74, 1, "Clinico", "10000020001", "90011122233"
-	449, 2024-09-28, "Urgencia", 477.87, 1, "Clinico", "10000020145", "90011122233"
-	450, 2024-08-10, "Consulta", 496.42, 1, "Clinico", "10000020181", "90011122233"
-	451, 2024-02-08, "Atendimento agendado", 362.39, 1, "Clinico", "10000020093", "90011122233"
-	452, 2024-08-20, "Atendimento agendado", 454.95, 2, "Clinico", "10000010003", "90011122233"
-	453, 2024-11-30, "Atendimento agendado", 614.63, 1, "Clinico", "10000020174", "90011122233"
-	454, 2025-05-31, "Consulta", 302.13, 2, "Clinico", "10000020052", "90011122233"
-	455, 2025-08-08, "Consulta", 630.37, 2, "Clinico", "10000020136", "90011122233"
-	456, 2024-05-18, "Procedimento programado", 231.74, 1, "Clinico", "10000020139", "90011122233"
-	457, 2025-03-16, "Urgencia", 323.95, 3, "Clinico", "10000020171", "90011122233"
-	458, 2024-11-24, "Urgencia", 517.39, 1, "Clinico", "10000020148", "90011122233"
-	459, 2024-02-15, "Retorno", 1306.25, 1, "Clinico", "10000020047", "90011122233"
-	460, 2024-01-15, "Urgencia", 298.91, 1, "Clinico", "10000020173", "90011122233"
-	461, 2025-07-04, "Retorno", 1058.55, 3, "Clinico", "10000020048", "90011122233"
-	462, 2025-06-23, "Consulta", 89.81, 1, "Clinico", "10000020061", "90011122233"
-	463, 2024-01-09, "Consulta", 700.56, 1, "Clinico", "10000020095", "90011122233"
-	464, 2025-01-30, "Retorno", 189.81, 3, "Clinico", "10000020093", "90011122233"
-	465, 2025-04-13, "Atendimento agendado", 417.45, 1, "Clinico", "10000020178", "90011122233"
-	466, 2024-06-09, "Consulta", 1316.34, 1, "Clinico", "10000020084", "90011122233"
-	467, 2024-01-31, "Atendimento agendado", 115.85, 1, "Clinico", "10000020067", "90011122233"
-	468, 2025-06-17, "Atendimento agendado", 777.9, 1, "Clinico", "10000020156", "90011122233"
-	469, 2024-12-03, "Procedimento programado", 1069.49, 1, "Clinico", "10000020134", "90011122233"
-	470, 2025-08-01, "Retorno", 595.31, 1, "Clinico", "10000020077", "90011122233"
-	471, 2025-02-27, "Procedimento programado", 148.66, 2, "Clinico", "10000020073", "90011122233"
-	472, 2025-09-18, "Atendimento agendado", 1131.64, 3, "Clinico", "10000020064", "90011122233"
-	473, 2024-05-17, "Atendimento agendado", 405.39, 2, "Clinico", "10000020150", "90011122233"
-	474, 2024-07-16, "Retorno", 606.77, 2, "Clinico", "10000020004", "90011122233"
-	475, 2024-07-28, "Consulta", 1347.85, 2, "Clinico", "10000020041", "90011122233"
-	476, 2025-01-24, "Urgencia", 831.71, 3, "Clinico", "10000020096", "90011122233"
-	477, 2024-02-10, "Atendimento agendado", 348.53, 3, "Clinico", "10000020095", "90011122233"
-	478, 2024-10-19, "Procedimento programado", 989.67, 2, "Clinico", "10000020038", "90011122233"
-	479, 2024-07-03, "Atendimento agendado", 388.16, 3, "Clinico", "10000020174", "90011122233"
-	480, 2025-04-09, "Atendimento agendado", 568.79, 1, "Clinico", "10000020178", "90011122233"
-	481, 2024-06-16, "Consulta", 776.87, 1, "Clinico", "10000020019", "90011122233"
-	482, 2024-02-14, "Retorno", 626.87, 3, "Clinico", "10000020081", "90011122233"
-	483, 2025-03-05, "Urgencia", 1240.83, 2, "Clinico", "10000020075", "90011122233"
-	484, 2024-01-13, "Procedimento programado", 570.27, 2, "Clinico", "10000020123", "90011122233"
-	485, 2025-09-07, "Atendimento agendado", 266.17, 1, "Clinico", "10000010002", "90011122233"
-	486, 2025-08-14, "Atendimento agendado", 795.3, 1, "Clinico", "10000020072", "90011122233"
-	487, 2024-10-18, "Atendimento agendado", 119.84, 3, "Clinico", "10000020165", "90011122233"
-	488, 2024-11-26, "Urgencia", 700.02, 1, "Clinico", "10000020093", "90011122233"
-	489, 2025-06-21, "Retorno", 593.06, 1, "Clinico", "10000020174", "90011122233"
-	490, 2024-10-21, "Procedimento programado", 930.1, 1, "Clinico", "10000020151", "90011122233"
-	491, 2025-09-16, "Retorno", 398.66, 1, "Clinico", "10000020177", "90011122233"
-	492, 2024-07-31, "Atendimento agendado", 58.47, 2, "Clinico", "10000020102", "90011122233"
-	493, 2024-10-15, "Urgencia", 482.42, 1, "Clinico", "10000020013", "90011122233"
-	494, 2025-09-22, "Consulta", 647.94, 1, "Clinico", "10000020040", "90011122233"
-	495, 2024-05-19, "Procedimento programado", 676.33, 2, "Clinico", "10000020035", "90011122233"
-	496, 2025-08-01, "Urgencia", 99.66, 3, "Clinico", "10000020138", "90011122233"
-	497, 2024-10-14, "Consulta", 1078.77, 2, "Clinico", "10000020082", "90011122233"
-	498, 2025-02-27, "Consulta", 443.83, 1, "Clinico", "10000020123", "90011122233"
-	499, 2024-04-24, "Urgencia", 728.72, 1, "Clinico", "10000020005", "90011122233"
-	500, 2024-07-13, "Urgencia", 666.6, 3, "Clinico", "10000020119", "90011122233"
 }
 
 ItemAtendimento = {
-	idAtendimento:number, idProcedimento:number, CPF_Dentista:string, comissaoDentista:number, qtd:number, valorUnit:number, descontoItem:number
-	1, 6, "20202020202", 359.89, 1, 719.77, 0.0
-	2, 4, "10101010101", 180.58, 1, 361.15, 0.0
-	2, 6, "20202020202", 180.92, 1, 361.83, 0.0
-	3, 7, "20202020202", 27.21, 1, 54.42, 0.0
-	3, 6, "20202020202", 307.56, 1, 615.11, 0.0
-	4, 5, "20202020202", 207.12, 1, 414.23, 0.0
-	5, 1, "20202020202", 246.96, 1, 493.92, 0.0
-	6, 3, "10101010101", 122.56, 1, 245.12, 0.0
-	7, 7, "20202020202", 338.09, 1, 676.18, 0.0
-	8, 2, "10101010101", 307.84, 1, 615.67, 0.0
-	8, 4, "10101010101", 339.71, 1, 679.42, 0.0
-	9, 4, "20202020202", 287.30, 1, 574.6, 0.0
-	9, 6, "10101010101", 252.21, 1, 504.42, 0.0
-	10, 7, "20202020202", 378.05, 1, 756.1, 0.0
-	11, 5, "10101010101", 323.59, 1, 647.17, 0.0
-	11, 1, "20202020202", 224.78, 1, 449.56, 0.0
 	12, 8, "10101010101", 187.57, 1, 375.14, 0.0
-	13, 5, "20202020202", 199.33, 1, 398.66, 0.0
-	14, 8, "10101010101", 306.43, 1, 612.86, 0.0
-	15, 3, "20202020202", 104.55, 1, 209.09, 0.0
-	16, 4, "10101010101", 115.51, 1, 231.02, 0.0
-	16, 7, "20202020202", 233.19, 1, 466.38, 0.0
 	17, 4, "20202020202", 284.42, 1, 568.84, 0.0
 	18, 6, "20202020202", 288.57, 1, 577.14, 0.0
-	19, 2, "10101010101", 96.83, 1, 193.66, 0.0
-	20, 4, "20202020202", 110.31, 1, 220.61, 0.0
-	21, 1, "10101010101", 232.51, 1, 465.02, 0.0
-	22, 8, "20202020202", 152.77, 1, 305.53, 0.0
-	23, 2, "10101010101", 81.90, 1, 163.8, 0.0
-	24, 4, "20202020202", 193.95, 1, 387.89, 0.0
-	24, 8, "20202020202", 347.56, 1, 695.12, 0.0
-	25, 4, "20202020202", 272.66, 1, 545.32, 0.0
-	26, 7, "20202020202", 283.52, 1, 567.03, 0.0
-	27, 8, "10101010101", 282.77, 1, 565.54, 0.0
-	27, 5, "10101010101", 184.43, 1, 368.85, 0.0
-	28, 3, "20202020202", 248.14, 1, 496.28, 0.0
-	29, 7, "20202020202", 212.68, 1, 425.35, 0.0
-	29, 8, "20202020202", 55.17, 1, 110.33, 0.0
-	30, 4, "10101010101", 399.84, 1, 799.68, 0.0
-	31, 8, "20202020202", 93.06, 1, 186.12, 0.0
-	31, 7, "20202020202", 388.40, 1, 776.79, 0.0
-	32, 6, "20202020202", 285.13, 1, 570.26, 0.0
-	33, 5, "20202020202", 68.47, 1, 136.94, 0.0
-	34, 1, "10101010101", 219.42, 1, 438.83, 0.0
-	35, 3, "20202020202", 189.30, 1, 378.59, 0.0
-	36, 3, "20202020202", 231.57, 1, 463.13, 0.0
-	36, 7, "10101010101", 109.27, 1, 218.53, 0.0
-	37, 5, "20202020202", 180.81, 1, 361.62, 0.0
-	37, 8, "20202020202", 116.40, 1, 232.8, 0.0
-	38, 5, "20202020202", 152.46, 1, 304.91, 0.0
-	39, 8, "20202020202", 154.42, 1, 308.84, 0.0
 	40, 4, "20202020202", 112.59, 1, 225.17, 0.0
 	40, 7, "10101010101", 144.32, 1, 288.63, 0.0
-	41, 3, "20202020202", 351.14, 1, 702.28, 0.0
 	42, 3, "10101010101", 201.06, 1, 402.12, 0.0
-	43, 7, "20202020202", 260.05, 1, 520.1, 0.0
-	44, 5, "10101010101", 305.04, 1, 610.07, 0.0
-	44, 7, "10101010101", 310.14, 1, 620.28, 0.0
-	45, 6, "10101010101", 135.02, 1, 270.03, 0.0
-	46, 3, "10101010101", 90.65, 1, 181.3, 0.0
-	46, 7, "10101010101", 211.63, 1, 423.25, 0.0
 	47, 1, "20202020202", 362.96, 1, 725.91, 0.0
-	48, 5, "20202020202", 283.87, 1, 567.74, 0.0
-	48, 8, "20202020202", 99.71, 1, 199.41, 0.0
-	49, 5, "20202020202", 33.23, 1, 66.45, 0.0
-	49, 7, "20202020202", 28.04, 1, 56.07, 0.0
-	50, 6, "10101010101", 263.73, 1, 527.46, 0.0
-	51, 8, "10101010101", 242.34, 1, 484.68, 0.0
-	52, 4, "10101010101", 319.94, 1, 639.88, 0.0
-	53, 5, "20202020202", 326.59, 1, 653.17, 0.0
-	54, 6, "10101010101", 321.51, 1, 643.01, 0.0
-	54, 1, "20202020202", 226.22, 1, 452.43, 0.0
-	55, 4, "20202020202", 34.39, 1, 68.77, 0.0
-	56, 5, "20202020202", 68.76, 1, 137.51, 0.0
-	56, 1, "10101010101", 139.14, 1, 278.27, 0.0
-	57, 8, "20202020202", 276.43, 1, 552.86, 0.0
-	58, 2, "20202020202", 255.87, 1, 511.74, 0.0
-	58, 5, "10101010101", 283.86, 1, 567.71, 0.0
-	59, 6, "20202020202", 47.71, 1, 95.41, 0.0
-	59, 5, "10101010101", 388.08, 1, 776.16, 0.0
-	60, 6, "10101010101", 395.81, 1, 791.62, 0.0
-	61, 4, "10101010101", 148.21, 1, 296.42, 0.0
-	61, 3, "10101010101", 128.98, 1, 257.96, 0.0
-	62, 1, "10101010101", 30.58, 1, 61.15, 0.0
-	62, 4, "20202020202", 30.92, 1, 61.84, 0.0
-	63, 2, "20202020202", 193.11, 1, 386.21, 0.0
-	63, 6, "10101010101", 194.50, 1, 389.0, 0.0
-	64, 1, "10101010101", 399.47, 1, 798.94, 0.0
 	65, 6, "10101010101", 49.63, 1, 99.26, 0.0
-	66, 5, "20202020202", 214.58, 1, 429.16, 0.0
-	66, 7, "10101010101", 322.41, 1, 644.82, 0.0
-	67, 4, "20202020202", 152.10, 1, 304.2, 0.0
-	68, 6, "20202020202", 165.37, 1, 330.73, 0.0
-	69, 2, "20202020202", 329.42, 1, 658.83, 0.0
-	70, 2, "20202020202", 157.60, 1, 315.2, 0.0
-	70, 7, "10101010101", 388.15, 1, 776.3, 0.0
-	71, 8, "10101010101", 342.73, 1, 685.46, 0.0
-	72, 1, "20202020202", 35.86, 1, 71.71, 0.0
 	73, 7, "10101010101", 78.21, 1, 156.41, 0.0
-	74, 7, "20202020202", 152.84, 1, 305.67, 0.0
-	75, 3, "10101010101", 307.92, 1, 615.83, 0.0
 	76, 8, "20202020202", 127.44, 1, 254.88, 0.0
 	76, 2, "20202020202", 186.22, 1, 372.44, 0.0
 	77, 7, "10101010101", 27.89, 1, 55.77, 0.0
-	78, 2, "10101010101", 211.52, 1, 423.04, 0.0
 	79, 6, "10101010101", 173.90, 1, 347.8, 0.0
 	79, 1, "20202020202", 32.03, 1, 64.06, 0.0
 	80, 7, "20202020202", 68.19, 1, 136.38, 0.0
 	80, 1, "20202020202", 89.45, 1, 178.9, 0.0
-	81, 7, "20202020202", 221.49, 1, 442.97, 0.0
-	82, 2, "10101010101", 364.72, 1, 729.44, 0.0
-	83, 4, "10101010101", 250.90, 1, 501.8, 0.0
-	84, 8, "20202020202", 349.10, 1, 698.19, 0.0
-	84, 6, "10101010101", 189.91, 1, 379.82, 0.0
-	85, 2, "20202020202", 198.16, 1, 396.31, 0.0
-	86, 7, "20202020202", 242.63, 1, 485.25, 0.0
-	86, 1, "20202020202", 365.90, 1, 731.79, 0.0
-	87, 3, "10101010101", 193.95, 1, 387.89, 0.0
-	87, 6, "10101010101", 214.21, 1, 428.41, 0.0
-	88, 3, "20202020202", 164.82, 1, 329.64, 0.0
-	88, 5, "20202020202", 178.29, 1, 356.58, 0.0
-	89, 2, "20202020202", 131.56, 1, 263.11, 0.0
-	90, 5, "20202020202", 73.36, 1, 146.71, 0.0
-	91, 2, "20202020202", 215.69, 1, 431.37, 0.0
-	92, 4, "10101010101", 399.99, 1, 799.98, 0.0
-	93, 6, "10101010101", 248.97, 1, 497.93, 0.0
-	93, 3, "10101010101", 92.82, 1, 185.63, 0.0
-	94, 6, "10101010101", 388.60, 1, 777.19, 0.0
-	95, 8, "10101010101", 162.94, 1, 325.88, 0.0
-	96, 7, "10101010101", 331.34, 1, 662.67, 0.0
-	96, 3, "20202020202", 44.57, 1, 89.13, 0.0
-	97, 2, "10101010101", 127.30, 1, 254.59, 0.0
-	98, 1, "20202020202", 44.97, 1, 89.94, 0.0
 	99, 1, "20202020202", 374.06, 1, 748.12, 0.0
-	100, 8, "10101010101", 309.57, 1, 619.13, 0.0
-	101, 4, "10101010101", 230.80, 1, 461.6, 0.0
 	102, 5, "10101010101", 42.91, 1, 85.81, 0.0
 	103, 1, "10101010101", 294.46, 1, 588.91, 0.0
-	104, 7, "10101010101", 274.14, 1, 548.28, 0.0
-	104, 2, "20202020202", 50.38, 1, 100.76, 0.0
 	105, 8, "10101010101", 263.38, 1, 526.75, 0.0
 	106, 2, "20202020202", 75.03, 1, 150.06, 0.0
-	107, 8, "10101010101", 329.31, 1, 658.62, 0.0
-	107, 2, "20202020202", 38.87, 1, 77.74, 0.0
-	108, 7, "20202020202", 120.00, 1, 239.99, 0.0
-	108, 4, "20202020202", 158.87, 1, 317.73, 0.0
-	109, 8, "20202020202", 152.14, 1, 304.28, 0.0
 	110, 7, "10101010101", 186.48, 1, 372.96, 0.0
-	111, 5, "20202020202", 192.22, 1, 384.44, 0.0
-	112, 1, "20202020202", 255.57, 1, 511.14, 0.0
-	113, 3, "10101010101", 78.54, 1, 157.08, 0.0
-	113, 8, "10101010101", 72.34, 1, 144.67, 0.0
 	114, 3, "20202020202", 380.81, 1, 761.62, 0.0
 	114, 6, "20202020202", 311.16, 1, 622.31, 0.0
 	115, 5, "10101010101", 385.20, 1, 770.39, 0.0
 	115, 1, "10101010101", 212.14, 1, 424.28, 0.0
-	116, 5, "20202020202", 100.07, 1, 200.13, 0.0
-	117, 6, "20202020202", 291.08, 1, 582.16, 0.0
-	117, 5, "20202020202", 344.26, 1, 688.52, 0.0
 	118, 4, "10101010101", 113.78, 1, 227.55, 0.0
-	119, 3, "10101010101", 49.66, 1, 99.31, 0.0
 	120, 6, "10101010101", 193.74, 1, 387.48, 0.0
-	121, 7, "10101010101", 336.77, 1, 673.54, 0.0
-	122, 4, "20202020202", 380.31, 1, 760.61, 0.0
-	122, 5, "10101010101", 118.98, 1, 237.95, 0.0
-	123, 3, "10101010101", 89.20, 1, 178.4, 0.0
-	123, 6, "10101010101", 334.47, 1, 668.93, 0.0
-	124, 4, "20202020202", 256.79, 1, 513.58, 0.0
-	124, 1, "20202020202", 358.38, 1, 716.75, 0.0
 	125, 8, "10101010101", 283.23, 1, 566.46, 0.0
 	126, 3, "20202020202", 348.06, 1, 696.11, 0.0
-	127, 4, "20202020202", 70.95, 1, 141.89, 0.0
-	128, 7, "10101010101", 386.01, 1, 772.01, 0.0
-	129, 8, "20202020202", 212.04, 1, 424.07, 0.0
-	130, 4, "20202020202", 43.25, 1, 86.49, 0.0
-	131, 1, "10101010101", 186.60, 1, 373.2, 0.0
-	131, 5, "20202020202", 311.45, 1, 622.89, 0.0
-	132, 5, "10101010101", 169.88, 1, 339.76, 0.0
-	133, 2, "20202020202", 164.95, 1, 329.9, 0.0
-	134, 7, "10101010101", 41.99, 1, 83.98, 0.0
-	134, 3, "20202020202", 326.49, 1, 652.97, 0.0
-	135, 6, "10101010101", 172.36, 1, 344.72, 0.0
-	136, 5, "20202020202", 330.91, 1, 661.81, 0.0
-	136, 6, "20202020202", 277.68, 1, 555.35, 0.0
-	137, 4, "10101010101", 243.82, 1, 487.64, 0.0
-	138, 4, "10101010101", 239.72, 1, 479.43, 0.0
-	138, 2, "10101010101", 32.10, 1, 64.2, 0.0
 	139, 8, "10101010101", 289.67, 1, 579.33, 0.0
 	139, 4, "20202020202", 399.30, 1, 798.59, 0.0
-	140, 6, "20202020202", 278.45, 1, 556.9, 0.0
-	140, 5, "20202020202", 97.10, 1, 194.2, 0.0
-	141, 4, "20202020202", 143.89, 1, 287.78, 0.0
-	142, 6, "10101010101", 133.92, 1, 267.84, 0.0
 	143, 4, "20202020202", 374.89, 1, 749.77, 0.0
-	144, 1, "10101010101", 264.23, 1, 528.46, 0.0
-	145, 3, "10101010101", 386.70, 1, 773.39, 0.0
-	145, 3, "20202020202", 269.84, 1, 539.67, 0.0
-	146, 1, "10101010101", 269.61, 1, 539.22, 0.0
-	147, 7, "20202020202", 94.87, 1, 189.73, 0.0
-	148, 5, "20202020202", 395.91, 1, 791.82, 0.0
-	149, 4, "10101010101", 149.01, 1, 298.01, 0.0
-	150, 6, "20202020202", 237.92, 1, 475.84, 0.0
-	150, 4, "10101010101", 254.11, 1, 508.22, 0.0
 	151, 2, "10101010101", 393.13, 1, 786.26, 0.0
-	152, 8, "20202020202", 382.77, 1, 765.53, 0.0
-	153, 4, "10101010101", 275.42, 1, 550.84, 0.0
-	153, 8, "20202020202", 84.90, 1, 169.79, 0.0
-	154, 4, "10101010101", 384.01, 1, 768.02, 0.0
-	155, 8, "10101010101", 310.70, 1, 621.39, 0.0
 	156, 2, "10101010101", 335.79, 1, 671.58, 0.0
-	157, 8, "10101010101", 280.11, 1, 560.22, 0.0
-	158, 8, "10101010101", 217.47, 1, 434.94, 0.0
-	159, 1, "20202020202", 120.42, 1, 240.84, 0.0
-	159, 1, "10101010101", 241.87, 1, 483.73, 0.0
-	160, 8, "10101010101", 132.66, 1, 265.32, 0.0
 	161, 7, "10101010101", 281.03, 1, 562.05, 0.0
-	162, 7, "10101010101", 297.95, 1, 595.89, 0.0
-	163, 7, "10101010101", 117.82, 1, 235.63, 0.0
-	163, 6, "10101010101", 128.37, 1, 256.74, 0.0
-	164, 4, "10101010101", 62.84, 1, 125.67, 0.0
-	165, 1, "20202020202", 189.61, 1, 379.22, 0.0
-	165, 4, "10101010101", 77.55, 1, 155.1, 0.0
-	166, 5, "10101010101", 394.64, 1, 789.27, 0.0
-	167, 3, "20202020202", 233.45, 1, 466.89, 0.0
-	167, 1, "20202020202", 378.10, 1, 756.19, 0.0
-	168, 5, "20202020202", 93.96, 1, 187.91, 0.0
-	169, 1, "20202020202", 387.92, 1, 775.84, 0.0
 	170, 6, "10101010101", 370.84, 1, 741.67, 0.0
-	171, 7, "10101010101", 352.61, 1, 705.22, 0.0
-	172, 5, "10101010101", 104.43, 1, 208.86, 0.0
-	173, 4, "20202020202", 315.82, 1, 631.64, 0.0
-	174, 6, "20202020202", 199.75, 1, 399.5, 0.0
-	175, 1, "10101010101", 302.97, 1, 605.94, 0.0
-	176, 3, "10101010101", 148.70, 1, 297.4, 0.0
 	177, 8, "20202020202", 197.81, 1, 395.62, 0.0
-	178, 1, "10101010101", 339.65, 1, 679.3, 0.0
 	179, 3, "10101010101", 107.02, 1, 214.04, 0.0
-	180, 8, "10101010101", 27.48, 1, 54.96, 0.0
-	180, 7, "10101010101", 31.27, 1, 62.54, 0.0
-	181, 2, "10101010101", 221.65, 1, 443.29, 0.0
 	182, 7, "10101010101", 164.90, 1, 329.79, 0.0
-	183, 2, "10101010101", 60.07, 1, 120.13, 0.0
-	183, 7, "20202020202", 232.27, 1, 464.53, 0.0
-	184, 7, "20202020202", 237.20, 1, 474.39, 0.0
-	185, 1, "10101010101", 281.66, 1, 563.32, 0.0
-	186, 1, "10101010101", 245.14, 1, 490.28, 0.0
-	187, 7, "20202020202", 168.94, 1, 337.88, 0.0
-	187, 3, "10101010101", 212.80, 1, 425.59, 0.0
 	188, 7, "20202020202", 36.11, 1, 72.22, 0.0
-	189, 3, "20202020202", 57.14, 1, 114.27, 0.0
-	190, 3, "20202020202", 291.88, 1, 583.76, 0.0
-	191, 1, "20202020202", 191.78, 1, 383.55, 0.0
-	192, 7, "10101010101", 34.85, 1, 69.7, 0.0
-	193, 1, "20202020202", 180.18, 1, 360.36, 0.0
-	194, 7, "10101010101", 77.07, 1, 154.13, 0.0
-	194, 5, "20202020202", 209.92, 1, 419.84, 0.0
-	195, 2, "20202020202", 119.39, 1, 238.77, 0.0
-	196, 2, "10101010101", 139.25, 1, 278.49, 0.0
 	197, 7, "10101010101", 137.67, 1, 275.33, 0.0
-	198, 5, "20202020202", 387.91, 1, 775.82, 0.0
-	199, 4, "10101010101", 280.64, 1, 561.28, 0.0
-	200, 2, "20202020202", 277.37, 1, 554.73, 0.0
-	201, 7, "20202020202", 52.74, 1, 105.47, 0.0
-	201, 8, "20202020202", 225.39, 1, 450.78, 0.0
-	202, 4, "20202020202", 87.38, 1, 174.75, 0.0
-	203, 2, "10101010101", 61.98, 1, 123.95, 0.0
-	204, 6, "20202020202", 198.65, 1, 397.3, 0.0
-	205, 2, "20202020202", 180.99, 1, 361.98, 0.0
 	206, 4, "20202020202", 155.62, 1, 311.23, 0.0
-	207, 2, "10101010101", 343.45, 1, 686.89, 0.0
-	208, 3, "20202020202", 234.95, 1, 469.89, 0.0
-	208, 8, "10101010101", 324.16, 1, 648.32, 0.0
-	209, 4, "20202020202", 247.08, 1, 494.15, 0.0
-	210, 2, "10101010101", 162.17, 1, 324.34, 0.0
-	210, 4, "20202020202", 67.74, 1, 135.47, 0.0
-	211, 7, "10101010101", 155.47, 1, 310.94, 0.0
-	211, 8, "10101010101", 330.15, 1, 660.3, 0.0
-	212, 2, "10101010101", 139.52, 1, 279.04, 0.0
 	213, 3, "20202020202", 183.64, 1, 367.28, 0.0
 	213, 8, "10101010101", 233.09, 1, 466.18, 0.0
-	214, 1, "20202020202", 381.94, 1, 763.88, 0.0
-	214, 8, "10101010101", 98.18, 1, 196.35, 0.0
-	215, 8, "20202020202", 291.31, 1, 582.61, 0.0
-	215, 8, "20202020202", 87.72, 1, 175.44, 0.0
-	216, 5, "10101010101", 317.78, 1, 635.56, 0.0
 	217, 6, "10101010101", 310.00, 1, 620.0, 0.0
 	218, 1, "20202020202", 123.56, 1, 247.11, 0.0
-	219, 6, "20202020202", 87.25, 1, 174.49, 0.0
-	219, 3, "10101010101", 330.08, 1, 660.15, 0.0
-	220, 5, "20202020202", 239.78, 1, 479.55, 0.0
-	221, 3, "10101010101", 118.63, 1, 237.26, 0.0
-	222, 5, "20202020202", 165.69, 1, 331.38, 0.0
 	223, 6, "20202020202", 381.35, 1, 762.69, 0.0
 	223, 6, "10101010101", 350.84, 1, 701.68, 0.0
-	224, 7, "10101010101", 388.05, 1, 776.1, 0.0
-	224, 4, "20202020202", 125.70, 1, 251.4, 0.0
-	225, 1, "10101010101", 62.34, 1, 124.68, 0.0
-	226, 7, "10101010101", 398.39, 1, 796.77, 0.0
-	227, 6, "20202020202", 55.91, 1, 111.82, 0.0
-	227, 3, "10101010101", 173.63, 1, 347.26, 0.0
-	228, 4, "20202020202", 54.23, 1, 108.45, 0.0
-	229, 6, "10101010101", 395.56, 1, 791.12, 0.0
-	230, 2, "10101010101", 142.51, 1, 285.01, 0.0
-	231, 1, "10101010101", 190.04, 1, 380.07, 0.0
 	232, 2, "10101010101", 77.51, 1, 155.01, 0.0
 	233, 4, "20202020202", 266.74, 1, 533.47, 0.0
-	234, 1, "20202020202", 102.04, 1, 204.08, 0.0
-	234, 4, "20202020202", 135.83, 1, 271.66, 0.0
 	235, 2, "10101010101", 395.08, 1, 790.16, 0.0
-	236, 3, "20202020202", 382.92, 1, 765.84, 0.0
-	236, 2, "10101010101", 245.26, 1, 490.52, 0.0
-	237, 5, "20202020202", 183.84, 1, 367.68, 0.0
-	237, 7, "10101010101", 265.20, 1, 530.4, 0.0
-	238, 4, "10101010101", 226.15, 1, 452.29, 0.0
-	239, 4, "10101010101", 371.74, 1, 743.47, 0.0
-	240, 3, "10101010101", 29.75, 1, 59.5, 0.0
-	240, 3, "10101010101", 86.44, 1, 172.87, 0.0
-	241, 3, "20202020202", 299.85, 1, 599.7, 0.0
 	242, 2, "20202020202", 195.70, 1, 391.4, 0.0
-	243, 5, "10101010101", 360.35, 1, 720.7, 0.0
-	244, 1, "10101010101", 42.25, 1, 84.49, 0.0
-	245, 6, "10101010101", 181.10, 1, 362.19, 0.0
-	246, 1, "10101010101", 108.70, 1, 217.39, 0.0
-	247, 6, "10101010101", 232.41, 1, 464.82, 0.0
-	248, 4, "20202020202", 163.11, 1, 326.21, 0.0
-	248, 8, "10101010101", 299.68, 1, 599.35, 0.0
-	249, 6, "10101010101", 381.62, 1, 763.24, 0.0
-	250, 8, "10101010101", 389.71, 1, 779.42, 0.0
-	251, 6, "20202020202", 390.46, 1, 780.92, 0.0
-	251, 2, "10101010101", 214.54, 1, 429.07, 0.0
-	252, 3, "10101010101", 134.38, 1, 268.76, 0.0
-	253, 2, "10101010101", 76.04, 1, 152.08, 0.0
-	254, 6, "20202020202", 70.28, 1, 140.55, 0.0
-	255, 2, "10101010101", 327.85, 1, 655.7, 0.0
-	256, 4, "20202020202", 173.59, 1, 347.18, 0.0
-	257, 4, "10101010101", 198.27, 1, 396.53, 0.0
-	258, 7, "20202020202", 282.36, 1, 564.71, 0.0
-	259, 2, "10101010101", 363.44, 1, 726.87, 0.0
-	260, 1, "10101010101", 371.55, 1, 743.1, 0.0
-	261, 6, "10101010101", 365.62, 1, 731.23, 0.0
-	262, 5, "20202020202", 179.50, 1, 358.99, 0.0
-	262, 8, "10101010101", 57.90, 1, 115.79, 0.0
-	263, 1, "20202020202", 318.22, 1, 636.44, 0.0
-	263, 6, "20202020202", 229.20, 1, 458.39, 0.0
 	264, 3, "10101010101", 144.58, 1, 289.16, 0.0
-	265, 4, "10101010101", 62.55, 1, 125.1, 0.0
-	265, 4, "20202020202", 225.14, 1, 450.27, 0.0
-	266, 3, "10101010101", 247.20, 1, 494.39, 0.0
-	267, 4, "20202020202", 228.30, 1, 456.59, 0.0
-	267, 3, "20202020202", 39.24, 1, 78.47, 0.0
-	268, 6, "10101010101", 327.42, 1, 654.83, 0.0
-	269, 3, "10101010101", 342.43, 1, 684.86, 0.0
-	269, 6, "10101010101", 165.10, 1, 330.19, 0.0
-	270, 3, "10101010101", 299.63, 1, 599.26, 0.0
-	271, 6, "10101010101", 274.58, 1, 549.15, 0.0
-	271, 3, "20202020202", 140.06, 1, 280.12, 0.0
-	272, 1, "10101010101", 250.90, 1, 501.79, 0.0
-	272, 4, "10101010101", 376.26, 1, 752.52, 0.0
-	273, 2, "20202020202", 192.49, 1, 384.97, 0.0
-	274, 2, "10101010101", 43.06, 1, 86.11, 0.0
 	275, 7, "10101010101", 335.81, 1, 671.61, 0.0
-	276, 5, "10101010101", 144.52, 1, 289.04, 0.0
-	277, 2, "10101010101", 151.73, 1, 303.46, 0.0
-	277, 8, "10101010101", 186.75, 1, 373.49, 0.0
 	278, 6, "10101010101", 390.40, 1, 780.8, 0.0
-	279, 2, "10101010101", 172.34, 1, 344.68, 0.0
-	280, 2, "20202020202", 333.96, 1, 667.92, 0.0
-	281, 3, "20202020202", 391.40, 1, 782.79, 0.0
 	282, 5, "10101010101", 265.70, 1, 531.4, 0.0
 	282, 7, "10101010101", 164.14, 1, 328.27, 0.0
 	283, 8, "20202020202", 109.84, 1, 219.68, 0.0
-	284, 6, "20202020202", 389.02, 1, 778.03, 0.0
-	284, 4, "10101010101", 340.30, 1, 680.6, 0.0
-	285, 5, "10101010101", 173.05, 1, 346.1, 0.0
-	286, 8, "10101010101", 380.90, 1, 761.8, 0.0
-	287, 7, "10101010101", 398.98, 1, 797.95, 0.0
-	288, 7, "20202020202", 232.02, 1, 464.04, 0.0
-	289, 7, "10101010101", 80.58, 1, 161.15, 0.0
-	290, 6, "20202020202", 124.05, 1, 248.1, 0.0
-	291, 5, "20202020202", 78.95, 1, 157.89, 0.0
 	292, 8, "20202020202", 361.39, 1, 722.77, 0.0
-	293, 2, "10101010101", 75.40, 1, 150.79, 0.0
-	293, 8, "20202020202", 126.03, 1, 252.06, 0.0
-	294, 8, "20202020202", 332.88, 1, 665.76, 0.0
-	295, 1, "10101010101", 97.29, 1, 194.57, 0.0
-	296, 4, "20202020202", 163.13, 1, 326.26, 0.0
-	297, 6, "20202020202", 247.77, 1, 495.53, 0.0
-	298, 5, "10101010101", 131.90, 1, 263.8, 0.0
-	299, 4, "10101010101", 125.91, 1, 251.81, 0.0
-	299, 7, "10101010101", 349.24, 1, 698.47, 0.0
-	300, 5, "20202020202", 292.28, 1, 584.56, 0.0
-	301, 5, "10101010101", 200.01, 1, 400.02, 0.0
-	302, 6, "20202020202", 136.93, 1, 273.86, 0.0
-	303, 5, "20202020202", 95.64, 1, 191.27, 0.0
-	304, 3, "10101010101", 270.78, 1, 541.55, 0.0
-	304, 5, "20202020202", 365.09, 1, 730.18, 0.0
-	305, 4, "20202020202", 364.95, 1, 729.89, 0.0
-	306, 2, "20202020202", 72.98, 1, 145.96, 0.0
-	307, 6, "10101010101", 304.08, 1, 608.16, 0.0
-	308, 2, "20202020202", 45.13, 1, 90.26, 0.0
-	309, 2, "20202020202", 223.69, 1, 447.38, 0.0
-	310, 8, "10101010101", 143.65, 1, 287.29, 0.0
-	311, 1, "10101010101", 194.52, 1, 389.04, 0.0
-	312, 3, "20202020202", 262.56, 1, 525.12, 0.0
-	313, 4, "20202020202", 381.28, 1, 762.55, 0.0
-	313, 6, "10101010101", 31.72, 1, 63.44, 0.0
-	314, 2, "20202020202", 213.75, 1, 427.5, 0.0
-	315, 6, "20202020202", 357.99, 1, 715.98, 0.0
-	316, 1, "10101010101", 109.12, 1, 218.24, 0.0
-	317, 6, "10101010101", 165.70, 1, 331.39, 0.0
-	318, 2, "10101010101", 43.09, 1, 86.18, 0.0
-	318, 2, "20202020202", 191.62, 1, 383.24, 0.0
-	319, 1, "20202020202", 182.83, 1, 365.65, 0.0
-	319, 2, "20202020202", 258.55, 1, 517.1, 0.0
-	320, 2, "10101010101", 211.65, 1, 423.3, 0.0
-	321, 7, "20202020202", 85.14, 1, 170.28, 0.0
-	321, 8, "10101010101", 283.08, 1, 566.15, 0.0
-	322, 8, "10101010101", 381.04, 1, 762.08, 0.0
-	323, 5, "20202020202", 43.78, 1, 87.56, 0.0
-	324, 2, "10101010101", 344.22, 1, 688.43, 0.0
-	324, 1, "10101010101", 344.50, 1, 689.0, 0.0
-	325, 5, "10101010101", 164.74, 1, 329.47, 0.0
-	325, 6, "10101010101", 67.69, 1, 135.37, 0.0
-	326, 3, "10101010101", 74.69, 1, 149.38, 0.0
-	326, 1, "10101010101", 63.89, 1, 127.78, 0.0
-	327, 7, "20202020202", 254.26, 1, 508.52, 0.0
-	327, 3, "20202020202", 370.15, 1, 740.3, 0.0
-	328, 6, "10101010101", 289.22, 1, 578.43, 0.0
-	328, 4, "20202020202", 219.66, 1, 439.32, 0.0
-	329, 7, "10101010101", 339.64, 1, 679.27, 0.0
-	330, 3, "10101010101", 306.79, 1, 613.57, 0.0
-	331, 7, "20202020202", 331.42, 1, 662.83, 0.0
-	331, 2, "20202020202", 191.57, 1, 383.14, 0.0
-	332, 8, "10101010101", 63.49, 1, 126.98, 0.0
-	333, 5, "10101010101", 270.48, 1, 540.95, 0.0
-	333, 8, "20202020202", 161.26, 1, 322.51, 0.0
-	334, 6, "20202020202", 67.76, 1, 135.52, 0.0
-	334, 4, "10101010101", 153.01, 1, 306.02, 0.0
-	335, 3, "20202020202", 77.67, 1, 155.34, 0.0
-	336, 2, "20202020202", 105.85, 1, 211.69, 0.0
-	337, 2, "20202020202", 196.52, 1, 393.04, 0.0
-	337, 3, "20202020202", 26.63, 1, 53.25, 0.0
-	338, 3, "10101010101", 298.94, 1, 597.87, 0.0
-	338, 3, "10101010101", 170.28, 1, 340.55, 0.0
-	339, 4, "20202020202", 174.20, 1, 348.4, 0.0
-	339, 6, "20202020202", 194.82, 1, 389.63, 0.0
-	340, 6, "10101010101", 100.34, 1, 200.67, 0.0
-	340, 5, "20202020202", 370.45, 1, 740.89, 0.0
-	341, 2, "20202020202", 235.86, 1, 471.71, 0.0
-	341, 7, "20202020202", 354.06, 1, 708.11, 0.0
-	342, 1, "10101010101", 99.97, 1, 199.93, 0.0
-	343, 1, "20202020202", 330.26, 1, 660.52, 0.0
-	344, 5, "10101010101", 372.43, 1, 744.86, 0.0
-	345, 5, "10101010101", 257.71, 1, 515.42, 0.0
-	345, 8, "10101010101", 366.81, 1, 733.61, 0.0
-	346, 4, "20202020202", 193.31, 1, 386.61, 0.0
-	346, 2, "10101010101", 385.93, 1, 771.86, 0.0
-	347, 5, "10101010101", 85.35, 1, 170.7, 0.0
-	348, 6, "10101010101", 315.13, 1, 630.25, 0.0
-	349, 6, "10101010101", 383.87, 1, 767.74, 0.0
-	350, 6, "10101010101", 356.28, 1, 712.55, 0.0
-	351, 8, "10101010101", 68.02, 1, 136.04, 0.0
-	351, 6, "20202020202", 115.13, 1, 230.26, 0.0
-	352, 2, "20202020202", 121.22, 1, 242.44, 0.0
-	353, 1, "20202020202", 361.86, 1, 723.71, 0.0
-	354, 1, "10101010101", 104.05, 1, 208.09, 0.0
-	354, 4, "20202020202", 338.38, 1, 676.75, 0.0
-	355, 8, "20202020202", 39.21, 1, 78.41, 0.0
-	356, 4, "20202020202", 177.86, 1, 355.72, 0.0
-	356, 8, "20202020202", 187.39, 1, 374.77, 0.0
-	357, 1, "10101010101", 159.14, 1, 318.28, 0.0
-	357, 2, "20202020202", 320.09, 1, 640.17, 0.0
-	358, 1, "20202020202", 83.62, 1, 167.24, 0.0
-	359, 6, "10101010101", 232.57, 1, 465.14, 0.0
-	360, 2, "20202020202", 103.77, 1, 207.54, 0.0
-	360, 6, "10101010101", 179.75, 1, 359.49, 0.0
-	361, 5, "10101010101", 67.99, 1, 135.97, 0.0
-	361, 1, "20202020202", 266.76, 1, 533.51, 0.0
-	362, 8, "20202020202", 158.93, 1, 317.85, 0.0
-	362, 4, "10101010101", 131.93, 1, 263.85, 0.0
-	363, 5, "10101010101", 237.08, 1, 474.16, 0.0
-	363, 6, "20202020202", 384.50, 1, 768.99, 0.0
-	364, 6, "10101010101", 279.85, 1, 559.69, 0.0
-	365, 2, "10101010101", 267.08, 1, 534.16, 0.0
-	366, 2, "10101010101", 359.54, 1, 719.08, 0.0
-	366, 1, "20202020202", 313.45, 1, 626.9, 0.0
-	367, 3, "20202020202", 172.19, 1, 344.37, 0.0
-	367, 5, "10101010101", 199.27, 1, 398.53, 0.0
-	368, 4, "10101010101", 308.95, 1, 617.9, 0.0
-	368, 3, "20202020202", 84.71, 1, 169.42, 0.0
-	369, 4, "20202020202", 111.91, 1, 223.81, 0.0
-	370, 8, "20202020202", 355.58, 1, 711.16, 0.0
-	371, 5, "10101010101", 166.25, 1, 332.49, 0.0
-	371, 7, "20202020202", 245.38, 1, 490.76, 0.0
-	372, 6, "20202020202", 322.25, 1, 644.49, 0.0
-	373, 2, "20202020202", 104.32, 1, 208.64, 0.0
-	374, 6, "10101010101", 205.57, 1, 411.14, 0.0
-	375, 4, "10101010101", 72.96, 1, 145.91, 0.0
-	376, 3, "10101010101", 87.38, 1, 174.76, 0.0
-	376, 3, "20202020202", 249.76, 1, 499.52, 0.0
-	377, 8, "20202020202", 350.24, 1, 700.48, 0.0
-	378, 5, "10101010101", 296.57, 1, 593.14, 0.0
-	378, 6, "20202020202", 248.70, 1, 497.4, 0.0
-	379, 4, "20202020202", 334.95, 1, 669.89, 0.0
-	380, 2, "10101010101", 205.84, 1, 411.68, 0.0
-	380, 3, "10101010101", 361.37, 1, 722.73, 0.0
-	381, 7, "10101010101", 376.91, 1, 753.82, 0.0
-	382, 3, "20202020202", 203.93, 1, 407.86, 0.0
-	383, 4, "10101010101", 290.93, 1, 581.86, 0.0
-	384, 4, "20202020202", 178.32, 1, 356.63, 0.0
-	385, 7, "20202020202", 254.46, 1, 508.91, 0.0
-	386, 6, "20202020202", 120.17, 1, 240.33, 0.0
-	387, 2, "10101010101", 192.48, 1, 384.95, 0.0
-	387, 3, "10101010101", 105.42, 1, 210.84, 0.0
-	388, 1, "10101010101", 333.72, 1, 667.44, 0.0
-	389, 6, "10101010101", 253.39, 1, 506.77, 0.0
-	390, 1, "10101010101", 265.11, 1, 530.22, 0.0
-	390, 8, "10101010101", 100.64, 1, 201.28, 0.0
-	391, 3, "10101010101", 159.90, 1, 319.8, 0.0
-	391, 1, "10101010101", 57.57, 1, 115.13, 0.0
-	392, 4, "10101010101", 301.35, 1, 602.69, 0.0
-	392, 2, "10101010101", 231.10, 1, 462.19, 0.0
-	393, 4, "20202020202", 373.65, 1, 747.29, 0.0
-	394, 2, "20202020202", 152.49, 1, 304.97, 0.0
-	394, 2, "20202020202", 353.54, 1, 707.08, 0.0
-	395, 6, "20202020202", 280.60, 1, 561.2, 0.0
-	396, 4, "10101010101", 325.06, 1, 650.12, 0.0
-	397, 5, "10101010101", 174.60, 1, 349.2, 0.0
-	398, 6, "10101010101", 360.37, 1, 720.74, 0.0
-	399, 4, "20202020202", 102.54, 1, 205.08, 0.0
-	399, 4, "10101010101", 338.63, 1, 677.25, 0.0
-	400, 1, "10101010101", 343.01, 1, 686.01, 0.0
-	400, 6, "20202020202", 209.63, 1, 419.26, 0.0
-	401, 4, "10101010101", 45.31, 1, 90.61, 0.0
-	402, 3, "20202020202", 391.19, 1, 782.38, 0.0
-	403, 4, "20202020202", 242.88, 1, 485.76, 0.0
-	403, 6, "20202020202", 254.79, 1, 509.58, 0.0
-	404, 6, "20202020202", 93.97, 1, 187.94, 0.0
-	405, 5, "20202020202", 92.46, 1, 184.92, 0.0
-	406, 7, "20202020202", 98.53, 1, 197.05, 0.0
-	406, 3, "20202020202", 327.13, 1, 654.25, 0.0
-	407, 5, "20202020202", 235.80, 1, 471.6, 0.0
-	408, 5, "20202020202", 339.62, 1, 679.23, 0.0
-	409, 5, "20202020202", 32.44, 1, 64.88, 0.0
-	409, 2, "20202020202", 350.27, 1, 700.53, 0.0
-	410, 6, "20202020202", 277.45, 1, 554.89, 0.0
-	411, 3, "10101010101", 265.22, 1, 530.44, 0.0
-	412, 3, "20202020202", 110.58, 1, 221.16, 0.0
-	413, 8, "20202020202", 305.46, 1, 610.92, 0.0
-	414, 4, "20202020202", 377.67, 1, 755.33, 0.0
-	415, 2, "20202020202", 230.67, 1, 461.33, 0.0
-	416, 3, "10101010101", 270.56, 1, 541.12, 0.0
-	417, 3, "10101010101", 222.53, 1, 445.06, 0.0
-	417, 3, "10101010101", 38.19, 1, 76.37, 0.0
-	418, 8, "10101010101", 388.58, 1, 777.16, 0.0
-	418, 3, "20202020202", 261.65, 1, 523.29, 0.0
-	419, 8, "10101010101", 326.77, 1, 653.53, 0.0
-	420, 1, "10101010101", 221.25, 1, 442.49, 0.0
-	421, 8, "20202020202", 137.36, 1, 274.71, 0.0
-	421, 7, "20202020202", 248.88, 1, 497.75, 0.0
-	422, 4, "10101010101", 293.10, 1, 586.2, 0.0
-	423, 4, "20202020202", 131.76, 1, 263.51, 0.0
-	424, 3, "20202020202", 66.39, 1, 132.77, 0.0
-	425, 6, "10101010101", 82.06, 1, 164.11, 0.0
-	426, 8, "10101010101", 112.31, 1, 224.61, 0.0
-	427, 8, "20202020202", 198.88, 1, 397.76, 0.0
-	428, 7, "10101010101", 228.70, 1, 457.39, 0.0
-	429, 4, "20202020202", 314.21, 1, 628.42, 0.0
-	429, 8, "10101010101", 301.61, 1, 603.21, 0.0
-	430, 7, "20202020202", 376.08, 1, 752.16, 0.0
-	431, 8, "20202020202", 99.52, 1, 199.04, 0.0
-	432, 3, "20202020202", 244.26, 1, 488.52, 0.0
-	433, 3, "20202020202", 314.05, 1, 628.1, 0.0
-	433, 4, "10101010101", 212.47, 1, 424.94, 0.0
-	434, 3, "10101010101", 72.19, 1, 144.37, 0.0
-	435, 4, "10101010101", 283.47, 1, 566.94, 0.0
-	435, 6, "10101010101", 119.01, 1, 238.02, 0.0
-	436, 3, "20202020202", 146.38, 1, 292.76, 0.0
-	437, 3, "20202020202", 135.88, 1, 271.75, 0.0
-	437, 5, "20202020202", 195.28, 1, 390.56, 0.0
-	438, 6, "10101010101", 145.26, 1, 290.52, 0.0
-	438, 2, "20202020202", 96.20, 1, 192.4, 0.0
-	439, 7, "20202020202", 66.43, 1, 132.85, 0.0
-	440, 2, "20202020202", 96.86, 1, 193.71, 0.0
-	441, 6, "10101010101", 252.24, 1, 504.47, 0.0
-	442, 1, "20202020202", 234.26, 1, 468.51, 0.0
-	443, 2, "20202020202", 54.23, 1, 108.45, 0.0
-	443, 4, "10101010101", 62.96, 1, 125.92, 0.0
-	444, 3, "20202020202", 304.79, 1, 609.58, 0.0
-	444, 6, "20202020202", 288.46, 1, 576.91, 0.0
-	445, 6, "10101010101", 225.22, 1, 450.43, 0.0
-	445, 8, "20202020202", 363.43, 1, 726.86, 0.0
-	446, 4, "10101010101", 165.65, 1, 331.3, 0.0
-	446, 5, "20202020202", 385.62, 1, 771.24, 0.0
-	447, 1, "10101010101", 397.53, 1, 795.06, 0.0
-	447, 5, "10101010101", 137.63, 1, 275.25, 0.0
-	448, 1, "20202020202", 158.37, 1, 316.74, 0.0
-	449, 5, "10101010101", 238.94, 1, 477.87, 0.0
-	450, 8, "10101010101", 248.21, 1, 496.42, 0.0
-	451, 6, "20202020202", 181.20, 1, 362.39, 0.0
-	452, 1, "20202020202", 227.48, 1, 454.95, 0.0
-	453, 7, "20202020202", 307.32, 1, 614.63, 0.0
-	454, 3, "10101010101", 151.07, 1, 302.13, 0.0
-	455, 7, "20202020202", 315.19, 1, 630.37, 0.0
-	456, 4, "10101010101", 115.87, 1, 231.74, 0.0
-	457, 7, "20202020202", 161.98, 1, 323.95, 0.0
-	458, 6, "20202020202", 258.70, 1, 517.39, 0.0
-	459, 2, "10101010101", 302.35, 1, 604.69, 0.0
-	459, 4, "10101010101", 350.78, 1, 701.56, 0.0
-	460, 8, "10101010101", 149.46, 1, 298.91, 0.0
-	461, 8, "10101010101", 285.65, 1, 571.3, 0.0
-	461, 1, "20202020202", 243.63, 1, 487.25, 0.0
-	462, 4, "20202020202", 44.91, 1, 89.81, 0.0
-	463, 1, "20202020202", 350.28, 1, 700.56, 0.0
-	464, 8, "10101010101", 94.91, 1, 189.81, 0.0
-	465, 5, "20202020202", 208.73, 1, 417.45, 0.0
-	466, 5, "10101010101", 398.50, 1, 797.0, 0.0
-	466, 5, "10101010101", 259.67, 1, 519.34, 0.0
-	467, 7, "10101010101", 57.93, 1, 115.85, 0.0
-	468, 3, "20202020202", 388.95, 1, 777.9, 0.0
-	469, 3, "10101010101", 348.47, 1, 696.94, 0.0
-	469, 5, "10101010101", 186.28, 1, 372.55, 0.0
-	470, 6, "10101010101", 297.66, 1, 595.31, 0.0
-	471, 4, "10101010101", 74.33, 1, 148.66, 0.0
-	472, 4, "10101010101", 282.77, 1, 565.53, 0.0
-	472, 6, "10101010101", 283.06, 1, 566.11, 0.0
-	473, 7, "20202020202", 202.70, 1, 405.39, 0.0
-	474, 7, "10101010101", 303.39, 1, 606.77, 0.0
-	475, 6, "20202020202", 357.85, 1, 715.69, 0.0
-	475, 7, "20202020202", 316.08, 1, 632.16, 0.0
-	476, 2, "20202020202", 196.34, 1, 392.68, 0.0
-	476, 1, "10101010101", 219.52, 1, 439.03, 0.0
-	477, 5, "20202020202", 174.27, 1, 348.53, 0.0
-	478, 1, "10101010101", 198.84, 1, 397.68, 0.0
-	478, 8, "10101010101", 296.00, 1, 591.99, 0.0
-	479, 7, "20202020202", 194.08, 1, 388.16, 0.0
-	480, 5, "20202020202", 284.40, 1, 568.79, 0.0
-	481, 6, "10101010101", 221.43, 1, 442.86, 0.0
-	481, 7, "10101010101", 167.01, 1, 334.01, 0.0
-	482, 3, "10101010101", 313.44, 1, 626.87, 0.0
-	483, 3, "10101010101", 361.96, 1, 723.91, 0.0
-	483, 4, "10101010101", 258.46, 1, 516.92, 0.0
-	484, 8, "10101010101", 106.33, 1, 212.66, 0.0
-	484, 8, "20202020202", 178.81, 1, 357.61, 0.0
-	485, 4, "10101010101", 94.32, 1, 188.63, 0.0
-	485, 1, "20202020202", 38.77, 1, 77.54, 0.0
-	486, 2, "20202020202", 397.65, 1, 795.3, 0.0
-	487, 6, "10101010101", 59.92, 1, 119.84, 0.0
-	488, 2, "20202020202", 201.56, 1, 403.11, 0.0
-	488, 2, "20202020202", 148.46, 1, 296.91, 0.0
-	489, 2, "20202020202", 296.53, 1, 593.06, 0.0
-	490, 6, "10101010101", 255.36, 1, 510.72, 0.0
-	490, 8, "20202020202", 209.69, 1, 419.38, 0.0
-	491, 2, "10101010101", 199.33, 1, 398.66, 0.0
-	492, 6, "10101010101", 29.24, 1, 58.47, 0.0
-	493, 6, "10101010101", 67.69, 1, 135.38, 0.0
-	493, 6, "20202020202", 173.52, 1, 347.04, 0.0
-	494, 8, "20202020202", 323.97, 1, 647.94, 0.0
-	495, 7, "10101010101", 338.17, 1, 676.33, 0.0
-	496, 6, "20202020202", 49.83, 1, 99.66, 0.0
-	497, 7, "10101010101", 248.20, 1, 496.39, 0.0
-	497, 5, "20202020202", 291.19, 1, 582.38, 0.0
-	498, 5, "10101010101", 221.92, 1, 443.83, 0.0
-	499, 1, "20202020202", 364.36, 1, 728.72, 0.0
-	500, 3, "10101010101", 333.30, 1, 666.6, 0.0
 }
 
 Pagamento = {
-	idAtendimento:number, idPagamento:number, dataRecebimento:date, valorBruto:number, taxaCartao:number, valorLiquido:number, formaPagamento:string
-	1, 1, 2024-10-08, 719.77, 0.0, 719.77, "Dinheiro"
-	2, 2, 2024-05-21, 722.98, 0.0, 722.98, "Dinheiro"
-	3, 3, 2025-03-06, 669.53, 13.39, 656.14, "Cartao de Debito"
-	4, 4, 2025-07-05, 414.23, 8.28, 405.95, "Cartao de Debito"
-	5, 5, 2024-12-10, 493.92, 14.82, 479.1, "Cartao de Credito"
-	6, 6, 2024-01-28, 245.12, 4.9, 240.22, "Cartao de Debito"
-	7, 7, 2024-08-04, 676.18, 13.52, 662.66, "Cartao de Debito"
-	8, 8, 2024-01-20, 1295.09, 38.85, 1256.24, "Cartao de Credito"
-	9, 9, 2024-06-05, 1079.02, 32.37, 1046.65, "Cartao de Credito"
-	10, 10, 2024-04-27, 756.1, 0.0, 756.1, "Dinheiro"
-	11, 11, 2024-03-18, 1096.73, 32.9, 1063.83, "Cartao de Credito"
 	12, 12, 2025-01-14, 375.14, 7.5, 367.64, "Cartao de Debito"
-	13, 13, 2025-10-12, 398.66, 11.96, 386.7, "Cartao de Credito"
-	14, 14, 2025-08-29, 612.86, 18.39, 594.47, "Cartao de Credito"
-	15, 15, 2025-09-16, 209.09, 4.18, 204.91, "Cartao de Debito"
-	16, 16, 2024-12-14, 697.4, 0.0, 697.4, "Dinheiro"
 	17, 17, 2025-05-02, 568.84, 11.38, 557.46, "Cartao de Debito"
 	18, 18, 2025-08-18, 577.14, 11.54, 565.6, "Cartao de Debito"
-	19, 19, 2024-11-09, 193.66, 5.81, 187.85, "Cartao de Credito"
-	20, 20, 2025-05-10, 220.61, 0.0, 220.61, "Dinheiro"
-	21, 21, 2024-11-05, 465.02, 13.95, 451.07, "Cartao de Credito"
-	22, 22, 2024-05-09, 305.53, 0.0, 305.53, "Dinheiro"
-	23, 23, 2024-09-15, 163.8, 4.91, 158.89, "Cartao de Credito"
-	24, 24, 2024-11-07, 1083.01, 21.66, 1061.35, "Cartao de Debito"
-	25, 25, 2024-11-08, 545.32, 0.0, 545.32, "Dinheiro"
-	26, 26, 2024-09-02, 567.03, 11.34, 555.69, "Cartao de Debito"
-	27, 27, 2024-10-25, 934.39, 28.03, 906.36, "Cartao de Credito"
-	28, 28, 2024-08-18, 496.28, 14.89, 481.39, "Cartao de Credito"
-	29, 29, 2024-10-22, 535.68, 0.0, 535.68, "Dinheiro"
-	30, 30, 2025-03-18, 799.68, 23.99, 775.69, "Cartao de Credito"
-	31, 31, 2024-10-02, 962.91, 19.26, 943.65, "Cartao de Debito"
-	32, 32, 2024-12-22, 570.26, 11.41, 558.85, "Cartao de Debito"
-	33, 33, 2025-02-14, 136.94, 2.74, 134.2, "Cartao de Debito"
-	34, 34, 2025-06-10, 438.83, 13.16, 425.67, "Cartao de Credito"
-	35, 35, 2025-05-25, 378.59, 11.36, 367.23, "Cartao de Credito"
-	36, 36, 2025-05-11, 681.66, 0.0, 681.66, "Dinheiro"
-	37, 37, 2025-04-17, 594.42, 17.83, 576.59, "Cartao de Credito"
-	38, 38, 2024-05-28, 304.91, 9.15, 295.76, "Cartao de Credito"
-	39, 39, 2024-09-30, 308.84, 9.27, 299.57, "Cartao de Credito"
 	40, 40, 2025-07-10, 513.8, 10.28, 503.52, "Cartao de Debito"
-	41, 41, 2025-01-25, 702.28, 14.05, 688.23, "Cartao de Debito"
 	42, 42, 2024-04-12, 402.12, 8.04, 394.08, "Cartao de Debito"
-	43, 43, 2024-12-12, 520.1, 10.4, 509.7, "Cartao de Debito"
-	44, 44, 2025-07-08, 1230.35, 36.91, 1193.44, "Cartao de Credito"
-	45, 45, 2024-04-12, 270.03, 5.4, 264.63, "Cartao de Debito"
-	46, 46, 2025-03-17, 604.55, 18.14, 586.41, "Cartao de Credito"
 	47, 47, 2024-05-26, 725.91, 21.78, 704.13, "Cartao de Credito"
-	48, 48, 2025-07-13, 767.15, 15.34, 751.81, "Cartao de Debito"
-	49, 49, 2025-05-09, 122.52, 3.68, 118.84, "Cartao de Credito"
-	50, 50, 2024-02-20, 527.46, 15.82, 511.64, "Cartao de Credito"
-	51, 51, 2024-09-13, 484.68, 14.54, 470.14, "Cartao de Credito"
-	52, 52, 2024-05-14, 639.88, 12.8, 627.08, "Cartao de Debito"
-	53, 53, 2025-06-27, 653.17, 13.06, 640.11, "Cartao de Debito"
-	54, 54, 2024-03-18, 1095.44, 21.91, 1073.53, "Cartao de Debito"
-	55, 55, 2025-01-12, 68.77, 2.06, 66.71, "Cartao de Credito"
-	56, 56, 2024-12-01, 415.78, 8.32, 407.46, "Cartao de Debito"
-	57, 57, 2024-04-28, 552.86, 16.59, 536.27, "Cartao de Credito"
-	58, 58, 2025-07-07, 1079.45, 0.0, 1079.45, "Dinheiro"
-	59, 59, 2025-03-30, 871.57, 17.43, 854.14, "Cartao de Debito"
-	60, 60, 2024-04-03, 791.62, 23.75, 767.87, "Cartao de Credito"
-	61, 61, 2024-07-29, 554.38, 0.0, 554.38, "Dinheiro"
-	62, 62, 2024-05-13, 122.99, 2.46, 120.53, "Cartao de Debito"
-	63, 63, 2024-02-23, 775.21, 0.0, 775.21, "Dinheiro"
-	64, 64, 2025-09-21, 798.94, 15.98, 782.96, "Cartao de Debito"
 	65, 65, 2025-03-12, 99.26, 1.99, 97.27, "Cartao de Debito"
-	66, 66, 2025-10-01, 1073.98, 0.0, 1073.98, "Dinheiro"
-	67, 67, 2025-11-01, 304.2, 6.08, 298.12, "Cartao de Debito"
-	68, 68, 2025-02-12, 330.73, 0.0, 330.73, "Dinheiro"
-	69, 69, 2025-04-30, 658.83, 19.76, 639.07, "Cartao de Credito"
-	70, 70, 2024-03-02, 1091.5, 32.74, 1058.76, "Cartao de Credito"
-	71, 71, 2024-11-15, 685.46, 13.71, 671.75, "Cartao de Debito"
-	72, 72, 2025-07-23, 71.71, 1.43, 70.28, "Cartao de Debito"
 	73, 73, 2024-11-12, 156.41, 4.69, 151.72, "Cartao de Credito"
-	74, 74, 2024-02-01, 305.67, 6.11, 299.56, "Cartao de Debito"
-	75, 75, 2024-11-15, 615.83, 0.0, 615.83, "Dinheiro"
 	76, 76, 2024-03-24, 627.32, 12.55, 614.77, "Cartao de Debito"
 	77, 77, 2025-08-30, 55.77, 1.12, 54.65, "Cartao de Debito"
-	78, 78, 2024-08-04, 423.04, 8.46, 414.58, "Cartao de Debito"
 	79, 79, 2024-06-28, 411.86, 0.0, 411.86, "Dinheiro"
 	80, 80, 2024-11-16, 315.28, 9.46, 305.82, "Cartao de Credito"
-	81, 81, 2025-04-16, 442.97, 8.86, 434.11, "Cartao de Debito"
-	82, 82, 2024-11-13, 729.44, 14.59, 714.85, "Cartao de Debito"
-	83, 83, 2024-12-25, 501.8, 15.05, 486.75, "Cartao de Credito"
-	84, 84, 2024-03-18, 1078.01, 21.56, 1056.45, "Cartao de Debito"
-	85, 85, 2025-03-28, 396.31, 0.0, 396.31, "Dinheiro"
-	86, 86, 2024-02-28, 1217.04, 36.51, 1180.53, "Cartao de Credito"
-	87, 87, 2025-10-29, 816.3, 0.0, 816.3, "Dinheiro"
-	88, 88, 2024-02-10, 686.22, 13.72, 672.5, "Cartao de Debito"
-	89, 89, 2025-09-04, 263.11, 7.89, 255.22, "Cartao de Credito"
-	90, 90, 2025-09-09, 146.71, 4.4, 142.31, "Cartao de Credito"
-	91, 91, 2024-03-27, 431.37, 0.0, 431.37, "Dinheiro"
-	92, 92, 2025-01-06, 799.98, 0.0, 799.98, "Dinheiro"
-	93, 93, 2024-03-20, 683.56, 20.51, 663.05, "Cartao de Credito"
-	94, 94, 2025-10-01, 777.19, 23.32, 753.87, "Cartao de Credito"
-	95, 95, 2024-10-18, 325.88, 9.78, 316.1, "Cartao de Credito"
-	96, 96, 2025-03-27, 751.8, 15.04, 736.76, "Cartao de Debito"
-	97, 97, 2025-01-15, 254.59, 7.64, 246.95, "Cartao de Credito"
-	98, 98, 2024-05-30, 89.94, 2.7, 87.24, "Cartao de Credito"
 	99, 99, 2025-01-17, 748.12, 22.44, 725.68, "Cartao de Credito"
-	100, 100, 2025-10-27, 619.13, 12.38, 606.75, "Cartao de Debito"
-	101, 101, 2025-04-04, 461.6, 13.85, 447.75, "Cartao de Credito"
 	102, 102, 2025-09-15, 85.81, 1.72, 84.09, "Cartao de Debito"
 	103, 103, 2025-10-16, 588.91, 11.78, 577.13, "Cartao de Debito"
-	104, 104, 2025-03-15, 649.04, 19.47, 629.57, "Cartao de Credito"
 	105, 105, 2025-07-11, 526.75, 10.54, 516.21, "Cartao de Debito"
 	106, 106, 2024-09-16, 150.06, 3.0, 147.06, "Cartao de Debito"
-	107, 107, 2025-07-13, 736.36, 0.0, 736.36, "Dinheiro"
-	108, 108, 2024-02-14, 557.72, 0.0, 557.72, "Dinheiro"
-	109, 109, 2024-12-05, 304.28, 0.0, 304.28, "Dinheiro"
 	110, 110, 2025-05-23, 372.96, 0.0, 372.96, "Dinheiro"
-	111, 111, 2025-07-12, 384.44, 11.53, 372.91, "Cartao de Credito"
-	112, 112, 2025-03-12, 511.14, 10.22, 500.92, "Cartao de Debito"
-	113, 113, 2024-10-08, 301.75, 0.0, 301.75, "Dinheiro"
 	114, 114, 2025-10-22, 1383.93, 41.52, 1342.41, "Cartao de Credito"
 	115, 115, 2024-05-20, 1194.67, 23.89, 1170.78, "Cartao de Debito"
-	116, 116, 2025-07-29, 200.13, 0.0, 200.13, "Dinheiro"
-	117, 117, 2024-03-16, 1270.68, 38.12, 1232.56, "Cartao de Credito"
 	118, 118, 2025-10-15, 227.55, 4.55, 223.0, "Cartao de Debito"
-	119, 119, 2024-01-27, 99.31, 1.99, 97.32, "Cartao de Debito"
 	120, 120, 2025-05-05, 387.48, 11.62, 375.86, "Cartao de Credito"
-	121, 121, 2025-06-13, 673.54, 20.21, 653.33, "Cartao de Credito"
-	122, 122, 2024-06-05, 998.56, 29.96, 968.6, "Cartao de Credito"
-	123, 123, 2025-07-18, 847.33, 0.0, 847.33, "Dinheiro"
-	124, 124, 2024-03-24, 1230.33, 36.91, 1193.42, "Cartao de Credito"
 	125, 125, 2024-10-23, 566.46, 0.0, 566.46, "Dinheiro"
 	126, 126, 2025-03-26, 696.11, 13.92, 682.19, "Cartao de Debito"
-	127, 127, 2024-12-19, 141.89, 2.84, 139.05, "Cartao de Debito"
-	128, 128, 2024-09-10, 772.01, 0.0, 772.01, "Dinheiro"
-	129, 129, 2024-12-01, 424.07, 8.48, 415.59, "Cartao de Debito"
-	130, 130, 2025-05-24, 86.49, 1.73, 84.76, "Cartao de Debito"
-	131, 131, 2025-05-21, 996.09, 19.92, 976.17, "Cartao de Debito"
-	132, 132, 2024-02-16, 339.76, 6.8, 332.96, "Cartao de Debito"
-	133, 133, 2025-07-17, 329.9, 6.6, 323.3, "Cartao de Debito"
-	134, 134, 2025-07-25, 736.95, 22.11, 714.84, "Cartao de Credito"
-	135, 135, 2025-04-12, 344.72, 10.34, 334.38, "Cartao de Credito"
-	136, 136, 2024-11-02, 1217.16, 24.34, 1192.82, "Cartao de Debito"
-	137, 137, 2025-08-20, 487.64, 0.0, 487.64, "Dinheiro"
-	138, 138, 2025-06-20, 543.63, 10.87, 532.76, "Cartao de Debito"
 	139, 139, 2025-03-04, 1377.92, 27.56, 1350.36, "Cartao de Debito"
-	140, 140, 2025-06-22, 751.1, 0.0, 751.1, "Dinheiro"
-	141, 141, 2024-10-12, 287.78, 5.76, 282.02, "Cartao de Debito"
-	142, 142, 2025-07-27, 267.84, 5.36, 262.48, "Cartao de Debito"
 	143, 143, 2024-03-21, 749.77, 22.49, 727.28, "Cartao de Credito"
-	144, 144, 2024-10-05, 528.46, 0.0, 528.46, "Dinheiro"
-	145, 145, 2024-04-12, 1313.06, 26.26, 1286.8, "Cartao de Debito"
-	146, 146, 2025-05-03, 539.22, 0.0, 539.22, "Dinheiro"
-	147, 147, 2025-07-01, 189.73, 5.69, 184.04, "Cartao de Credito"
-	148, 148, 2024-10-23, 791.82, 23.75, 768.07, "Cartao de Credito"
-	149, 149, 2025-06-20, 298.01, 8.94, 289.07, "Cartao de Credito"
-	150, 150, 2025-04-14, 984.06, 29.52, 954.54, "Cartao de Credito"
 	151, 151, 2025-02-19, 786.26, 15.73, 770.53, "Cartao de Debito"
-	152, 152, 2024-11-27, 765.53, 15.31, 750.22, "Cartao de Debito"
-	153, 153, 2025-08-19, 720.63, 21.62, 699.01, "Cartao de Credito"
-	154, 154, 2025-05-29, 768.02, 15.36, 752.66, "Cartao de Debito"
-	155, 155, 2024-06-05, 621.39, 18.64, 602.75, "Cartao de Credito"
 	156, 156, 2025-09-02, 671.58, 20.15, 651.43, "Cartao de Credito"
-	157, 157, 2024-07-26, 560.22, 16.81, 543.41, "Cartao de Credito"
-	158, 158, 2025-08-20, 434.94, 8.7, 426.24, "Cartao de Debito"
-	159, 159, 2025-07-31, 724.57, 0.0, 724.57, "Dinheiro"
-	160, 160, 2025-03-09, 265.32, 0.0, 265.32, "Dinheiro"
 	161, 161, 2024-05-18, 562.05, 16.86, 545.19, "Cartao de Credito"
-	162, 162, 2025-07-06, 595.89, 0.0, 595.89, "Dinheiro"
-	163, 163, 2024-01-04, 492.37, 14.77, 477.6, "Cartao de Credito"
-	164, 164, 2024-04-25, 125.67, 0.0, 125.67, "Dinheiro"
-	165, 165, 2025-04-02, 534.32, 10.69, 523.63, "Cartao de Debito"
-	166, 166, 2024-08-27, 789.27, 23.68, 765.59, "Cartao de Credito"
-	167, 167, 2024-08-14, 1223.08, 36.69, 1186.39, "Cartao de Credito"
-	168, 168, 2025-01-25, 187.91, 5.64, 182.27, "Cartao de Credito"
-	169, 169, 2025-04-29, 775.84, 23.28, 752.56, "Cartao de Credito"
 	170, 170, 2025-06-26, 741.67, 14.83, 726.84, "Cartao de Debito"
-	171, 171, 2024-04-04, 705.22, 0.0, 705.22, "Dinheiro"
-	172, 172, 2025-08-24, 208.86, 0.0, 208.86, "Dinheiro"
-	173, 173, 2024-04-30, 631.64, 12.63, 619.01, "Cartao de Debito"
-	174, 174, 2025-04-22, 399.5, 11.98, 387.52, "Cartao de Credito"
-	175, 175, 2025-04-25, 605.94, 0.0, 605.94, "Dinheiro"
-	176, 176, 2024-09-24, 297.4, 5.95, 291.45, "Cartao de Debito"
 	177, 177, 2025-08-06, 395.62, 11.87, 383.75, "Cartao de Credito"
-	178, 178, 2024-12-26, 679.3, 0.0, 679.3, "Dinheiro"
 	179, 179, 2024-02-19, 214.04, 4.28, 209.76, "Cartao de Debito"
-	180, 180, 2025-01-17, 117.5, 3.52, 113.98, "Cartao de Credito"
-	181, 181, 2024-10-08, 443.29, 0.0, 443.29, "Dinheiro"
 	182, 182, 2024-07-15, 329.79, 6.6, 323.19, "Cartao de Debito"
-	183, 183, 2025-04-15, 584.66, 0.0, 584.66, "Dinheiro"
-	184, 184, 2025-10-14, 474.39, 0.0, 474.39, "Dinheiro"
-	185, 185, 2025-06-24, 563.32, 11.27, 552.05, "Cartao de Debito"
-	186, 186, 2025-07-10, 490.28, 14.71, 475.57, "Cartao de Credito"
-	187, 187, 2025-02-11, 763.47, 15.27, 748.2, "Cartao de Debito"
 	188, 188, 2024-02-24, 72.22, 1.44, 70.78, "Cartao de Debito"
-	189, 189, 2025-04-06, 114.27, 3.43, 110.84, "Cartao de Credito"
-	190, 190, 2024-10-29, 583.76, 17.51, 566.25, "Cartao de Credito"
-	191, 191, 2024-06-06, 383.55, 7.67, 375.88, "Cartao de Debito"
-	192, 192, 2024-04-14, 69.7, 1.39, 68.31, "Cartao de Debito"
-	193, 193, 2025-07-21, 360.36, 0.0, 360.36, "Dinheiro"
-	194, 194, 2025-07-26, 573.97, 0.0, 573.97, "Dinheiro"
-	195, 195, 2024-06-20, 238.77, 0.0, 238.77, "Dinheiro"
-	196, 196, 2025-10-02, 278.49, 5.57, 272.92, "Cartao de Debito"
 	197, 197, 2024-12-06, 275.33, 8.26, 267.07, "Cartao de Credito"
-	198, 198, 2024-07-24, 775.82, 0.0, 775.82, "Dinheiro"
-	199, 199, 2024-11-29, 561.28, 16.84, 544.44, "Cartao de Credito"
-	200, 200, 2024-01-28, 554.73, 0.0, 554.73, "Dinheiro"
-	201, 201, 2025-10-10, 556.25, 16.69, 539.56, "Cartao de Credito"
-	202, 202, 2025-03-04, 174.75, 5.24, 169.51, "Cartao de Credito"
-	203, 203, 2024-02-15, 123.95, 0.0, 123.95, "Dinheiro"
-	204, 204, 2025-06-06, 397.3, 11.92, 385.38, "Cartao de Credito"
-	205, 205, 2025-08-25, 361.98, 0.0, 361.98, "Dinheiro"
 	206, 206, 2024-04-28, 311.23, 0.0, 311.23, "Dinheiro"
-	207, 207, 2025-03-24, 686.89, 20.61, 666.28, "Cartao de Credito"
-	208, 208, 2024-04-21, 1118.21, 33.55, 1084.66, "Cartao de Credito"
-	209, 209, 2024-07-07, 494.15, 9.88, 484.27, "Cartao de Debito"
-	210, 210, 2024-01-05, 459.81, 13.79, 446.02, "Cartao de Credito"
-	211, 211, 2025-05-16, 971.24, 29.14, 942.1, "Cartao de Credito"
-	212, 212, 2024-10-31, 279.04, 0.0, 279.04, "Dinheiro"
 	213, 213, 2025-01-17, 833.46, 16.67, 816.79, "Cartao de Debito"
-	214, 214, 2024-10-22, 960.23, 19.2, 941.03, "Cartao de Debito"
-	215, 215, 2025-07-29, 758.05, 22.74, 735.31, "Cartao de Credito"
-	216, 216, 2024-02-01, 635.56, 19.07, 616.49, "Cartao de Credito"
 	217, 217, 2025-05-22, 620.0, 12.4, 607.6, "Cartao de Debito"
 	218, 218, 2025-07-13, 247.11, 0.0, 247.11, "Dinheiro"
-	219, 219, 2025-03-25, 834.64, 0.0, 834.64, "Dinheiro"
-	220, 220, 2025-08-06, 479.55, 14.39, 465.16, "Cartao de Credito"
-	221, 221, 2024-04-07, 237.26, 7.12, 230.14, "Cartao de Credito"
-	222, 222, 2024-11-25, 331.38, 0.0, 331.38, "Dinheiro"
 	223, 223, 2025-10-10, 1464.37, 43.93, 1420.44, "Cartao de Credito"
-	224, 224, 2024-04-05, 1027.5, 20.55, 1006.95, "Cartao de Debito"
-	225, 225, 2024-12-11, 124.68, 2.49, 122.19, "Cartao de Debito"
-	226, 226, 2024-01-17, 796.77, 0.0, 796.77, "Dinheiro"
-	227, 227, 2025-10-27, 459.08, 9.18, 449.9, "Cartao de Debito"
-	228, 228, 2024-08-27, 108.45, 3.25, 105.2, "Cartao de Credito"
-	229, 229, 2024-08-19, 791.12, 15.82, 775.3, "Cartao de Debito"
-	230, 230, 2024-05-15, 285.01, 5.7, 279.31, "Cartao de Debito"
-	231, 231, 2024-05-20, 380.07, 11.4, 368.67, "Cartao de Credito"
 	232, 232, 2024-08-06, 155.01, 0.0, 155.01, "Dinheiro"
 	233, 233, 2025-08-26, 533.47, 0.0, 533.47, "Dinheiro"
-	234, 234, 2025-07-20, 475.74, 0.0, 475.74, "Dinheiro"
 	235, 235, 2024-09-02, 790.16, 15.8, 774.36, "Cartao de Debito"
-	236, 236, 2024-05-15, 1256.36, 0.0, 1256.36, "Dinheiro"
-	237, 237, 2024-09-25, 898.08, 26.94, 871.14, "Cartao de Credito"
-	238, 238, 2025-09-22, 452.29, 9.05, 443.24, "Cartao de Debito"
-	239, 239, 2025-08-23, 743.47, 0.0, 743.47, "Dinheiro"
-	240, 240, 2025-04-09, 232.37, 4.65, 227.72, "Cartao de Debito"
-	241, 241, 2025-06-19, 599.7, 0.0, 599.7, "Dinheiro"
 	242, 242, 2024-01-31, 391.4, 7.83, 383.57, "Cartao de Debito"
-	243, 243, 2024-02-26, 720.7, 21.62, 699.08, "Cartao de Credito"
-	244, 244, 2024-04-28, 84.49, 1.69, 82.8, "Cartao de Debito"
-	245, 245, 2025-01-27, 362.19, 10.87, 351.32, "Cartao de Credito"
-	246, 246, 2024-11-23, 217.39, 6.52, 210.87, "Cartao de Credito"
-	247, 247, 2024-02-17, 464.82, 0.0, 464.82, "Dinheiro"
-	248, 248, 2025-01-12, 925.56, 27.77, 897.79, "Cartao de Credito"
-	249, 249, 2024-09-08, 763.24, 0.0, 763.24, "Dinheiro"
-	250, 250, 2025-01-20, 779.42, 0.0, 779.42, "Dinheiro"
-	251, 251, 2024-10-13, 1209.99, 36.3, 1173.69, "Cartao de Credito"
-	252, 252, 2025-02-07, 268.76, 5.38, 263.38, "Cartao de Debito"
-	253, 253, 2025-02-06, 152.08, 4.56, 147.52, "Cartao de Credito"
-	254, 254, 2024-04-21, 140.55, 2.81, 137.74, "Cartao de Debito"
-	255, 255, 2024-07-31, 655.7, 13.11, 642.59, "Cartao de Debito"
-	256, 256, 2025-09-09, 347.18, 0.0, 347.18, "Dinheiro"
-	257, 257, 2024-11-02, 396.53, 0.0, 396.53, "Dinheiro"
-	258, 258, 2024-05-04, 564.71, 16.94, 547.77, "Cartao de Credito"
-	259, 259, 2024-03-27, 726.87, 14.54, 712.33, "Cartao de Debito"
-	260, 260, 2024-05-11, 743.1, 14.86, 728.24, "Cartao de Debito"
-	261, 261, 2025-02-08, 731.23, 14.62, 716.61, "Cartao de Debito"
-	262, 262, 2024-10-13, 474.78, 9.5, 465.28, "Cartao de Debito"
-	263, 263, 2024-05-20, 1094.83, 21.9, 1072.93, "Cartao de Debito"
 	264, 264, 2024-12-18, 289.16, 0.0, 289.16, "Dinheiro"
-	265, 265, 2024-01-31, 575.37, 17.26, 558.11, "Cartao de Credito"
-	266, 266, 2024-02-27, 494.39, 14.83, 479.56, "Cartao de Credito"
-	267, 267, 2025-01-02, 535.06, 0.0, 535.06, "Dinheiro"
-	268, 268, 2024-08-26, 654.83, 13.1, 641.73, "Cartao de Debito"
-	269, 269, 2024-06-30, 1015.05, 30.45, 984.6, "Cartao de Credito"
-	270, 270, 2025-02-09, 599.26, 11.99, 587.27, "Cartao de Debito"
-	271, 271, 2025-10-16, 829.27, 24.88, 804.39, "Cartao de Credito"
-	272, 272, 2024-10-28, 1254.31, 0.0, 1254.31, "Dinheiro"
-	273, 273, 2024-12-05, 384.97, 7.7, 377.27, "Cartao de Debito"
-	274, 274, 2024-08-02, 86.11, 1.72, 84.39, "Cartao de Debito"
 	275, 275, 2025-03-05, 671.61, 20.15, 651.46, "Cartao de Credito"
-	276, 276, 2025-10-28, 289.04, 0.0, 289.04, "Dinheiro"
-	277, 277, 2024-03-16, 676.95, 20.31, 656.64, "Cartao de Credito"
 	278, 278, 2024-06-17, 780.8, 15.62, 765.18, "Cartao de Debito"
-	279, 279, 2025-07-21, 344.68, 10.34, 334.34, "Cartao de Credito"
-	280, 280, 2025-05-17, 667.92, 20.04, 647.88, "Cartao de Credito"
-	281, 281, 2025-09-06, 782.79, 15.66, 767.13, "Cartao de Debito"
 	282, 282, 2024-04-28, 859.67, 17.19, 842.48, "Cartao de Debito"
 	283, 283, 2025-01-13, 219.68, 4.39, 215.29, "Cartao de Debito"
-	284, 284, 2025-07-31, 1458.63, 43.76, 1414.87, "Cartao de Credito"
-	285, 285, 2025-03-04, 346.1, 10.38, 335.72, "Cartao de Credito"
-	286, 286, 2024-02-05, 761.8, 0.0, 761.8, "Dinheiro"
-	287, 287, 2024-08-04, 797.95, 23.94, 774.01, "Cartao de Credito"
-	288, 288, 2024-05-31, 464.04, 9.28, 454.76, "Cartao de Debito"
-	289, 289, 2025-06-16, 161.15, 4.83, 156.32, "Cartao de Credito"
-	290, 290, 2025-08-19, 248.1, 7.44, 240.66, "Cartao de Credito"
-	291, 291, 2025-05-12, 157.89, 4.74, 153.15, "Cartao de Credito"
 	292, 292, 2025-02-15, 722.77, 0.0, 722.77, "Dinheiro"
-	293, 293, 2024-12-11, 402.85, 8.06, 394.79, "Cartao de Debito"
-	294, 294, 2025-09-11, 665.76, 19.97, 645.79, "Cartao de Credito"
-	295, 295, 2024-06-11, 194.57, 0.0, 194.57, "Dinheiro"
-	296, 296, 2024-02-29, 326.26, 6.53, 319.73, "Cartao de Debito"
-	297, 297, 2025-06-01, 495.53, 0.0, 495.53, "Dinheiro"
-	298, 298, 2025-04-30, 263.8, 5.28, 258.52, "Cartao de Debito"
-	299, 299, 2024-02-20, 950.28, 28.51, 921.77, "Cartao de Credito"
-	300, 300, 2024-01-10, 584.56, 17.54, 567.02, "Cartao de Credito"
-	301, 301, 2025-10-20, 400.02, 12.0, 388.02, "Cartao de Credito"
-	302, 302, 2025-06-17, 273.86, 0.0, 273.86, "Dinheiro"
-	303, 303, 2025-05-08, 191.27, 5.74, 185.53, "Cartao de Credito"
-	304, 304, 2024-09-03, 1271.73, 25.43, 1246.3, "Cartao de Debito"
-	305, 305, 2025-02-01, 729.89, 21.9, 707.99, "Cartao de Credito"
-	306, 306, 2025-01-02, 145.96, 2.92, 143.04, "Cartao de Debito"
-	307, 307, 2025-07-26, 608.16, 12.16, 596.0, "Cartao de Debito"
-	308, 308, 2025-03-06, 90.26, 2.71, 87.55, "Cartao de Credito"
-	309, 309, 2025-08-20, 447.38, 8.95, 438.43, "Cartao de Debito"
-	310, 310, 2024-02-25, 287.29, 8.62, 278.67, "Cartao de Credito"
-	311, 311, 2024-07-03, 389.04, 0.0, 389.04, "Dinheiro"
-	312, 312, 2024-06-21, 525.12, 10.5, 514.62, "Cartao de Debito"
-	313, 313, 2025-03-15, 825.99, 0.0, 825.99, "Dinheiro"
-	314, 314, 2025-10-03, 427.5, 8.55, 418.95, "Cartao de Debito"
-	315, 315, 2024-06-20, 715.98, 0.0, 715.98, "Dinheiro"
-	316, 316, 2024-12-16, 218.24, 0.0, 218.24, "Dinheiro"
-	317, 317, 2024-08-04, 331.39, 9.94, 321.45, "Cartao de Credito"
-	318, 318, 2024-09-18, 469.42, 0.0, 469.42, "Dinheiro"
-	319, 319, 2025-07-14, 882.75, 26.48, 856.27, "Cartao de Credito"
-	320, 320, 2024-05-20, 423.3, 12.7, 410.6, "Cartao de Credito"
-	321, 321, 2024-07-23, 736.43, 14.73, 721.7, "Cartao de Debito"
-	322, 322, 2024-12-04, 762.08, 22.86, 739.22, "Cartao de Credito"
-	323, 323, 2024-03-17, 87.56, 0.0, 87.56, "Dinheiro"
-	324, 324, 2024-02-10, 1377.43, 41.32, 1336.11, "Cartao de Credito"
-	325, 325, 2025-10-24, 464.84, 9.3, 455.54, "Cartao de Debito"
-	326, 326, 2025-04-12, 277.16, 8.31, 268.85, "Cartao de Credito"
-	327, 327, 2025-05-09, 1248.82, 0.0, 1248.82, "Dinheiro"
-	328, 328, 2025-02-25, 1017.75, 30.53, 987.22, "Cartao de Credito"
-	329, 329, 2025-09-25, 679.27, 20.38, 658.89, "Cartao de Credito"
-	330, 330, 2025-09-19, 613.57, 12.27, 601.3, "Cartao de Debito"
-	331, 331, 2024-09-03, 1045.97, 31.38, 1014.59, "Cartao de Credito"
-	332, 332, 2025-04-03, 126.98, 2.54, 124.44, "Cartao de Debito"
-	333, 333, 2024-02-06, 863.46, 0.0, 863.46, "Dinheiro"
-	334, 334, 2024-08-16, 441.54, 13.25, 428.29, "Cartao de Credito"
-	335, 335, 2024-10-25, 155.34, 4.66, 150.68, "Cartao de Credito"
-	336, 336, 2025-02-23, 211.69, 0.0, 211.69, "Dinheiro"
-	337, 337, 2024-12-12, 446.29, 13.39, 432.9, "Cartao de Credito"
-	338, 338, 2024-02-19, 938.42, 28.15, 910.27, "Cartao de Credito"
-	339, 339, 2025-09-12, 738.03, 0.0, 738.03, "Dinheiro"
-	340, 340, 2024-05-21, 941.56, 0.0, 941.56, "Dinheiro"
-	341, 341, 2025-10-27, 1179.82, 23.6, 1156.22, "Cartao de Debito"
-	342, 342, 2024-01-14, 199.93, 0.0, 199.93, "Dinheiro"
-	343, 343, 2024-10-20, 660.52, 0.0, 660.52, "Dinheiro"
-	344, 344, 2025-09-22, 744.86, 14.9, 729.96, "Cartao de Debito"
-	345, 345, 2025-03-02, 1249.03, 37.47, 1211.56, "Cartao de Credito"
-	346, 346, 2025-10-25, 1158.47, 34.75, 1123.72, "Cartao de Credito"
-	347, 347, 2025-06-10, 170.7, 3.41, 167.29, "Cartao de Debito"
-	348, 348, 2024-01-06, 630.25, 18.91, 611.34, "Cartao de Credito"
-	349, 349, 2025-09-22, 767.74, 23.03, 744.71, "Cartao de Credito"
-	350, 350, 2024-03-10, 712.55, 21.38, 691.17, "Cartao de Credito"
-	351, 351, 2024-12-05, 366.3, 10.99, 355.31, "Cartao de Credito"
-	352, 352, 2025-09-20, 242.44, 7.27, 235.17, "Cartao de Credito"
-	353, 353, 2024-10-16, 723.71, 0.0, 723.71, "Dinheiro"
-	354, 354, 2024-11-24, 884.84, 0.0, 884.84, "Dinheiro"
-	355, 355, 2025-07-04, 78.41, 0.0, 78.41, "Dinheiro"
-	356, 356, 2024-02-25, 730.49, 0.0, 730.49, "Dinheiro"
-	357, 357, 2025-02-02, 958.45, 19.17, 939.28, "Cartao de Debito"
-	358, 358, 2025-09-13, 167.24, 0.0, 167.24, "Dinheiro"
-	359, 359, 2024-05-19, 465.14, 13.95, 451.19, "Cartao de Credito"
-	360, 360, 2024-05-24, 567.03, 17.01, 550.02, "Cartao de Credito"
-	361, 361, 2025-06-08, 669.48, 0.0, 669.48, "Dinheiro"
-	362, 362, 2024-10-24, 581.7, 0.0, 581.7, "Dinheiro"
-	363, 363, 2024-07-17, 1243.15, 0.0, 1243.15, "Dinheiro"
-	364, 364, 2024-01-05, 559.69, 11.19, 548.5, "Cartao de Debito"
-	365, 365, 2025-05-06, 534.16, 0.0, 534.16, "Dinheiro"
-	366, 366, 2024-10-14, 1345.98, 0.0, 1345.98, "Dinheiro"
-	367, 367, 2024-02-07, 742.9, 22.29, 720.61, "Cartao de Credito"
-	368, 368, 2024-04-02, 787.32, 23.62, 763.7, "Cartao de Credito"
-	369, 369, 2025-08-02, 223.81, 4.48, 219.33, "Cartao de Debito"
-	370, 370, 2025-01-13, 711.16, 0.0, 711.16, "Dinheiro"
-	371, 371, 2025-10-26, 823.25, 0.0, 823.25, "Dinheiro"
-	372, 372, 2025-06-13, 644.49, 19.33, 625.16, "Cartao de Credito"
-	373, 373, 2024-01-07, 208.64, 0.0, 208.64, "Dinheiro"
-	374, 374, 2024-06-10, 411.14, 8.22, 402.92, "Cartao de Debito"
-	375, 375, 2025-05-05, 145.91, 4.38, 141.53, "Cartao de Credito"
-	376, 376, 2024-06-13, 674.28, 20.23, 654.05, "Cartao de Credito"
-	377, 377, 2025-10-14, 700.48, 0.0, 700.48, "Dinheiro"
-	378, 378, 2024-08-12, 1090.54, 0.0, 1090.54, "Dinheiro"
-	379, 379, 2024-08-23, 669.89, 20.1, 649.79, "Cartao de Credito"
-	380, 380, 2024-04-08, 1134.41, 34.03, 1100.38, "Cartao de Credito"
-	381, 381, 2025-10-26, 753.82, 15.08, 738.74, "Cartao de Debito"
-	382, 382, 2025-01-25, 407.86, 0.0, 407.86, "Dinheiro"
-	383, 383, 2024-03-26, 581.86, 0.0, 581.86, "Dinheiro"
-	384, 384, 2025-08-14, 356.63, 0.0, 356.63, "Dinheiro"
-	385, 385, 2024-06-07, 508.91, 15.27, 493.64, "Cartao de Credito"
-	386, 386, 2025-02-10, 240.33, 4.81, 235.52, "Cartao de Debito"
-	387, 387, 2025-08-14, 595.79, 11.92, 583.87, "Cartao de Debito"
-	388, 388, 2024-12-12, 667.44, 13.35, 654.09, "Cartao de Debito"
-	389, 389, 2025-09-06, 506.77, 15.2, 491.57, "Cartao de Credito"
-	390, 390, 2025-01-28, 731.5, 21.95, 709.55, "Cartao de Credito"
-	391, 391, 2025-06-14, 434.93, 8.7, 426.23, "Cartao de Debito"
-	392, 392, 2025-02-13, 1064.88, 31.95, 1032.93, "Cartao de Credito"
-	393, 393, 2025-07-26, 747.29, 22.42, 724.87, "Cartao de Credito"
-	394, 394, 2024-01-05, 1012.05, 30.36, 981.69, "Cartao de Credito"
-	395, 395, 2024-09-13, 561.2, 16.84, 544.36, "Cartao de Credito"
-	396, 396, 2024-01-29, 650.12, 13.0, 637.12, "Cartao de Debito"
-	397, 397, 2024-12-27, 349.2, 10.48, 338.72, "Cartao de Credito"
-	398, 398, 2024-12-16, 720.74, 14.41, 706.33, "Cartao de Debito"
-	399, 399, 2024-07-06, 882.33, 17.65, 864.68, "Cartao de Debito"
-	400, 400, 2024-06-08, 1105.27, 33.16, 1072.11, "Cartao de Credito"
-	401, 401, 2024-10-08, 90.61, 1.81, 88.8, "Cartao de Debito"
-	402, 402, 2025-05-04, 782.38, 23.47, 758.91, "Cartao de Credito"
-	403, 403, 2025-06-14, 995.34, 19.91, 975.43, "Cartao de Debito"
-	404, 404, 2024-07-10, 187.94, 3.76, 184.18, "Cartao de Debito"
-	405, 405, 2024-08-03, 184.92, 0.0, 184.92, "Dinheiro"
-	406, 406, 2025-08-12, 851.3, 0.0, 851.3, "Dinheiro"
-	407, 407, 2025-03-07, 471.6, 14.15, 457.45, "Cartao de Credito"
-	408, 408, 2024-02-18, 679.23, 0.0, 679.23, "Dinheiro"
-	409, 409, 2025-04-05, 765.41, 22.96, 742.45, "Cartao de Credito"
-	410, 410, 2024-07-22, 554.89, 11.1, 543.79, "Cartao de Debito"
-	411, 411, 2025-04-02, 530.44, 10.61, 519.83, "Cartao de Debito"
-	412, 412, 2025-03-07, 221.16, 4.42, 216.74, "Cartao de Debito"
-	413, 413, 2025-10-30, 610.92, 18.33, 592.59, "Cartao de Credito"
-	414, 414, 2025-04-06, 755.33, 22.66, 732.67, "Cartao de Credito"
-	415, 415, 2024-03-22, 461.33, 0.0, 461.33, "Dinheiro"
-	416, 416, 2025-02-10, 541.12, 10.82, 530.3, "Cartao de Debito"
-	417, 417, 2024-11-12, 521.43, 10.43, 511.0, "Cartao de Debito"
-	418, 418, 2024-11-29, 1300.45, 39.01, 1261.44, "Cartao de Credito"
-	419, 419, 2025-07-31, 653.53, 13.07, 640.46, "Cartao de Debito"
-	420, 420, 2024-11-11, 442.49, 0.0, 442.49, "Dinheiro"
-	421, 421, 2024-12-18, 772.46, 0.0, 772.46, "Dinheiro"
-	422, 422, 2025-07-15, 586.2, 17.59, 568.61, "Cartao de Credito"
-	423, 423, 2025-02-03, 263.51, 7.91, 255.6, "Cartao de Credito"
-	424, 424, 2025-06-28, 132.77, 2.66, 130.11, "Cartao de Debito"
-	425, 425, 2025-09-24, 164.11, 4.92, 159.19, "Cartao de Credito"
-	426, 426, 2024-01-23, 224.61, 0.0, 224.61, "Dinheiro"
-	427, 427, 2024-01-16, 397.76, 0.0, 397.76, "Dinheiro"
-	428, 428, 2024-12-04, 457.39, 0.0, 457.39, "Dinheiro"
-	429, 429, 2024-07-15, 1231.63, 0.0, 1231.63, "Dinheiro"
-	430, 430, 2024-07-22, 752.16, 0.0, 752.16, "Dinheiro"
-	431, 431, 2025-10-06, 199.04, 0.0, 199.04, "Dinheiro"
-	432, 432, 2024-08-11, 488.52, 9.77, 478.75, "Cartao de Debito"
-	433, 433, 2024-09-05, 1053.04, 31.59, 1021.45, "Cartao de Credito"
-	434, 434, 2025-09-25, 144.37, 0.0, 144.37, "Dinheiro"
-	435, 435, 2024-11-20, 804.96, 0.0, 804.96, "Dinheiro"
-	436, 436, 2025-05-11, 292.76, 5.86, 286.9, "Cartao de Debito"
-	437, 437, 2024-10-08, 662.31, 19.87, 642.44, "Cartao de Credito"
-	438, 438, 2025-06-02, 482.92, 14.49, 468.43, "Cartao de Credito"
-	439, 439, 2025-05-24, 132.85, 3.99, 128.86, "Cartao de Credito"
-	440, 440, 2024-03-09, 193.71, 0.0, 193.71, "Dinheiro"
-	441, 441, 2025-08-07, 504.47, 0.0, 504.47, "Dinheiro"
-	442, 442, 2024-01-14, 468.51, 9.37, 459.14, "Cartao de Debito"
-	443, 443, 2025-01-12, 234.37, 0.0, 234.37, "Dinheiro"
-	444, 444, 2025-06-28, 1186.49, 23.73, 1162.76, "Cartao de Debito"
-	445, 445, 2024-04-16, 1177.29, 35.32, 1141.97, "Cartao de Credito"
-	446, 446, 2024-11-28, 1102.54, 22.05, 1080.49, "Cartao de Debito"
-	447, 447, 2025-02-10, 1070.31, 0.0, 1070.31, "Dinheiro"
-	448, 448, 2024-08-07, 316.74, 0.0, 316.74, "Dinheiro"
-	449, 449, 2024-09-28, 477.87, 14.34, 463.53, "Cartao de Credito"
-	450, 450, 2024-08-10, 496.42, 9.93, 486.49, "Cartao de Debito"
-	451, 451, 2024-02-08, 362.39, 0.0, 362.39, "Dinheiro"
-	452, 452, 2024-08-20, 454.95, 0.0, 454.95, "Dinheiro"
-	453, 453, 2024-11-30, 614.63, 18.44, 596.19, "Cartao de Credito"
-	454, 454, 2025-05-31, 302.13, 6.04, 296.09, "Cartao de Debito"
-	455, 455, 2025-08-08, 630.37, 0.0, 630.37, "Dinheiro"
-	456, 456, 2024-05-18, 231.74, 4.63, 227.11, "Cartao de Debito"
-	457, 457, 2025-03-16, 323.95, 0.0, 323.95, "Dinheiro"
-	458, 458, 2024-11-24, 517.39, 10.35, 507.04, "Cartao de Debito"
-	459, 459, 2024-02-15, 1306.25, 26.12, 1280.13, "Cartao de Debito"
-	460, 460, 2024-01-15, 298.91, 8.97, 289.94, "Cartao de Credito"
-	461, 461, 2025-07-04, 1058.55, 31.76, 1026.79, "Cartao de Credito"
-	462, 462, 2025-06-23, 89.81, 2.69, 87.12, "Cartao de Credito"
-	463, 463, 2024-01-09, 700.56, 21.02, 679.54, "Cartao de Credito"
-	464, 464, 2025-01-30, 189.81, 5.69, 184.12, "Cartao de Credito"
-	465, 465, 2025-04-13, 417.45, 12.52, 404.93, "Cartao de Credito"
-	466, 466, 2024-06-09, 1316.34, 26.33, 1290.01, "Cartao de Debito"
-	467, 467, 2024-01-31, 115.85, 2.32, 113.53, "Cartao de Debito"
-	468, 468, 2025-06-17, 777.9, 23.34, 754.56, "Cartao de Credito"
-	469, 469, 2024-12-03, 1069.49, 0.0, 1069.49, "Dinheiro"
-	470, 470, 2025-08-01, 595.31, 11.91, 583.4, "Cartao de Debito"
-	471, 471, 2025-02-27, 148.66, 0.0, 148.66, "Dinheiro"
-	472, 472, 2025-09-18, 1131.64, 22.63, 1109.01, "Cartao de Debito"
-	473, 473, 2024-05-17, 405.39, 0.0, 405.39, "Dinheiro"
-	474, 474, 2024-07-16, 606.77, 0.0, 606.77, "Dinheiro"
-	475, 475, 2024-07-28, 1347.85, 40.44, 1307.41, "Cartao de Credito"
-	476, 476, 2025-01-24, 831.71, 16.63, 815.08, "Cartao de Debito"
-	477, 477, 2024-02-10, 348.53, 6.97, 341.56, "Cartao de Debito"
-	478, 478, 2024-10-19, 989.67, 0.0, 989.67, "Dinheiro"
-	479, 479, 2024-07-03, 388.16, 0.0, 388.16, "Dinheiro"
-	480, 480, 2025-04-09, 568.79, 17.06, 551.73, "Cartao de Credito"
-	481, 481, 2024-06-16, 776.87, 15.54, 761.33, "Cartao de Debito"
-	482, 482, 2024-02-14, 626.87, 0.0, 626.87, "Dinheiro"
-	483, 483, 2025-03-05, 1240.83, 24.82, 1216.01, "Cartao de Debito"
-	484, 484, 2024-01-13, 570.27, 0.0, 570.27, "Dinheiro"
-	485, 485, 2025-09-07, 266.17, 0.0, 266.17, "Dinheiro"
-	486, 486, 2025-08-14, 795.3, 0.0, 795.3, "Dinheiro"
-	487, 487, 2024-10-18, 119.84, 2.4, 117.44, "Cartao de Debito"
-	488, 488, 2024-11-26, 700.02, 14.0, 686.02, "Cartao de Debito"
-	489, 489, 2025-06-21, 593.06, 17.79, 575.27, "Cartao de Credito"
-	490, 490, 2024-10-21, 930.1, 0.0, 930.1, "Dinheiro"
-	491, 491, 2025-09-16, 398.66, 0.0, 398.66, "Dinheiro"
-	492, 492, 2024-07-31, 58.47, 0.0, 58.47, "Dinheiro"
-	493, 493, 2024-10-15, 482.42, 14.47, 467.95, "Cartao de Credito"
-	494, 494, 2025-09-22, 647.94, 19.44, 628.5, "Cartao de Credito"
-	495, 495, 2024-05-19, 676.33, 13.53, 662.8, "Cartao de Debito"
-	496, 496, 2025-08-01, 99.66, 0.0, 99.66, "Dinheiro"
-	497, 497, 2025-10-14, 1078.77, 21.58, 1057.19, "Cartao de Debito"
-	498, 498, 2025-02-27, 443.83, 0.0, 443.83, "Dinheiro"
-	499, 499, 2024-04-24, 728.72, 0.0, 728.72, "Dinheiro"
-	500, 500, 2024-07-13, 666.6, 20.0, 646.6, "Cartao de Credito"
 }
